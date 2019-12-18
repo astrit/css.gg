@@ -12,12 +12,13 @@ Minimalistic icon library Designed by code.
 
 # Getting started
 Access all the icons as package:
-|    Name    |  Source               |
-|------------|-----------------------|
-|CLI         | `npm i -S css-gg`     |
-|CSS         | https://css.gg/c      |
-|JSON        | https://css.gg/json   |
-|XML         | https://css.gg/xml    |
+
+| Name         | Source                 |
+| ------------ | ---------------------- |
+| CLI          | `npm i -S css-gg`      |
+| CSS          | https://css.gg/c       |
+| JSON         | https://css.gg/json    |
+| XML          | https://css.gg/xml     |
 
 ****
 
