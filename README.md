@@ -15,22 +15,22 @@ Access all the icons as package:
 
 | Name         | Source                 |
 | ------------ | ---------------------- |
-| CLI          | `npm i -S css-gg`      |
+| CLI          | npm i -S css-gg        |
 | CSS          | https://css.gg/c       |
 | JSON         | https://css.gg/json    |
 | XML          | https://css.gg/xml     |
 
 ****
 
-## Add icons in your project
+# Add icons in your project
 
-### Markup
+#### 1. Markup
 The class name starts always with "gg-" followed by icon name.
 ```html
 <i class="gg-icon-name"></i>
 ```
 
-## Style
+#### 2. Style
 
 ###### HTML
 ```html
