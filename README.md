@@ -110,3 +110,8 @@ https://css.gg/json?=|icon-name|icon-name|icon-name&op=css+markup
 # Donate
 This library is entirely free and maintained by one person > [Astrit](https://github.com/astrit) \
 If you like the work please consider donating at https://www.paypal.me/astrit
+
+# Support
+1. FAQ - http://c.ss/faq
+2. Discord - https://discord.gg/e7NDKFM
+3. Spectrum - https://spectrum.chat/css-gg
