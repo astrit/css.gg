@@ -7,7 +7,7 @@ App: https://css.gg
 ## Features
 1. API endpoint
 2. Lightweight
-3. Accesible
+3. Accessible
 4. Agile
 5. Retina Ready
 6. Compilable
