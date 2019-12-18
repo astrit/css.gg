@@ -9,16 +9,15 @@ Minimalistic icon library Designed by code.
 5. Retina Ready
 6. Compilable
 
-****
 
-## Getting started
+# Getting started
 Access all the icons as package:
-|        |                       |
-|--------|-----------------------|
-|CLI     | `npm i -S css-gg`     |
-|CSS     | https://css.gg/c      |
-|JSON    | https://css.gg/json   |
-|XML     | https://css.gg/xml    |
+|    Name    |  Source               |
+|------------|-----------------------|
+|CLI         | `npm i -S css-gg`     |
+|CSS         | https://css.gg/c      |
+|JSON        | https://css.gg/json   |
+|XML         | https://css.gg/xml    |
 
 ****
 
