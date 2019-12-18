@@ -1,0 +1,23 @@
+{
+  "name": "css.gg",
+  "version": "1.0.0",
+  "description": "Minimalistic Icon library Designed by code. ",
+  "main": "/icons-json/icons.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astrit/css.gg.git"
+  },
+  "keywords": [
+    "css",
+    "icons"
+  ],
+  "author": "Astrit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/astrit/css.gg/issues"
+  },
+  "homepage": "https://css.gg"
+}
