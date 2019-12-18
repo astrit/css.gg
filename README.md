@@ -62,44 +62,44 @@ The class name starts always with "gg-" followed by icon name.
 ```
 
 ## API Reference
-#### Access data on .json format
+#### 1. Access data on .json format
 
-1. All data - Single Icon
+###### All data - Single Icon
 ```
 https://css.gg/json?=|icon-name
 ```
-2. All data - Multiple Icons
+###### All data - Multiple Icons
 ```
 https://css.gg/json?=|icon-name|icon-name|icon-name
 ```
 
-## Return style & markup only
+### Return style & markup only
 
-You need to specify in url if you wish to pull only style or markup by using **`&op=css`** or **`&op=css+markup`** variables respectively in the end of url.
+You need to specify in the end of url if you wish to pull only style or markup by using **`&op=css`** or **`&op=css+markup`** variables respectively.
 
 
 #### e.g Single Icon
- 1. Style
+###### Style
 ```
 https://css.gg/json?=|icon-name&op=css
 ```
 
-2. Style & Markup
+###### Style & Markup
 ```
 https://css.gg/json?=|icon-name&op=css+markup
 ```
 
 #### e.g Multiple Icons
 
-1. Style
+###### Style
 ```
 https://css.gg/json?=|icon-name|icon-name|icon-name&op=css
 ```
 
-2. Style & Markup
+###### Style & Markup
 ```
 https://css.gg/json?=|icon-name|icon-name|icon-name&op=css+markup
 ```
 
-## .xml
+#### 2. Access data on .json format
 > All the above options apply to **xml** format.
