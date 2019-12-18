@@ -1,0 +1,12 @@
+.gg-math-equal {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 10px;
+    margin-top: -6px;
+    box-shadow: 0 6px 0
+}

@@ -1,0 +1,30 @@
+.gg-credit-card {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 24px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 4px
+}
+
+.gg-credit-card::after,
+.gg-credit-card::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 24px;
+    left: -2px;
+    height: 2px;
+    background: currentColor;
+    top: 9px
+}
+
+.gg-credit-card::before {
+    width: 6px;
+    left: 2px;
+    top: 3px
+}

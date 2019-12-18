@@ -1,0 +1,25 @@
+.gg-shortcut,
+.gg-shortcut::after {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 3px
+}
+
+.gg-shortcut {
+    border: 2px solid;
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px
+}
+
+.gg-shortcut::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 12px;
+    background: currentColor;
+    left: 6px;
+    top: 1px;
+    transform: rotate(45deg)
+}

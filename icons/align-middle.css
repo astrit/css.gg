@@ -1,0 +1,33 @@
+.gg-align-middle {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    height: 12px;
+    width: 12px;
+    transform: scale(var(--ggs,1));
+    border-top: 2px solid transparent;
+    margin-top: -8px
+}
+
+.gg-align-middle::after,
+.gg-align-middle::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 4px;
+    background: currentColor
+}
+
+.gg-align-middle::before {
+    left: 1px;
+    height: 12px;
+    top: 2px
+}
+
+.gg-align-middle::after {
+    height: 6px;
+    right: 1px;
+    top: 5px;
+    opacity: .5
+}

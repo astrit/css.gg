@@ -1,0 +1,29 @@
+.gg-shape-zigzag,
+.gg-shape-zigzag::after,
+.gg-shape-zigzag::before {
+    display: block;
+    box-sizing: border-box;
+    width: 5px;
+    height: 7px;
+    border-left: 2px solid;
+    border-bottom: 2px solid
+}
+
+.gg-shape-zigzag {
+    margin-left: -18px;
+    transform: rotate(-49deg) scale(var(--ggs,1));
+    position: relative
+}
+
+.gg-shape-zigzag::after,
+.gg-shape-zigzag::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 5px
+}
+
+.gg-shape-zigzag::before {
+    left: 7px;
+    top: 10px
+}

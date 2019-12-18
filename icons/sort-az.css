@@ -1,0 +1,33 @@
+.gg-sort-az,
+.gg-sort-az::after,
+.gg-sort-az::before {
+    display: block;
+    box-sizing: border-box;
+    height: 2px;
+    border-radius: 4px;
+    background: currentColor
+}
+
+.gg-sort-az {
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 8px
+}
+
+.gg-sort-az::after,
+.gg-sort-az::before {
+    content: "";
+    position: absolute
+}
+
+.gg-sort-az::before {
+    width: 12px;
+    top: -4px;
+    left: -2px
+}
+
+.gg-sort-az::after {
+    width: 4px;
+    top: 4px;
+    left: 2px
+}

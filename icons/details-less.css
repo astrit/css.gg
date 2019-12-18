@@ -1,0 +1,30 @@
+.gg-details-less {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 14px;
+    border: 2px solid transparent
+}
+
+.gg-details-less::after,
+.gg-details-less::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor
+}
+
+.gg-details-less::before {
+    top: 2px;
+    width: 16px
+}
+
+.gg-details-less::after {
+    width: 10px;
+    bottom: 2px
+}

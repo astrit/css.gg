@@ -1,0 +1,34 @@
+.gg-compress {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 26px;
+    height: 2px;
+    border-left: 10px solid;
+    border-right: 10px solid
+}
+
+.gg-compress::after,
+.gg-compress::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid;
+    top: -2px
+}
+
+.gg-compress::before {
+    border-right: 2px solid;
+    left: -5px;
+    transform: rotate(45deg)
+}
+
+.gg-compress::after {
+    border-left: 2px solid;
+    right: -5px;
+    transform: rotate(-45deg)
+}

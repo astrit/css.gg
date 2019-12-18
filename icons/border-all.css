@@ -1,0 +1,20 @@
+.gg-border-all {
+    transform: scale(var(--ggs,1));
+}
+
+.gg-border-all,
+.gg-border-all::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 14px;
+    height: 14px
+}
+
+.gg-border-all::before {
+    content: "";
+    position: absolute;
+    border: 3px solid;
+    bottom: 0;
+    left: 0
+}

@@ -1,0 +1,31 @@
+.gg-unblock {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: rotate(45deg) scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 100%
+}
+
+.gg-unblock::after,
+.gg-unblock::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 2px;
+    height: 7px;
+    background: currentColor;
+    border-radius: 5px;
+    left: 6px
+}
+
+.gg-unblock::before {
+    top: -2px
+}
+
+.gg-unblock::after {
+    bottom: -2px
+}

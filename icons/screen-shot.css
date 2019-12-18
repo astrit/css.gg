@@ -1,0 +1,34 @@
+.gg-screen-shot {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 1px
+}
+
+.gg-screen-shot::after,
+.gg-screen-shot::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 4px;
+    height: 4px
+}
+
+.gg-screen-shot::before {
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    bottom: 2px;
+    right: 2px
+}
+
+.gg-screen-shot::after {
+    border-top: 2px solid;
+    border-left: 2px solid;
+    top: 2px;
+    left: 2px
+}

@@ -1,0 +1,30 @@
+.gg-layout-grid-small {
+    transform: scale(var(--ggs,1))
+}
+
+.gg-layout-grid-small,
+.gg-layout-grid-small::after,
+.gg-layout-grid-small::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 10px;
+    height: 2px;
+    border-left: 6px double;
+    border-right: 2px solid
+}
+
+.gg-layout-grid-small::after,
+.gg-layout-grid-small::before {
+    content: "";
+    position: absolute;
+    left: -6px
+}
+
+.gg-layout-grid-small::after {
+    bottom: 4px
+}
+
+.gg-layout-grid-small::before {
+    top: 4px
+}

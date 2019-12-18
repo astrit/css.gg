@@ -1,0 +1,29 @@
+.gg-chevron-double-up-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border: 2px solid;
+    border-radius: 40px;
+    width: 22px;
+    height: 22px
+}
+
+.gg-chevron-double-up-o::after,
+.gg-chevron-double-up-o::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(45deg);
+    left: 6px;
+    bottom: 3px
+}
+
+.gg-chevron-double-up-o::after {
+    bottom: 7px
+}

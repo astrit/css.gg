@@ -1,0 +1,34 @@
+.gg-merge-vertical {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 2px;
+    height: 14px;
+    border-radius: 3px;
+    background: currentColor
+}
+
+.gg-merge-vertical::after,
+.gg-merge-vertical::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-bottom: 2px solid;
+    top: 4px
+}
+
+.gg-merge-vertical::after {
+    border-left: 2px solid;
+    left: 5px;
+    transform: rotate(45deg)
+}
+
+.gg-merge-vertical::before {
+    border-right: 2px solid;
+    transform: rotate(-45deg);
+    right: 5px
+}

@@ -1,0 +1,38 @@
+.gg-media-live {
+    transform: scale(var(--ggs,1))
+}
+
+.gg-media-live,
+.gg-media-live::after {
+    border-top-color: transparent;
+    border-bottom-color: transparent
+}
+
+.gg-media-live,
+.gg-media-live::after,
+.gg-media-live::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px
+}
+
+.gg-media-live::after,
+.gg-media-live::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 2px;
+    left: 2px
+}
+
+.gg-media-live::after {
+    width: 22px;
+    height: 22px;
+    top: -6px;
+    left: -6px
+}

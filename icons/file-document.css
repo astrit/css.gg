@@ -1,0 +1,43 @@
+.gg-file-document {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 16px;
+    border: 2px solid transparent;
+    border-right: 0;
+    border-top: 0;
+    box-shadow: 0 0 0 2px;
+    border-radius: 1px;
+    border-top-right-radius: 4px;
+    overflow: hidden
+}
+
+.gg-file-document::after,
+.gg-file-document::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-file-document::before {
+    background: currentColor;
+    box-shadow:
+        0 4px 0,
+        -6px -4px 0;
+    left: 0;
+    width: 10px;
+    height: 2px;
+    top: 8px
+}
+
+.gg-file-document::after {
+    width: 6px;
+    height: 6px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    right: -1px;
+    top: -1px
+}

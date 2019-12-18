@@ -1,0 +1,39 @@
+.gg-camera {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border: 2px solid;
+    border-radius: 3px;
+    width: 18px;
+    height: 12px;
+    perspective: 24px
+}
+
+.gg-camera::after,
+.gg-camera::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-camera::before {
+    border: 2px solid;
+    border-left-color: transparent;
+    transform: rotateY(-70deg);
+    width: 8px;
+    height: 8px;
+    right: -7px;
+    top: 0
+}
+
+.gg-camera::after {
+    width: 10px;
+    height: 5px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    top: -5px;
+    right: 2px;
+    border-top-right-radius: 2px
+}

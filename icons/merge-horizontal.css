@@ -1,0 +1,35 @@
+.gg-merge-horizontal {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor
+}
+
+.gg-merge-horizontal::after,
+.gg-merge-horizontal::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    transform: rotate(-45deg)
+}
+
+.gg-merge-horizontal::after {
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    left: 4px;
+    bottom: 5px
+}
+
+.gg-merge-horizontal::before {
+    border-top: 2px solid;
+    border-right: 2px solid;
+    right: 4px;
+    top: 5px
+}

@@ -1,0 +1,28 @@
+.gg-menu-left {
+    transform: scale(var(--ggs,1))
+}
+
+.gg-menu-left,
+.gg-menu-left::after,
+.gg-menu-left::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor
+}
+
+.gg-menu-left::after,
+.gg-menu-left::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    width: 10px
+}
+
+.gg-menu-left::after {
+    top: 6px;
+    width: 14px
+}

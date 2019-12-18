@@ -1,0 +1,33 @@
+.gg-format-strike {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 10px;
+    height: 3px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-shadow:
+        0 -2px 0 0,
+        inset 0 0 0 2px
+}
+
+.gg-format-strike::after,
+.gg-format-strike::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 14px;
+    height: 2px;
+    background: currentColor;
+    left: -6px;
+    top: 4px
+}
+
+.gg-format-strike::after {
+    width: 2px;
+    height: 4px;
+    left: 0;
+    top: 7px
+}

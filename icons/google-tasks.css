@@ -1,0 +1,33 @@
+.gg-google-tasks {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px
+}
+
+.gg-google-tasks::after,
+.gg-google-tasks::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: currentColor
+}
+
+.gg-google-tasks::before {
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    bottom: 6px;
+    left: 2px
+}
+
+.gg-google-tasks::after {
+    height: 18px;
+    width: 4px;
+    border-radius: 20px;
+    transform: rotate(40deg);
+    right: 2px;
+    bottom: 0
+}

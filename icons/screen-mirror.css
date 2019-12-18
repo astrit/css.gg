@@ -1,0 +1,37 @@
+.gg-screen-mirror {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 10px;
+    border: 2px solid;
+    border-bottom: 0
+}
+
+.gg-screen-mirror::after,
+.gg-screen-mirror::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-screen-mirror::after {
+    border-bottom: 5px solid;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    bottom: -2px;
+    left: 3px
+}
+
+.gg-screen-mirror::before {
+    width: 18px;
+    height: 2px;
+    left: -2px;
+    bottom: 0;
+    border-left: 5px solid;
+    border-right: 5px solid
+}

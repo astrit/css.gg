@@ -1,0 +1,22 @@
+.gg-sidebar,
+.gg-sidebar::before {
+    display: block;
+    box-sizing: border-box;
+    height: 16px
+}
+
+.gg-sidebar {
+    border-left: 2px solid;
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 18px
+}
+
+.gg-sidebar::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    border: 2px solid;
+    top: 0;
+    left: 2px
+}

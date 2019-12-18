@@ -1,0 +1,34 @@
+.gg-dolby,
+.gg-dolby::after,
+.gg-dolby::before {
+    display: block;
+    box-sizing: border-box;
+    height: 16px;
+    border: 4px solid
+}
+
+.gg-dolby {
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 24px
+}
+
+.gg-dolby::after,
+.gg-dolby::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    top: -4px
+}
+
+.gg-dolby::before {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    left: -4px
+}
+
+.gg-dolby::after {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    right: -4px
+}

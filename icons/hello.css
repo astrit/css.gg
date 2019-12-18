@@ -1,0 +1,38 @@
+.gg-hello {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs,1));
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border-bottom-left-radius: 0
+}
+
+.gg-hello::after,
+.gg-hello::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box
+}
+
+.gg-hello::before {
+    width: 30px;
+    height: 30px;
+    border: 8px solid;
+    left: -5px;
+    top: -5px;
+    border-radius: 30px
+}
+
+.gg-hello::after {
+    width: 10px;
+    height: 5px;
+    background: currentColor;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    bottom: 5px;
+    left: 5px
+}

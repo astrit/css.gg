@@ -1,0 +1,27 @@
+.gg-magnet,
+.gg-magnet::before {
+    display: block;
+    box-sizing: border-box;
+    width: 14px
+}
+
+.gg-magnet {
+    border: 4px solid;
+    transform: scale(var(--ggs,1));
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 0;
+    position: relative;
+    height: 12px
+}
+
+.gg-magnet::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    top: -5px;
+    left: -4px;
+    opacity: .5
+}

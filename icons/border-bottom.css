@@ -1,0 +1,24 @@
+.gg-border-bottom {
+    transform: scale(var(--ggs,1));
+}
+
+.gg-border-bottom,
+.gg-border-bottom::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-bottom: 3px solid
+}
+
+.gg-border-bottom::before {
+    content: "";
+    position: absolute;
+    height: 10px;
+    border: 3px solid;
+    border-bottom: 0;
+    bottom: 2px;
+    left: 0;
+    opacity: .3
+}

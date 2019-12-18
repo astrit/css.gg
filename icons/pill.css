@@ -1,0 +1,26 @@
+.gg-pill,
+.gg-pill::after {
+    display: block;
+    box-sizing: border-box;
+    width: 12px
+}
+
+.gg-pill {
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    border: 2px solid;
+    transform: rotate(45deg) scale(var(--ggs,1));
+    position: relative;
+    height: 14px
+}
+
+.gg-pill::after {
+    content: "";
+    position: absolute;
+    height: 12px;
+    background: currentColor;
+    left: -2px;
+    bottom: -12px;
+    border-bottom-left-radius: 140px;
+    border-bottom-right-radius: 140px
+}

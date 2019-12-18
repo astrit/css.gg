@@ -1,0 +1,32 @@
+.gg-corner-up-left {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px
+}
+.gg-corner-up-left::after,
+.gg-corner-up-left::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 3px
+}
+.gg-corner-up-left::after {
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(45deg);
+    top: 3px
+}
+.gg-corner-up-left::before {
+    width: 16px;
+    height: 12px;
+    border-top-right-radius: 4px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    top: 6px
+}

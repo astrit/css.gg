@@ -1,0 +1,11 @@
+.gg-toolbar-top {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 12px;
+    box-shadow: 0 0 0 2px, inset 0 2px 0;
+    border: 2px solid transparent;
+    border-radius: 1px
+}

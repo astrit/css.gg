@@ -1,0 +1,35 @@
+.gg-server {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 3px
+}
+
+.gg-server::after,
+.gg-server::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 2px;
+    background: currentColor
+}
+
+.gg-server::before {
+    top: 2px;
+    box-shadow: 0 4px 0;
+    border-radius: 3px;
+    width: 8px;
+    left: 2px
+}
+
+.gg-server::after {
+    width: 2px;
+    border-radius: 10px;
+    left: 5px;
+    bottom: 2px
+}

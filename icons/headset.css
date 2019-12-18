@@ -1,0 +1,36 @@
+.gg-headset {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border: 2px solid;
+    border-bottom: 0
+}
+
+.gg-headset::after,
+.gg-headset::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid;
+    width: 6px;
+    height: 8px;
+    top: 8px
+}
+
+.gg-headset::before {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    left: -2px
+}
+
+.gg-headset::after {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    left: 10px
+}

@@ -1,0 +1,38 @@
+.gg-tv {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 11px;
+    border: 2px solid;
+    border-radius: 2px
+}
+
+.gg-tv::after,
+.gg-tv::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-tv::before {
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    border-bottom-left-radius: 2px;
+    top: -6px;
+    left: 3px;
+    transform: rotate(-45deg);
+    width: 6px;
+    height: 5px
+}
+
+.gg-tv::after {
+    width: 8px;
+    height: 1px;
+    background: currentColor;
+    border-radius: 10px;
+    bottom: -4px;
+    right: 2px
+}

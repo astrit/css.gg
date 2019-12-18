@@ -1,0 +1,13 @@
+.gg-display-flex {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    height: 14px;
+    width: 16px;
+    border: 2px solid transparent;
+    box-shadow:
+        0 0 0 2px,
+        inset -2px 0 0 0,
+        inset 2px 0 0 0
+}

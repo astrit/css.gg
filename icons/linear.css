@@ -1,0 +1,33 @@
+.gg-linear {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    overflow: hidden;
+    border-radius: 100px
+}
+
+.gg-linear::after,
+.gg-linear::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    transform: rotate(-45deg);
+    background: currentColor;
+    top: -14px;
+    left: 4px
+}
+
+.gg-linear::after {
+    width: 2px;
+    box-shadow:
+        -3px 4px 0 0,
+        -6px -2px 0 0;
+    top: -3px;
+    left: 6px
+}

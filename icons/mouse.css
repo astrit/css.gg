@@ -1,0 +1,23 @@
+.gg-mouse {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 24px;
+    border: 2px solid;
+    border-radius: 10px
+}
+
+.gg-mouse::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 6px;
+    background: currentColor;
+    top: 3px;
+    left: 5px
+}

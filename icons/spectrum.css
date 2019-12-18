@@ -1,0 +1,22 @@
+.gg-spectrum {
+   box-sizing: border-box;
+   position: relative;
+   display: block;
+   transform: scale(var(--ggs,1));
+   width: 16px;
+   height: 16px;
+   overflow: hidden
+}
+
+.gg-spectrum::before {
+   content: "";
+   display: block;
+   box-sizing: border-box;
+   position: absolute;
+   width: 30px;
+   height: 30px;
+   left: -15px;
+   bottom: -15px;
+   border: 8px solid;
+   border-radius: 18px
+}

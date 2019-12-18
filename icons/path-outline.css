@@ -1,0 +1,24 @@
+.gg-path-outline {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 14px
+}
+
+.gg-path-outline::after,
+.gg-path-outline::before {
+    content: "";
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid;
+    width: 10px;
+    height: 10px
+}
+
+.gg-path-outline::before {
+    bottom: 0;
+    right: 0
+}

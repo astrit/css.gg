@@ -1,0 +1,35 @@
+.gg-shutterstock {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 3px
+}
+
+.gg-shutterstock::after,
+.gg-shutterstock::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 1px
+}
+
+.gg-shutterstock::before {
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    bottom: 2px;
+    right: 2px
+}
+
+.gg-shutterstock::after {
+    border-top: 2px solid;
+    border-left: 2px solid;
+    top: 2px;
+    left: 2px
+}

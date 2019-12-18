@@ -1,0 +1,33 @@
+.gg-remote {
+    transform: scale(var(--ggs,1))
+}
+
+.gg-remote,
+.gg-remote::after,
+.gg-remote::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 8px;
+    height: 8px
+}
+
+.gg-remote::after,
+.gg-remote::before {
+    content: "";
+    position: absolute;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    transform: rotate(45deg) scaleY(1)
+}
+
+.gg-remote::before {
+    left: 5px;
+    top: -2px
+}
+
+.gg-remote::after {
+    transform: rotate(-45deg) scaleX(-1);
+    left: -5px;
+    top: 2px
+}

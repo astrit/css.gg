@@ -1,0 +1,39 @@
+.gg-folder-remove {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 3px
+}
+
+.gg-folder-remove::after,
+.gg-folder-remove::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px
+}
+
+.gg-folder-remove::before {
+    background: currentColor;
+    left: 5px;
+    width: 8px;
+    height: 2px;
+    top: 5px
+}
+
+.gg-folder-remove::after {
+    width: 10px;
+    height: 4px;
+    border: 2px solid;
+    border-bottom: 0;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    top: -5px
+}

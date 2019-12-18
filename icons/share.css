@@ -1,0 +1,36 @@
+.gg-share {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 6px;
+    height: 6px;
+    background: currentColor;
+    border-radius: 100px;
+    box-shadow:
+        10px -6px 0,
+        10px 6px 0
+}
+
+.gg-share::after,
+.gg-share::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+    left: 2px
+}
+
+.gg-share::before {
+    top: 0;
+    transform: rotate(-35deg)
+}
+
+.gg-share::after {
+    bottom: 0;
+    transform: rotate(35deg)
+}

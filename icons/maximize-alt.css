@@ -1,0 +1,33 @@
+.gg-maximize-alt {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 14px;
+    box-shadow:
+        -6px -6px 0 -4px,
+        6px 6px 0 -4px,
+        6px -6px 0 -4px,
+        -6px 6px 0 -4px
+}
+
+.gg-maximize-alt::after,
+.gg-maximize-alt::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 22px;
+    height: 2px;
+    border-left: 8px solid;
+    border-right: 8px solid;
+    transform: rotate(-45deg);
+    bottom: 6px;
+    left: -4px
+}
+
+.gg-maximize-alt::before {
+    transform: rotate(45deg)
+}

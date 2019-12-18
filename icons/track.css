@@ -1,0 +1,40 @@
+.gg-track {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 10px;
+    height: 10px;
+    border: 2px solid transparent;
+    box-shadow:
+        0 0 0 2px,
+        inset 0 0 0 10px;
+    border-radius: 100px
+}
+
+.gg-track::after,
+.gg-track::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px
+}
+
+.gg-track::before {
+    border-left: 4px solid;
+    border-right: 4px solid;
+    width: 18px;
+    height: 2px;
+    left: -6px;
+    top: 2px
+}
+
+.gg-track::after {
+    width: 2px;
+    height: 18px;
+    border-top: 4px solid;
+    border-bottom: 4px solid;
+    left: 2px;
+    top: -6px
+}

@@ -1,0 +1,24 @@
+.gg-path-unite {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 14px
+}
+
+.gg-path-unite::after,
+.gg-path-unite::before {
+    content: "";
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    background: currentColor;
+    width: 10px;
+    height: 10px
+}
+
+.gg-path-unite::before {
+    bottom: 0;
+    right: 0
+}

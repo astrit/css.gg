@@ -1,0 +1,35 @@
+.gg-boy,
+.gg-boy::after,
+.gg-boy::before {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 42px
+}
+
+.gg-boy {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    transform: scale(var(--ggs,1));
+    overflow: hidden;
+    box-shadow: inset 0 0 0 2px
+}
+
+.gg-boy::after,
+.gg-boy::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    box-shadow: 6px 0 0;
+    left: 6px;
+    top: 10px
+}
+
+.gg-boy::after {
+    width: 20px;
+    height: 20px;
+    top: -13px;
+    right: -12px;
+}

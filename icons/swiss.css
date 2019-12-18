@@ -1,0 +1,30 @@
+.gg-swiss {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    border: 4px solid
+}
+
+.gg-swiss::after,
+.gg-swiss::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: currentColor;
+    box-shadow: 0 9px 0;
+    top: -2px
+}
+
+.gg-swiss::after {
+    left: -2px
+}
+
+.gg-swiss::before {
+    right: -2px
+}

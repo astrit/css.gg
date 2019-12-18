@@ -1,0 +1,35 @@
+.gg-pin-bottom {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 2px;
+    height: 8px;
+    background: currentColor
+}
+
+.gg-pin-bottom::after,
+.gg-pin-bottom::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-pin-bottom::after {
+    background: currentColor;
+    bottom: -2px;
+    border-radius: 3px;
+    width: 10px;
+    height: 2px;
+    left: -4px
+}
+
+.gg-pin-bottom::before {
+    width: 8px;
+    height: 8px;
+    border: 6px double;
+    border-radius: 100px;
+    top: -10px;
+    left: -5px
+}
