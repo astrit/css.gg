@@ -10,7 +10,7 @@ Minimalistic icon library Designed by code.
 6. Compilable
 
 
-# Getting started
+## Getting started
 Access all the icons as package:
 
 | Name         | Source                 |
@@ -20,9 +20,8 @@ Access all the icons as package:
 | JSON         | https://css.gg/json    |
 | XML          | https://css.gg/xml     |
 
-****
 
-# Add icons in your project
+## Add icons in your project
 
 #### 1. Markup
 The class name starts always with "gg-" followed by icon name.
@@ -62,7 +61,7 @@ The class name starts always with "gg-" followed by icon name.
 @import url('https://css.gg/c');
 ```
 
-# API Reference
+## API Reference
 #### Access data on .json format
 
 1. All data - Single Icon
@@ -74,12 +73,12 @@ https://css.gg/json?=|icon-name
 https://css.gg/json?=|icon-name|icon-name|icon-name
 ```
 
-# Return style & markup only
+## Return style & markup only
 
 You need to specify in url if you wish to pull only style or markup by using **`&op=css`** or **`&op=css+markup`** variables respectively in the end of url.
 
 
-## e.g Single Icon
+#### e.g Single Icon
  1. Style
 ```
 https://css.gg/json?=|icon-name&op=css
@@ -90,7 +89,7 @@ https://css.gg/json?=|icon-name&op=css
 https://css.gg/json?=|icon-name&op=css+markup
 ```
 
-## e.g Multiple Icons
+#### e.g Multiple Icons
 
 1. Style
 ```
@@ -102,5 +101,5 @@ https://css.gg/json?=|icon-name|icon-name|icon-name&op=css
 https://css.gg/json?=|icon-name|icon-name|icon-name&op=css+markup
 ```
 
-# .xml
+## .xml
 > All the above options apply to **xml** format.
