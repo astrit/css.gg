@@ -23,6 +23,11 @@ Access all the icons as package:
 | JSON         | https://css.gg/json    |
 | XML          | https://css.gg/xml     |
 
+#### This repository .json CDN alternatives
+```
+https://unpkg.com/css.gg
+https://cdn.jsdelivr.net/npm/css.gg
+```
 
 ## Add icons in your project
 
