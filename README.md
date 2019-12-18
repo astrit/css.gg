@@ -1,5 +1,8 @@
 # css.gg
-Minimalistic icon library Designed by code.
+Minimalistic Icon library Designed by code. \
+Customizable & Retina-Ready icons entirely build in CSS.
+
+App: https://css.gg
 
 ## Features
 1. API endpoint
@@ -101,5 +104,5 @@ https://css.gg/json?=|icon-name|icon-name|icon-name&op=css
 https://css.gg/json?=|icon-name|icon-name|icon-name&op=css+markup
 ```
 
-#### 2. Access data on .json format
+#### 2. Access data on .xml format
 > All the above options apply to **xml** format.
