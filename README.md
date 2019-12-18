@@ -1,6 +1,6 @@
 # css.gg
 Minimalistic Icon library Designed by code. \
-Customizable & Retina-Ready icons entirely build in CSS.
+Customizable & Retina-Ready icons entirely built in CSS.
 
 App: https://css.gg
 
