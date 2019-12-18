@@ -1,0 +1,29 @@
+.gg-chevron-double-right-r {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border: 2px solid;
+    border-radius: 4px;
+    width: 22px;
+    height: 22px
+}
+
+.gg-chevron-double-right-r::after,
+.gg-chevron-double-right-r::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid;
+    border-top: 2px solid;
+    transform: rotate(45deg);
+    top: 6px;
+    right: 5px
+}
+
+.gg-chevron-double-right-r::after {
+    right: 9px
+}

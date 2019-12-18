@@ -1,0 +1,36 @@
+.gg-clipboard {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 2px
+}
+
+.gg-clipboard::after,
+.gg-clipboard::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 2px;
+    width: 10px;
+    left: 2px
+}
+
+.gg-clipboard::before {
+    border: 2px solid;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    top: -2px;
+    height: 6px
+}
+
+.gg-clipboard::after {
+    height: 2px;
+    background: currentColor;
+    box-shadow: 0 -4px 0 0;
+    bottom: 2px
+}

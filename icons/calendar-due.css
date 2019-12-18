@@ -1,0 +1,34 @@
+.gg-calendar-due {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 3px
+}
+
+.gg-calendar-due::after,
+.gg-calendar-due::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 6px;
+    background: currentColor
+}
+
+.gg-calendar-due::before {
+    top: 2px;
+    width: 10px;
+    height: 2px;
+    left: 2px
+}
+
+.gg-calendar-due::after {
+    width: 4px;
+    height: 4px;
+    bottom: 3px;
+    left: 5px
+}

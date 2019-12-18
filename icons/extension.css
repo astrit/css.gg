@@ -1,0 +1,36 @@
+.gg-extension,
+.gg-extension::after,
+.gg-extension::before {
+    box-sizing: border-box;
+    display: block;
+    border: 2px solid;
+    border-radius: 3px
+}
+
+.gg-extension {
+    position: relative;
+    transform: translateX(-10px) scale(var(--ggs,1));
+    width: 8px;
+    height: 14px;
+    border-bottom-right-radius: 0
+}
+
+.gg-extension::after,
+.gg-extension::before {
+    content: "";
+    position: absolute;
+    height: 8px
+}
+
+.gg-extension::before {
+    bottom: -2px;
+    left: -2px;
+    width: 14px;
+    border-top-left-radius: 0
+}
+
+.gg-extension::after {
+    top: -5px;
+    right: -11px;
+    width: 8px
+}

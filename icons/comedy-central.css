@@ -1,0 +1,25 @@
+.gg-comedy-central,
+.gg-comedy-central::before {
+   box-sizing: border-box;
+   display: block;
+   border: 3px solid;
+   border-radius: 100px
+}
+
+.gg-comedy-central {
+   position: relative;
+   border-left-color: transparent;
+   transform: scale(var(--ggs,1));
+   width: 20px;
+   height: 20px
+}
+
+.gg-comedy-central::before {
+   content: "";
+   position: absolute;
+   border-right-color: transparent;
+   width: 10px;
+   height: 10px;
+   bottom: 2px;
+   right: 2px
+}

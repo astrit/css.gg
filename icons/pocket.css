@@ -1,0 +1,35 @@
+.gg-pocket {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 6px;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px
+}
+
+.gg-pocket::after,
+.gg-pocket::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 22px;
+    width: 8px;
+    height: 2px;
+    background: currentColor;
+    bottom: 7px
+}
+
+.gg-pocket::before {
+    transform: rotate(-48deg);
+    right: 3px
+}
+
+.gg-pocket::after {
+    transform: rotate(48deg);
+    left: 3px
+}

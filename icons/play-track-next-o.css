@@ -1,0 +1,35 @@
+.gg-play-track-next-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 20px
+}
+
+.gg-play-track-next-o::after,
+.gg-play-track-next-o::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 8px;
+    top: 5px
+}
+
+.gg-play-track-next-o::before {
+    width: 2px;
+    border-radius: 2px;
+    left: 11px;
+    background: currentColor
+}
+
+.gg-play-track-next-o::after {
+    width: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 5px solid;
+    left: 5px
+}

@@ -1,0 +1,30 @@
+.gg-more-alt {
+    transform: scale(var(--ggs,1))
+}
+
+.gg-more-alt,
+.gg-more-alt::after,
+.gg-more-alt::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 100%
+}
+
+.gg-more-alt::after,
+.gg-more-alt::before {
+    content: "";
+    position: absolute;
+    top: 0
+}
+
+.gg-more-alt::after {
+    left: -6px
+}
+
+.gg-more-alt::before {
+    right: -6px
+}

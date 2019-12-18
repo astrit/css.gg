@@ -1,0 +1,37 @@
+.gg-keyhole,
+.gg-keyhole::after,
+.gg-keyhole::before {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 20px
+}
+
+.gg-keyhole {
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px;
+    border: 2px solid
+}
+
+.gg-keyhole::after,
+.gg-keyhole::before {
+    content: "";
+    position: absolute
+}
+
+.gg-keyhole::before {
+    width: 6px;
+    height: 6px;
+    border: 2px solid;
+    left: 5px;
+    top: 3px
+}
+
+.gg-keyhole::after {
+    background: currentColor;
+    width: 2px;
+    height: 5px;
+    left: 7px;
+    bottom: 3px
+}

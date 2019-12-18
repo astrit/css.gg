@@ -1,0 +1,22 @@
+.gg-format-heading {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 12px;
+    height: 14px;
+    border-left: 2px solid;
+    border-right: 2px solid
+}
+
+.gg-format-heading::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    background: currentColor;
+    top: 6px;
+    left: -2px
+}

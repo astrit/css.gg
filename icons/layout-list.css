@@ -1,0 +1,30 @@
+.gg-layout-list {
+    transform: scale(var(--ggs,1))
+}
+
+.gg-layout-list,
+.gg-layout-list::after,
+.gg-layout-list::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 10px;
+    height: 2px;
+    border-left: 6px double;
+    border-right: 4px solid
+}
+
+.gg-layout-list::after,
+.gg-layout-list::before {
+    content: "";
+    position: absolute;
+    left: -6px
+}
+
+.gg-layout-list::after {
+    bottom: 4px
+}
+
+.gg-layout-list::before {
+    top: 4px
+}

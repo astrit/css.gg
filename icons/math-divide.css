@@ -1,0 +1,29 @@
+.gg-math-divide {
+    transform: scale(var(--ggs,1))
+}
+
+.gg-math-divide,
+.gg-math-divide::after,
+.gg-math-divide::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 20px
+}
+
+.gg-math-divide::after,
+.gg-math-divide::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top: -6px;
+    left: 6px
+}
+
+.gg-math-divide::after {
+    top: 4px
+}

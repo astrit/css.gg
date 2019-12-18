@@ -1,0 +1,32 @@
+.gg-trello {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 2px
+}
+
+.gg-trello::after,
+.gg-trello::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 5px;
+    background: currentColor;
+    border-radius: 1px;
+    top: 2px
+}
+
+.gg-trello::before {
+    left: 2px;
+    height: 12px
+}
+
+.gg-trello::after {
+    height: 8px;
+    right: 2px
+}

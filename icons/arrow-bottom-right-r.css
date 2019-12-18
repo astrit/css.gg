@@ -1,0 +1,35 @@
+.gg-arrow-bottom-right-r {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    transform: scale(var(--ggs,1));
+    border-radius: 4px
+}
+
+.gg-arrow-bottom-right-r::after,
+.gg-arrow-bottom-right-r::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    right: 4px
+}
+
+.gg-arrow-bottom-right-r::after {
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+    transform: rotate(45deg);
+    bottom: 8px
+}
+
+.gg-arrow-bottom-right-r::before {
+    width: 6px;
+    height: 6px;
+    bottom: 4px;
+    border-bottom: 2px solid;
+    border-right: 2px solid
+}

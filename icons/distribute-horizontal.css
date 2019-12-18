@@ -1,0 +1,23 @@
+.gg-distribute-horizontal {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    height: 14px;
+    width: 14px;
+    border-left: 2px solid;
+    border-right: 2px solid
+}
+
+.gg-distribute-horizontal::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 8px;
+    width: 4px;
+    background: currentColor;
+    right: 3px;
+    top: 3px;
+    opacity: .5
+}

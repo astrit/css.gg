@@ -1,0 +1,31 @@
+.gg-serverless {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 15px;
+    height: 13px;
+    overflow: hidden
+}
+
+.gg-serverless::after,
+.gg-serverless::before {
+    background: currentColor;
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    display: block;
+    height: 3px;
+    box-shadow: 0 5px 0,0 10px 0;
+    transform: skew(-20deg)
+}
+
+.gg-serverless::before {
+    width: 8px;
+    left: -2px
+}
+
+.gg-serverless::after {
+    width: 12px;
+    right: -5px
+}

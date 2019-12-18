@@ -1,0 +1,20 @@
+.gg-border-style-dotted {
+    transform: scale(var(--ggs,1));
+}
+
+.gg-border-style-dotted,
+.gg-border-style-dotted::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 26px;
+    height: 17px
+}
+
+.gg-border-style-dotted::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    top: 7px;
+    border-top: 2px dotted
+}

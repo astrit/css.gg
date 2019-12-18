@@ -1,0 +1,31 @@
+.gg-more-vertical-alt {
+    transform: scale(var(--ggs,1))
+}
+
+.gg-more-vertical-alt,
+.gg-more-vertical-alt::after,
+.gg-more-vertical-alt::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 100%
+}
+
+.gg-more-vertical-alt::after,
+.gg-more-vertical-alt::before {
+    content: "";
+    position: absolute
+}
+
+.gg-more-vertical-alt::after {
+    left: 0;
+    top: 6px
+}
+
+.gg-more-vertical-alt::before {
+    top: -6px;
+    right: 0
+}

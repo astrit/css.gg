@@ -1,0 +1,33 @@
+.gg-signal,
+.gg-signal::after,
+.gg-signal::before {
+    display: block;
+    box-sizing: border-box;
+    width: 2px;
+    border-radius: 4px;
+    background: currentColor
+}
+
+.gg-signal {
+    position: relative;
+    transform: scale(var(--ggs,1));
+    height: 8px
+}
+
+.gg-signal::after,
+.gg-signal::before {
+    content: "";
+    position: absolute
+}
+
+.gg-signal::before {
+    height: 12px;
+    left: 4px;
+    bottom: 0
+}
+
+.gg-signal::after {
+    height: 4px;
+    left: -4px;
+    bottom: 0
+}

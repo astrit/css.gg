@@ -1,0 +1,23 @@
+.gg-format-bold {
+    transform: scale(var(--ggs,1))
+}
+
+.gg-format-bold,
+.gg-format-bold::after {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px
+}
+
+.gg-format-bold::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    left: -2px;
+    top: 4px
+}

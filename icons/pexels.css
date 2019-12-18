@@ -1,0 +1,37 @@
+.gg-pexels {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 6px;
+    height: 14px;
+    border: 2px solid;
+    border-right: 0
+}
+
+.gg-pexels::after,
+.gg-pexels::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-pexels::before {
+    width: 5px;
+    height: 10px;
+    border: 2px solid;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: 0;
+    right: -5px;
+    top: -2px
+}
+
+.gg-pexels::after {
+    background: currentColor;
+    width: 2px;
+    height: 6px;
+    bottom: -2px;
+    right: -1px
+}

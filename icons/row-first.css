@@ -1,0 +1,30 @@
+.gg-row-first {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 10px
+}
+
+.gg-row-first::after,
+.gg-row-first::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    height: 2px;
+    background: currentColor
+}
+
+.gg-row-first::before {
+    width: 10px;
+    top: 4px;
+    opacity: .5;
+    box-shadow: 0 4px 0
+}
+
+.gg-row-first::after {
+    width: 14px
+}

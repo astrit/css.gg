@@ -1,0 +1,32 @@
+.gg-tennis,
+.gg-tennis::after,
+.gg-tennis::before {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px
+}
+
+.gg-tennis {
+    position: relative;
+    transform: scale(var(--ggs,1));
+    overflow: hidden
+}
+
+.gg-tennis::after,
+.gg-tennis::before {
+    content: "";
+    position: absolute
+}
+
+.gg-tennis::before {
+    left: -11px;
+    top: -11px
+}
+
+.gg-tennis::after {
+    right: -11px;
+    bottom: -11px
+}

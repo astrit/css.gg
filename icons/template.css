@@ -1,0 +1,32 @@
+.gg-template {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 6px;
+    border: 2px solid;
+    margin-top: -14px
+}
+
+.gg-template::after,
+.gg-template::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 10px;
+    top: 6px
+}
+
+.gg-template::after {
+    border: 2px solid;
+    left: -2px
+}
+
+.gg-template::before {
+    border-top: 6px double;
+    border-bottom: 2px solid;
+    right: -2px
+}

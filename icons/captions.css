@@ -1,0 +1,29 @@
+.gg-captions {
+    border-radius: 1px;
+    transform: scale(var(--ggs,1))
+}
+.gg-captions,
+.gg-captions::after,
+.gg-captions::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 16px;
+    border: 2px solid
+}
+
+.gg-captions::after,
+.gg-captions::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 8px;
+    border-right: transparent;
+    top: 2px;
+    left: 2px
+}
+
+.gg-captions::before {
+    left: 9px
+}

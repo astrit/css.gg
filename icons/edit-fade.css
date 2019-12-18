@@ -1,0 +1,30 @@
+.gg-edit-fade {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 100px;
+    overflow: hidden
+}
+
+.gg-edit-fade::after,
+.gg-edit-fade::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 20px;
+    left: -2px;
+    background: currentColor;
+    opacity: .6
+}
+
+.gg-edit-fade::before {
+    left: 6px;
+    opacity: .1
+}

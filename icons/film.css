@@ -1,0 +1,30 @@
+.gg-film,
+.gg-film::after {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 3px
+}
+
+.gg-film {
+    border: 2px solid;
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 18px
+}
+
+.gg-film::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    left: 2px;
+    top: 2px;
+    box-shadow:
+        0 4px 0,
+        0 8px 0,
+        12px 0 0,
+        12px 4px 0,
+        12px 8px 0
+}

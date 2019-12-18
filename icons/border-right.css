@@ -1,0 +1,24 @@
+.gg-border-right {
+    transform: scale(var(--ggs,1));
+}
+
+.gg-border-right,
+.gg-border-right::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-right: 3px solid
+}
+
+.gg-border-right::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    border: 3px solid;
+    border-right: 0;
+    bottom: 0;
+    right: 2px;
+    opacity: .3
+}

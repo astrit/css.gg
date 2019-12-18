@@ -1,0 +1,34 @@
+.gg-ratio {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 24px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 4px
+}
+
+.gg-ratio::after,
+.gg-ratio::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px
+}
+
+.gg-ratio::before {
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    top: 8px;
+    left: 12px
+}
+
+.gg-ratio::after {
+    border-top: 2px solid;
+    border-left: 2px solid;
+    top: 2px;
+    left: 2px
+}

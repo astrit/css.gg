@@ -1,0 +1,33 @@
+.gg-box {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 3px
+}
+
+.gg-box::after,
+.gg-box::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    height: 2px;
+    background: currentColor
+}
+
+.gg-box::before {
+    left: 6px;
+    width: 6px;
+    top: 8px
+}
+
+.gg-box::after {
+    width: 22px;
+    left: -2px;
+    top: 4px
+}

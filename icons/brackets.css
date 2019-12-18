@@ -1,0 +1,32 @@
+.gg-brackets {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 3px
+}
+
+.gg-brackets::after,
+.gg-brackets::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid;
+    width: 4px;
+    height: 10px;
+    top: 2px
+}
+
+.gg-brackets::before {
+    border-right: 0;
+    left: 2px
+}
+
+.gg-brackets::after {
+    border-left: 0;
+    right: 2px
+}

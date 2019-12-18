@@ -1,0 +1,38 @@
+@keyframes gg-doc {
+    0% { left: -16px }
+    60%,to { left: 0 }
+}
+
+.gg-loadbar-doc {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs,1));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 1px;
+    width: 12px;
+    height: 14px;
+    overflow: hidden
+}
+
+.gg-loadbar-doc::after,
+.gg-loadbar-doc::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    height: 2px;
+    background: currentColor;
+    animation: gg-doc 1s linear infinite alternate
+}
+
+.gg-loadbar-doc::before {
+    width: 14px;
+    box-shadow: -4px 4px 0
+}
+
+.gg-loadbar-doc::after {
+    width: 5px;
+    top: 8px
+}

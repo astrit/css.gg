@@ -1,0 +1,30 @@
+.gg-ruler {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 24px;
+    height: 13px;
+    border: 2px solid;
+    border-radius: 3px
+}
+
+.gg-ruler::after,
+.gg-ruler::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 5px;
+    background: currentColor;
+    left: 7px;
+    top: -1px;
+    box-shadow: 8px 0 0
+}
+
+.gg-ruler::before {
+    height: 7px;
+    left: 3px
+}

@@ -1,0 +1,35 @@
+.gg-move-task {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 8px;
+    height: 10px;
+    border-top: 2px solid;
+    border-bottom: 2px solid
+}
+
+.gg-move-task::after,
+.gg-move-task::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-move-task::before {
+    background: currentColor;
+    top: 2px;
+    width: 8px;
+    height: 2px;
+    left: 0
+}
+
+.gg-move-task::after {
+    width: 0;
+    height: 0;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-left: 5px solid;
+    left: -6px
+}
