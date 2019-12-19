@@ -4,6 +4,8 @@ Customizable & Retina-Ready icons entirely built in CSS.
 
 App: https://css.gg
 
+![css.gg](https://css.gg/fav/og.png)
+
 ## Features
 1. API endpoint
 2. Lightweight
