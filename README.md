@@ -47,6 +47,24 @@ The class name starts always with "gg-" followed by icon name.
 <i class="gg-icon-name"></i>
 ```
 
+##### Resizing
+> To resize an icon you just need to change the value of a css variable "--ggs" to any value you like if not specified it falls back to 1 or the actual size.
+```css
+.gg-icon-name {
+    /* This value will multiple the actual size  */
+    --ggs: 10;
+}
+```
+> The variable can be added to the parent, custom class,body or root level if you want all icons same size.
+```css
+:root {
+
+    --ggs: 6;
+
+}
+```
+
+
 #### 2. Style
 
 ###### HTML
