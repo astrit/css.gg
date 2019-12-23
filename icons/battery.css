@@ -28,6 +28,6 @@
 }
 
 .gg-battery::after {
-    width: 6px;
+    width: 8px;
     left: 1px
 }
