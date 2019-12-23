@@ -1,0 +1,33 @@
+.gg-battery-full {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 12px;
+    transform: scale(var(--ggs,1));
+    border: 2px solid;
+    border-radius: 3px;
+    margin-left: -3px
+}
+
+.gg-battery-full::after,
+.gg-battery-full::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 6px;
+    background: currentColor;
+    top: 1px
+}
+
+.gg-battery-full::before {
+    right: -4px;
+    border-radius: 3px;
+    width: 4px
+}
+
+.gg-battery-full::after {
+    width: 14px;
+    left: 1px
+}
