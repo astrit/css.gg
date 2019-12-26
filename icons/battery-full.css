@@ -1,4 +1,4 @@
-.gg-battery {
+.gg-battery-full {
     box-sizing: border-box;
     position: relative;
     display: block;
@@ -10,8 +10,8 @@
     margin-left: -3px
 }
 
-.gg-battery::after,
-.gg-battery::before {
+.gg-battery-full::after,
+.gg-battery-full::before {
     content: "";
     display: block;
     box-sizing: border-box;
@@ -21,13 +21,13 @@
     top: 1px
 }
 
-.gg-battery::before {
+.gg-battery-full::before {
     right: -4px;
     border-radius: 3px;
     width: 4px
 }
 
-.gg-battery::after {
-    width: 8px;
+.gg-battery-full::after {
+    width: 14px;
     left: 1px
 }
