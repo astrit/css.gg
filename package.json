@@ -4,7 +4,8 @@
   "description": "Minimalistic Icon library Designed by code. ",
   "main": "/icons-json/icons.json",
   "scripts": {
-    "test": " "
+    "test": " ",
+    "svg": "node transform-icons-to-svg.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/astrit/css.gg/issues"
   },
-  "homepage": "https://css.gg"
+  "homepage": "https://css.gg",
+  "devDependencies": {
+    "@rikishi/svg-scaler-viewbox": "^0.2.5",
+    "potrace": "^2.1.2",
+    "puppeteer": "^2.0.0",
+    "sharp": "^0.23.4"
+  }
 }
