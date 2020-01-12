@@ -18,8 +18,11 @@
     position: absolute;
     width: 12px;
     height: 12px;
-    background-image: radial-gradient(currentColor 25%, transparent 25%),
-      radial-gradient(currentColor 25%, transparent 25%);
+    background-image:
+      radial-gradient(circle,
+        currentColor 25%, transparent 25%),
+      radial-gradient(circle,
+        currentColor 25%, transparent 25%);
       background-position: 4px 4px,2px 2px;
     background-size: 4px 4px;
 }

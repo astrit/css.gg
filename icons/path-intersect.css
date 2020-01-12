@@ -20,7 +20,7 @@
 
 .gg-path-intersect::before {
     background:
-        linear-gradient(
+        linear-gradient(to left,
             currentColor 4px,transparent 0)
             no-repeat top left/4px 4px;
     bottom: 0;

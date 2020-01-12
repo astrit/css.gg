@@ -24,7 +24,7 @@
 
 .gg-path-divide::before {
     background:
-        linear-gradient(
+        linear-gradient(to left,
             currentColor 4px,transparent 0)
             no-repeat 1px 1px/4px 4px;
     border-right: 4px solid;

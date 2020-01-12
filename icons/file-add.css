@@ -1,6 +1,6 @@
 .gg-file-add {
     background:
-        linear-gradient(
+        linear-gradient(to bottom,
             currentColor 5px,transparent 0)
             no-repeat 2px 9px/6px 2px;
     box-sizing: border-box;

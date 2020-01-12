@@ -13,15 +13,18 @@
         0 -2px 0,
         inset 0 2px 0,
         inset 0 -2px 0;
-    background: linear-gradient(
+    background:
+        linear-gradient(to left,
             currentColor 10px,transparent 0),
-        linear-gradient(
+        linear-gradient(to left,
             currentColor 10px,transparent 0),
-        linear-gradient(
+        linear-gradient(to left,
             currentColor 10px,transparent 0);
     background-repeat: no-repeat;
-    background-size: 2px 10px,2px 10px,2px 10px;
-    background-position: 8px 0,18px -8px,-2px -8px
+    background-size:
+        2px 10px,2px 10px,2px 10px;
+    background-position:
+        8px 0,18px -8px,-2px -8px
 }
 
 .gg-gift::after,

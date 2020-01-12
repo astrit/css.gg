@@ -1,6 +1,6 @@
 .gg-folder-add {
     background:
-        linear-gradient(
+        linear-gradient(to left,
             currentColor 10px,transparent 0)
             no-repeat center center/2px 6px;
     box-sizing: border-box;

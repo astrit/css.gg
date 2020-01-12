@@ -21,7 +21,7 @@
 
   .gg-backspace::before {
     background:
-        linear-gradient(
+        linear-gradient( to left,
         currentColor 18px,transparent 0)
         no-repeat center center/10px 2px;
     border-right: 3px solid transparent;

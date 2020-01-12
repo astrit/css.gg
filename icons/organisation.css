@@ -1,15 +1,15 @@
 .gg-organisation {
     background:
-        linear-gradient(
+        linear-gradient(to bottom,
             currentColor 5px,transparent 0)
             no-repeat center 2px/12px 2px,
-        linear-gradient(
+        linear-gradient(to bottom,
             currentColor 5px,transparent 0)
             no-repeat center 6px/12px 2px,
-        linear-gradient(
+        linear-gradient(to bottom,
             currentColor 5px,transparent 0)
             no-repeat center 10px/12px 2px,
-        linear-gradient(
+        linear-gradient(to bottom,
             currentColor 18px,transparent 0)
             no-repeat center/2px 18px;
     box-sizing: border-box;

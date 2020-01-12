@@ -11,7 +11,8 @@
     border-radius: 1px
 }
 
-.gg-poll::after,.gg-poll::before {
+.gg-poll::after,
+.gg-poll::before {
     content: "";
     display: block;
     box-sizing: border-box;

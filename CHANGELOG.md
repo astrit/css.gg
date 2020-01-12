@@ -1,3 +1,6 @@
+### 1.0.5: 2020-01-12
+  * Fix: Gradient outdated direction syntax
+
 ### 1.0.4: 2019-01-11
   * Add SCSS file
   * Add icon Battery Full

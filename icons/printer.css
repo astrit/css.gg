@@ -1,12 +1,12 @@
 .gg-printer {
   background:
-    linear-gradient(
+    linear-gradient(to left,
       currentColor 5px,transparent 0)
       no-repeat 0 10px/6px 2px,
-    linear-gradient(
+    linear-gradient(to left,
       currentColor 5px,transparent 0)
       no-repeat 14px 10px/6px 2px,
-    linear-gradient(
+    linear-gradient(to left,
       currentColor 5px,transparent 0)
       no-repeat 4px 4px/2px 2px;
   box-sizing: border-box;

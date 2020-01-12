@@ -1,6 +1,6 @@
 .gg-stopwatch {
     background:
-        linear-gradient(
+        linear-gradient(to left,
             currentColor 7px,transparent 0)
             no-repeat 6px 2px/2px 6px;
     box-sizing: border-box;

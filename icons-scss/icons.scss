@@ -109,7 +109,7 @@
 }
 
 .gg-alarm {
-  background: linear-gradient(currentColor 5px, transparent 0) no-repeat 4.5px 6px / 5px 2px, linear-gradient(currentColor 7px, transparent 0) no-repeat 4.5px 2px / 2px 6px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 4.5px 6px / 5px 2px, linear-gradient(to left, currentColor 7px, transparent 0) no-repeat 4.5px 2px / 2px 6px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -397,7 +397,7 @@
 }
 
 .gg-apple-watch {
-  background: linear-gradient(currentColor 5px, transparent 0) no-repeat 13px 4px / 2px 4px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 13px 4px / 2px 4px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -2029,7 +2029,7 @@
     display: block;
     box-sizing: border-box;
     position: absolute;
-    background: linear-gradient(currentColor 18px, transparent 0) no-repeat center (center / 10px) 2px;
+    background: linear-gradient(to left, currentColor 18px, transparent 0) no-repeat center (center / 10px) 2px;
     border-right: 3px solid transparent;
     box-shadow: inset 0 0 0 2px;
     right: 2px;
@@ -3248,7 +3248,7 @@
 }
 
 .gg-cast {
-  background: linear-gradient(currentColor 5px, transparent 0) no-repeat bottom (right / 6px) 2px, linear-gradient(currentColor 5px, transparent 0) no-repeat top (left / 2px) 2px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat bottom (right / 6px) 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat top (left / 2px) 2px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -3349,6 +3349,7 @@
     top: -1px;
     width: 6px;
     height: 10px;
+    border-color: currentColor;
     border-width: 0 2px 2px 0;
     border-style: solid;
     transform-origin: bottom left;
@@ -4071,7 +4072,7 @@
   width: 24px;
   height: 24px;
   border: 4px solid;
-  background: linear-gradient(currentColor 8px, transparent 0) no-repeat -2px (center / 8px) 3px;
+  background: linear-gradient(to left, currentColor 8px, transparent 0) no-repeat -2px (center / 8px) 3px;
 }
 
 .gg-clipboard {
@@ -4690,7 +4691,7 @@
     display: block;
     box-sizing: border-box;
     position: absolute;
-    background: linear-gradient(currentColor 5px, transparent 0) no-repeat right (top / 5px) 2px, linear-gradient(currentColor 5px, transparent 0) no-repeat left (bottom / 2px) 5px;
+    background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat right (top / 5px) 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat left (bottom / 2px) 5px;
     box-shadow: inset -4px -4px 0 -2px;
     bottom: -6px;
     right: -6px;
@@ -5267,7 +5268,7 @@
   }
 
   &::after {
-    background: linear-gradient(currentColor 8px, transparent 0) no-repeat bottom (center / 2px) 8px;
+    background: linear-gradient(to left, currentColor 8px, transparent 0) no-repeat bottom (center / 2px) 8px;
     width: 22px;
     height: 22px;
     top: -6px;
@@ -5330,7 +5331,7 @@
   transform: scale(var(--ggs, 1));
   width: 20px;
   height: 16px;
-  background: linear-gradient(currentColor 5px, transparent 0) no-repeat right 3px / 8px 3px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat right 3px / 8px 3px;
 
   &::after, &::before {
     content: "";
@@ -5387,7 +5388,7 @@
     border-radius: 4px;
     bottom: 2px;
     left: 4px;
-    box-shadow: 4px 0 0, 8px 0 0;
+    box-shadow: 4px 0 0,8px 0 0;
   }
 }
 
@@ -5546,7 +5547,7 @@
 }
 
 .gg-directory {
-  background: linear-gradient(currentColor 5px, transparent 0) no-repeat 2px 2px / 4px 2px, linear-gradient(currentColor 5px, transparent 0) no-repeat 2px 6px / 4px 2px, linear-gradient(currentColor 5px, transparent 0) no-repeat 2px 10px / 4px 2px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 2px 2px / 4px 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 2px 6px / 4px 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 2px 10px / 4px 2px;
   display: block;
   transform: scale(var(--ggs, 1));
   width: 22px;
@@ -6115,7 +6116,7 @@
     width: 6px;
     height: 14px;
     top: -1px;
-    background: repeating-linear-gradient(currentColor, currentColor 2px, transparent 0px, transparent 3px);
+    background: repeating-linear-gradient(to bottom, currentColor, currentColor 2px, transparent 0px, transparent 3px);
   }
 
   &::after {
@@ -6149,7 +6150,7 @@
     position: absolute;
     width: 12px;
     height: 12px;
-    background-image: radial-gradient(currentColor 25%, transparent 25%), radial-gradient(currentColor 25%, transparent 25%);
+    background-image: radial-gradient(circle, currentColor 25%, transparent 25%), radial-gradient(circle, currentColor 25%, transparent 25%);
     background-position: 4px 4px,2px 2px;
     background-size: 4px 4px;
   }
@@ -6176,7 +6177,7 @@
     height: 14px;
     right: 0;
     top: -1px;
-    background: repeating-linear-gradient(currentColor, currentColor 2px, transparent 0px, transparent 3px);
+    background: repeating-linear-gradient(to bottom, currentColor, currentColor 2px, transparent 0px, transparent 3px);
   }
 
   &::after {
@@ -6640,7 +6641,7 @@
 }
 
 .gg-file-add {
-  background: linear-gradient(currentColor 5px, transparent 0) no-repeat 2px 9px / 6px 2px;
+  background: linear-gradient(to bottom, currentColor 5px, transparent 0) no-repeat 2px 9px / 6px 2px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -6866,7 +6867,7 @@
 }
 
 .gg-folder-add {
-  background: linear-gradient(currentColor 10px, transparent 0) no-repeat center (center / 2px) 6px;
+  background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center (center / 2px) 6px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -7615,7 +7616,7 @@
   transform: scale(var(--ggs, 1));
   width: 18px;
   height: 16px;
-  background: linear-gradient(currentColor 40px, transparent 0) no-repeat -6px (center / 40px) 4px;
+  background: linear-gradient(to left, currentColor 40px, transparent 0) no-repeat -6px (center / 40px) 4px;
   overflow: hidden;
 
   &::after, &::before {
@@ -7647,7 +7648,7 @@
   margin-top: 8px;
   border: 2px solid transparent;
   box-shadow: inset 2px 0 0,inset -2px 0 0,0 -2px 0,inset 0 2px 0,inset 0 -2px 0;
-  background: linear-gradient(currentColor 10px, transparent 0), linear-gradient(currentColor 10px, transparent 0), linear-gradient(currentColor 10px, transparent 0);
+  background: linear-gradient(to left, currentColor 10px, transparent 0), linear-gradient(to left, currentColor 10px, transparent 0), linear-gradient(to left, currentColor 10px, transparent 0);
   background-repeat: no-repeat;
   background-size: 2px 10px,2px 10px,2px 10px;
   background-position: 8px 0,18px -8px,-2px -8px;
@@ -8272,7 +8273,7 @@
 }
 
 .gg-home {
-  background: linear-gradient(currentColor 5px, transparent 0) no-repeat 0 (bottom / 4px) 2px, linear-gradient(currentColor 5px, transparent 0) no-repeat right (bottom / 4px) 2px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 0 (bottom / 4px) 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat right (bottom / 4px) 2px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -8376,7 +8377,7 @@
   transform: scale(var(--ggs, 1));
   width: 14px;
   height: 14px;
-  background: linear-gradient(currentColor 18px, transparent 0) no-repeat center (center / 4px) 18px, linear-gradient(currentColor 5px, transparent 0) no-repeat 10px (top / 4px) 4px, linear-gradient(currentColor 5px, transparent 0) no-repeat 10px 5px / 4px 4px, linear-gradient(currentColor 14px, transparent 0) no-repeat 0 5px / 4px 14px;
+  background: linear-gradient(to left, currentColor 18px, transparent 0) no-repeat center (center / 4px) 18px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 10px (top / 4px) 4px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 10px 5px / 4px 4px, linear-gradient(to left, currentColor 14px, transparent 0) no-repeat 0 5px / 4px 14px;
 
   &::before {
     content: "";
@@ -8539,12 +8540,12 @@
     right: 0;
     border-left: 3px solid;
     border-right: 3px solid;
-    background: linear-gradient(currentColor 14px, transparent 0) no-repeat 0 (center / 14px) 3px;
+    background: linear-gradient(to left, currentColor 14px, transparent 0) no-repeat 0 (center / 14px) 3px;
   }
 }
 
 .gg-infinity {
-  background: linear-gradient(currentColor 5px, transparent 0) no-repeat -4px 4px / 2px 2px, linear-gradient(currentColor 5px, transparent 0) no-repeat 4px 4px / 2px 2px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat -4px 4px / 2px 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 4px 4px / 2px 2px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -11096,7 +11097,7 @@
 }
 
 .gg-organisation {
-  background: linear-gradient(currentColor 5px, transparent 0) no-repeat center 2px / 12px 2px, linear-gradient(currentColor 5px, transparent 0) no-repeat center 6px / 12px 2px, linear-gradient(currentColor 5px, transparent 0) no-repeat center 10px / 12px 2px, linear-gradient(currentColor 18px, transparent 0) no-repeat (center / 2px) 18px;
+  background: linear-gradient(to bottom, currentColor 5px, transparent 0) no-repeat center 2px / 12px 2px, linear-gradient(to bottom, currentColor 5px, transparent 0) no-repeat center 6px / 12px 2px, linear-gradient(to bottom, currentColor 5px, transparent 0) no-repeat center 10px / 12px 2px, linear-gradient(to bottom, currentColor 18px, transparent 0) no-repeat (center / 2px) 18px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -11309,7 +11310,7 @@
   }
 
   &::before {
-    background: linear-gradient(currentColor 4px, transparent 0) no-repeat top (left / 4px) 4px;
+    background: linear-gradient(to left, currentColor 4px, transparent 0) no-repeat top (left / 4px) 4px;
     bottom: 0;
     right: 0;
   }
@@ -11338,7 +11339,7 @@
   }
 
   &::before {
-    background: linear-gradient(currentColor 4px, transparent 0) no-repeat 1px 1px / 4px 4px;
+    background: linear-gradient(to left, currentColor 4px, transparent 0) no-repeat 1px 1px / 4px 4px;
     border-right: 4px solid;
     border-bottom: 4px solid;
     bottom: 0;
@@ -11431,7 +11432,7 @@
     border: 2px solid;
     width: 10px;
     height: 10px;
-    background: linear-gradient(currentColor 4px, transparent 0) no-repeat top (left / 4px) 4px;
+    background: linear-gradient(to left, currentColor 4px, transparent 0) no-repeat top (left / 4px) 4px;
     bottom: 0;
     right: 0;
   }
@@ -11766,7 +11767,7 @@
 }
 
 .gg-performance {
-  background: linear-gradient(currentColor 8px, transparent 0) no-repeat (center / 2px) 6px;
+  background: linear-gradient(to left, currentColor 8px, transparent 0) no-repeat (center / 2px) 6px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -12707,7 +12708,7 @@
 }
 
 .gg-printer {
-  background: linear-gradient(currentColor 5px, transparent 0) no-repeat 0 10px / 6px 2px, linear-gradient(currentColor 5px, transparent 0) no-repeat 14px 10px / 6px 2px, linear-gradient(currentColor 5px, transparent 0) no-repeat 4px 4px / 2px 2px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 0 10px / 6px 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 14px 10px / 6px 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 4px 4px / 2px 2px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -13617,7 +13618,7 @@
     box-shadow: 0 0 0 2px;
     border-radius: 1px;
     bottom: -1px;
-    background: linear-gradient(currentColor 4px, transparent 0) no-repeat center 5px / 4px 2px, linear-gradient(currentColor 4px, transparent 0) no-repeat center 2px / 4px 2px, linear-gradient(currentColor 4px, transparent 0) no-repeat center 8px / 4px 2px;
+    background: linear-gradient(to left, currentColor 4px, transparent 0) no-repeat center 5px / 4px 2px, linear-gradient(to left, currentColor 4px, transparent 0) no-repeat center 2px / 4px 2px, linear-gradient(to left, currentColor 4px, transparent 0) no-repeat center 8px / 4px 2px;
   }
 
   &::before {
@@ -13630,7 +13631,7 @@
     box-shadow: 0 0 0 2px;
     border-radius: 1px;
     bottom: -1px;
-    background: linear-gradient(currentColor 4px, transparent 0) no-repeat center 5px / 4px 2px, linear-gradient(currentColor 4px, transparent 0) no-repeat center 2px / 4px 2px, linear-gradient(currentColor 4px, transparent 0) no-repeat center 8px / 4px 2px;
+    background: linear-gradient(to left, currentColor 4px, transparent 0) no-repeat center 5px / 4px 2px, linear-gradient(to left, currentColor 4px, transparent 0) no-repeat center 2px / 4px 2px, linear-gradient(to left, currentColor 4px, transparent 0) no-repeat center 8px / 4px 2px;
     border-top-right-radius: 3px;
     left: -8px;
   }
@@ -14857,7 +14858,7 @@
 }
 
 .gg-smartphone-shake {
-  background: linear-gradient(currentColor 5px, transparent 0) no-repeat 4px 12px / 2px 2px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 4px 12px / 2px 2px;
   box-sizing: border-box;
   position: relative;
   transform: scale(var(--ggs, 1));
@@ -14888,7 +14889,7 @@
 }
 
 .gg-smartphone {
-  background: linear-gradient(currentColor 5px, transparent 0) no-repeat 4px 12px / 2px 2px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 4px 12px / 2px 2px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -15391,7 +15392,7 @@
 }
 
 .gg-stopwatch {
-  background: linear-gradient(currentColor 7px, transparent 0) no-repeat 6px 2px / 2px 6px;
+  background: linear-gradient(to left, currentColor 7px, transparent 0) no-repeat 6px 2px / 2px 6px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -15445,7 +15446,7 @@
   transform: scale(var(--ggs, 1));
   width: 24px;
   height: 24px;
-  background: linear-gradient(currentColor 4px, transparent 0) no-repeat 5px -6px / 2px 6px, linear-gradient(currentColor 4px, transparent 0) no-repeat 5px 14px / 2px 6px, linear-gradient(currentColor 4px, transparent 0) no-repeat -8px 5px / 6px 2px, linear-gradient(currentColor 4px, transparent 0) no-repeat 14px 5px / 6px 2px;
+  background: linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 5px -6px / 2px 6px, linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 5px 14px / 2px 6px, linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat -8px 5px / 6px 2px, linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 14px 5px / 6px 2px;
   border-radius: 100px;
   box-shadow: inset 0 0 0 2px;
   border: 6px solid transparent;
@@ -15990,7 +15991,7 @@
     border-radius: 40px;
   }
 
-  background: linear-gradient(currentColor 10px, transparent 0) no-repeat 6px -2px / 2px 6px;
+  background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 6px -2px / 2px 6px;
   box-sizing: border-box;
   transform: scale(var(--ggs, 1));
   position: relative;
@@ -16925,7 +16926,7 @@
   height: 16px;
   border: 2px solid;
   border-radius: 100%;
-  background: linear-gradient(currentColor 5px, transparent 0) no-repeat 2px 5px / 8px 2px;
+  background: linear-gradient(to bottom, currentColor 5px, transparent 0) no-repeat 2px 5px / 8px 2px;
   margin-top: -4px;
 
   &::after, &::before {

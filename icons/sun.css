@@ -6,16 +6,16 @@
   width: 24px;
   height: 24px;
   background:
-    linear-gradient(
+    linear-gradient(to bottom,
         currentColor 4px,transparent 0)
         no-repeat 5px -6px/2px 6px,
-    linear-gradient(
+    linear-gradient(to bottom,
         currentColor 4px,transparent 0)
         no-repeat 5px 14px/2px 6px,
-    linear-gradient(
+    linear-gradient(to bottom,
         currentColor 4px,transparent 0)
         no-repeat -8px 5px/6px 2px,
-    linear-gradient(
+    linear-gradient(to bottom,
         currentColor 4px,transparent 0)
         no-repeat 14px 5px/6px 2px;
   border-radius: 100px;

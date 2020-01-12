@@ -26,7 +26,8 @@
     right: 0;
     border-left: 3px solid;
     border-right: 3px solid;
-    background:linear-gradient(
+    background:
+        linear-gradient(to left,
         currentColor 14px, transparent 0)
         no-repeat 0 center/14px 3px
 }

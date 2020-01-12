@@ -6,7 +6,7 @@
     width: 20px;
     height: 16px;
     background:
-        linear-gradient(
+        linear-gradient( to left,
             currentColor 5px,transparent 0)
             no-repeat right 3px/8px 3px
 }

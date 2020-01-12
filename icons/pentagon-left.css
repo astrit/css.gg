@@ -11,7 +11,8 @@
     height: 51%
 }
 
-.gg-pentagon-left:after,.gg-pentagon-left:before {
+.gg-pentagon-left:after,
+.gg-pentagon-left:before {
     content: ' ';
     position: absolute;
     left: 0;

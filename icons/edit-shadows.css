@@ -21,7 +21,7 @@
     right: 0;
     top: -1px;
     background:
-        repeating-linear-gradient(
+        repeating-linear-gradient( to bottom,
             currentColor, currentColor 2px,
             transparent 0px, transparent 3px)
 }

@@ -1,9 +1,9 @@
 .gg-alarm {
     background:
-        linear-gradient(
+        linear-gradient( to left,
         currentColor 5px, transparent 0)
         no-repeat 4.5px 6px/5px 2px,
-        linear-gradient(
+        linear-gradient( to left,
         currentColor 7px, transparent 0)
         no-repeat 4.5px 2px/2px 6px;
     box-sizing: border-box;

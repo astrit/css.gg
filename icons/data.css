@@ -25,7 +25,7 @@
 }
 
 .gg-data::after {
-  background: linear-gradient(
+  background: linear-gradient( to left,
       currentColor 8px,transparent 0)
       no-repeat bottom center/2px 8px;
   width: 22px;

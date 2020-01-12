@@ -7,7 +7,8 @@
     height: 22px
 }
 
-.gg-select::after,.gg-select::before {
+.gg-select::after,
+.gg-select::before {
     content: "";
     display: block;
     box-sizing: border-box;

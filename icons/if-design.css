@@ -6,16 +6,16 @@
     width: 14px;
     height: 14px;
     background:
-        linear-gradient(
+        linear-gradient(to left,
             currentColor 18px,transparent 0)
             no-repeat center center/4px 18px,
-        linear-gradient(
+        linear-gradient(to left,
             currentColor 5px,transparent 0)
             no-repeat 10px top/4px 4px,
-        linear-gradient(
+        linear-gradient(to left,
             currentColor 5px,transparent 0)
             no-repeat 10px 5px/4px 4px,
-        linear-gradient(
+        linear-gradient(to left,
             currentColor 14px,transparent 0)
             no-repeat 0 5px/4px 14px
 }

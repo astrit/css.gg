@@ -21,11 +21,14 @@
     border-radius: 1px;
     bottom: -1px;
     background:
-        linear-gradient(currentColor 4px,transparent 0)
+        linear-gradient(to left,
+            currentColor 4px,transparent 0)
             no-repeat center 5px/4px 2px,
-        linear-gradient(currentColor 4px,transparent 0)
+        linear-gradient(to left,
+            currentColor 4px,transparent 0)
             no-repeat center 2px/4px 2px,
-        linear-gradient(currentColor 4px,transparent 0)
+        linear-gradient(to left,
+            currentColor 4px,transparent 0)
             no-repeat center 8px/4px 2px
 }
 

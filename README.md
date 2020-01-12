@@ -145,8 +145,9 @@ https://css.gg/json?=|icon-name|icon-name|icon-name&op=css+markup
 > All the above options apply to **xml** format.
 
 # Donate
-This library is entirely free and maintained by one person > [Astrit](https://github.com/astrit) \
-If you like the work please consider donating at https://www.paypal.me/astrit
+This library is entirely free and maintained by [Astrit](https://github.com/astrit) \
+If you like the work please consider donating at https://www.paypal.me/astrit or \
+Become a sponsor here at Github https://github.com/sponsors/astrit
 
 # Support
 1. FAQ - https://css.gg/faq
