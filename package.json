@@ -1,6 +1,6 @@
 {
   "name": "css.gg",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Minimalistic Icon library Designed by code. ",
   "main": "/icons-json/icons.json",
   "scripts": {

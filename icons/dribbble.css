@@ -1,13 +1,13 @@
 .gg-dribbble {
     background:
-        radial-gradient(
-            50% 100%,
-            transparent 0,
-            transparent 9px,
-            currentColor 9.2px,
-            currentColor 11px,
-            transparent 11.2px)
-            no-repeat -9px center;
+      radial-gradient(
+        circle at 50%,
+        transparent 0,
+        transparent 9px,
+        currentColor 9.2px,
+        currentColor 11px,
+        transparent 11.2px)
+        no-repeat -8px center;
     box-sizing: border-box;
     position: relative;
     display: block;
