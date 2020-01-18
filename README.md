@@ -4,7 +4,7 @@ Customizable & Retina-Ready icons entirely built in CSS.
 
 App: https://css.gg
 
-![css.gg](https://img.shields.io/badge/dynamic/json.svg?label=Upvotes&query=%24.votes&url=https%3A%2F%2Fapi.phkit.me%2Fvotes%2F178517&logo=product-hunt&&logoColor=fff&color=DA552E&) ![GitHub package.json version](https://img.shields.io/github/package-json/v/astrit/css.gg) ![npm](https://img.shields.io/npm/v/css.gg) ![GitHub last commit](https://img.shields.io/github/last-commit/astrit/css.gg) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fcss.gg) ![npm](https://img.shields.io/npm/dt/css.gg) ![GitHub issues](https://img.shields.io/github/issues/astrit/css.gg) ![GitHub stars](https://img.shields.io/github/stars/astrit/css.gg)
+[![Financial Contributors on Open Collective](https://opencollective.com/css-gg/all/badge.svg?label=financial+contributors)](https://opencollective.com/css-gg) ![css.gg](https://img.shields.io/badge/dynamic/json.svg?label=Upvotes&query=%24.votes&url=https%3A%2F%2Fapi.phkit.me%2Fvotes%2F178517&logo=product-hunt&&logoColor=fff&color=DA552E&) ![GitHub package.json version](https://img.shields.io/github/package-json/v/astrit/css.gg) ![npm](https://img.shields.io/npm/v/css.gg) ![GitHub last commit](https://img.shields.io/github/last-commit/astrit/css.gg) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fcss.gg) ![npm](https://img.shields.io/npm/dt/css.gg) ![GitHub issues](https://img.shields.io/github/issues/astrit/css.gg) ![GitHub stars](https://img.shields.io/github/stars/astrit/css.gg)
 
 ![css.gg](https://css.gg/fav/og.png)
 
@@ -153,3 +153,32 @@ Become a sponsor here at Github https://github.com/sponsors/astrit
 1. FAQ - https://css.gg/faq
 2. Discord - https://discord.gg/e7NDKFM
 3. Spectrum - https://spectrum.chat/css-gg
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/astrit/css.gg/graphs/contributors"><img src="https://opencollective.com/css-gg/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/css-gg/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/css-gg"><img src="https://opencollective.com/css-gg/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/css-gg/contribute)]
+
+<a href="https://opencollective.com/css-gg/organization/0/website"><img src="https://opencollective.com/css-gg/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/css-gg/organization/1/website"><img src="https://opencollective.com/css-gg/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/css-gg/organization/2/website"><img src="https://opencollective.com/css-gg/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/css-gg/organization/3/website"><img src="https://opencollective.com/css-gg/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/css-gg/organization/4/website"><img src="https://opencollective.com/css-gg/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/css-gg/organization/5/website"><img src="https://opencollective.com/css-gg/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/css-gg/organization/6/website"><img src="https://opencollective.com/css-gg/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/css-gg/organization/7/website"><img src="https://opencollective.com/css-gg/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/css-gg/organization/8/website"><img src="https://opencollective.com/css-gg/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/css-gg/organization/9/website"><img src="https://opencollective.com/css-gg/organization/9/avatar.svg"></a>
