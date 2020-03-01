@@ -152,6 +152,10 @@ https://css.gg/json?=|icon-name|icon-name|icon-name&op=css+markup
 | Patreon         | https://www.patreon.com/astrit     |
 | Open Collective | https://opencollective.com/css-gg  |
 
+This project is sponsored by
+
+[![SponsoredBy.dev](https://api.sponsoredby.dev/img/40845c34-5b0b-4e83-86df-f9e45f4f8ebe.png)](https://api.sponsoredby.dev/link/40845c34-5b0b-4e83-86df-f9e45f4f8ebe)
+
 # Support
 1. FAQ - https://css.gg/faq
 2. Discord - https://discord.gg/e7NDKFM
