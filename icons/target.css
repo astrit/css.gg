@@ -1,0 +1,22 @@
+.gg-target {
+	border: solid 3px currentColor;
+	border-radius: 50%;
+	box-sizing: border-box;
+	display: block;
+	height: 22px;
+	transform: scale(var(--ggs, 1));
+	width: 22px;
+}
+
+.gg-target::before {
+  border: solid 3px currentColor;
+  border-radius: inherit;
+  box-sizing: inherit;
+  content: "";
+  display: inherit;
+  left: 3px;
+  position: relative;
+  top: 3px;
+  width: 10px;
+  height: 10px;
+}

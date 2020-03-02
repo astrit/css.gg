@@ -1,0 +1,22 @@
+.gg-play {
+	box-sizing: border-box;
+	display: block;
+	position: relative;
+	transform: scale(var(--ggs, 1));
+	width: 11px;
+  height: 13px;
+}
+
+.gg-play::before {
+  border-bottom: 12px solid;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  content: "";
+  display: block;
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(90deg);
+  width: 0;
+}
