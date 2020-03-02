@@ -7,30 +7,29 @@
     border: 5px solid;
     box-sizing: border-box;
     border-radius: 100px;
-    border-bottom-color: transparent
+    border-bottom-color: transparent;
 }
 
-.gg-digitalocean::after,
-.gg-digitalocean::before {
+.gg-digitalocean::after, .gg-digitalocean::before {
     content: "";
     display: block;
     box-sizing: border-box;
     position: absolute;
     background: currentColor;
-    transform: rotate(-45deg)
+    transform: rotate(-45deg);
 }
 
 .gg-digitalocean::after {
-    box-shadow: -4px 4px 0 -1px;
-    width: 5px;
-    height: 5px;
-    right: 2px;
-    bottom: 0
+    box-shadow: -3.5px 3.75px 0 -0.25px;
+    width: 4px;
+    height: 4px;
+    left: 5.5px;
+    bottom: -1px;
 }
 
 .gg-digitalocean::before {
-    width: 2px;
-    height: 2px;
-    right: 7px;
-    bottom: -5px
+    width: 2.5px;
+    height: 2.5px;
+    left: 2px;
+    bottom: -5px;
 }

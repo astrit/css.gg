@@ -6065,7 +6065,7 @@
 .gg-digitalocean {
   position: relative;
   display: block;
-  transform: rotate(45deg) scale(var(--ggs, 1));
+  transform: rotate(45deg) scale(var(--ggs,1));
   width: 22px;
   height: 22px;
   border: 5px solid;
@@ -6083,17 +6083,17 @@
   }
 
   &::after {
-    box-shadow: -4px 4px 0 -1px;
-    width: 5px;
-    height: 5px;
-    right: 2px;
-    bottom: 0;
+    box-shadow: -3.5px 3.75px 0 -0.25px;
+    width: 4px;
+    height: 4px;
+    left: 5.5px;
+    bottom: -1px;
   }
 
   &::before {
-    width: 2px;
-    height: 2px;
-    right: 7px;
+    width: 2.5px;
+    height: 2.5px;
+    left: 2px;
     bottom: -5px;
   }
 }
