@@ -148,7 +148,6 @@ https://css.gg/json?=|icon-name|icon-name|icon-name&op=css+markup
 | Source          | Link                               |
 | :-------------- | :----------------------------------|
 | Github Sponsor  | https://github.com/sponsors/astrit |
-| Patreon         | https://www.patreon.com/astrit     |
 | Open Collective | https://opencollective.com/css-gg  |
 
 This project is sponsored by
