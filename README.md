@@ -2,7 +2,7 @@
 Minimalistic Icon library Designed by code. \
 Customizable & Retina-Ready icons entirely built in CSS.
 
-Demo: https://css.gg  ―  Twitter: https://twitter.com/AstritMalsija 
+Demo: https://css.gg  ―  Twitter: https://twitter.com/AstritMalsija   ―  Donate: https://github.com/sponsors/astrit
 
 ![css.gg](https://img.shields.io/badge/dynamic/json.svg?label=Upvotes&query=%24.votes&url=https%3A%2F%2Fapi.phkit.me%2Fvotes%2F178517&logo=product-hunt&&logoColor=fff&color=DA552E&) ![GitHub package.json version](https://img.shields.io/github/package-json/v/astrit/css.gg) ![npm](https://img.shields.io/npm/v/css.gg) ![GitHub last commit](https://img.shields.io/github/last-commit/astrit/css.gg) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fcss.gg) ![npm](https://img.shields.io/npm/dt/css.gg) ![GitHub issues](https://img.shields.io/github/issues/astrit/css.gg) ![GitHub stars](https://img.shields.io/github/stars/astrit/css.gg)
 
