@@ -1,0 +1,49 @@
+import React from 'react'
+import styled from 'styled-components'
+
+const StyledZoomOut = styled.i`
+  & {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-top: -4px;
+  }
+  &::after,
+  &::before {
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    background: currentColor;
+  }
+  &::after {
+    transform: rotate(-45deg);
+    border-radius: 3px;
+    width: 2px;
+    height: 8px;
+    top: 10px;
+    left: 12px;
+  }
+  &::before {
+    width: 8px;
+    height: 2px;
+    top: 5px;
+    left: 2px;
+  }
+`
+
+export const ZoomOut = React.forwardRef<
+  HTMLElement,
+  React.DetailedHTMLProps<React.HtmlHTMLAttributes<HTMLElement>, HTMLElement>
+>((props, ref) => {
+  return (
+    <>
+      <StyledZoomOut {...props} ref={ref} />
+    </>
+  )
+})
