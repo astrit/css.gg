@@ -1,0 +1,13 @@
+FROM vm/ubuntu:18.04
+
+RUN apt-get update && \
+    apt-get install -y curl
+RUN curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash - && \
+    apt-get update && \
+    apt-get install -y nodejs
+
+WORKDIR /app
+COPY . .
+RUN npm install
+RUN npm run bundle
+ARTIFACT PUBLIC icons-compressed/icons.css
