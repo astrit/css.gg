@@ -4,7 +4,7 @@
   "description": "Minimalistic Icon library Designed by code. ",
   "main": "/icons-json/icons.json",
   "scripts": {
-    "test": " "
+    "bundle": "node bundle.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/astrit/css.gg/issues"
   },
-  "homepage": "https://css.gg"
+  "homepage": "https://css.gg",
+  "devDependencies": {
+    "clean-css": "^4.2.3"
+  }
 }
