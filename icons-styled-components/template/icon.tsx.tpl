@@ -5,7 +5,7 @@ const {{ styledname }} = styled.i`
   {{{ css }}}
 ` 
 
-export const {{ name }} = React.forwardRef<React.HtmlHTMLAttributes<HTMLElement>, HTMLElement>((props, ref) => {
+export const {{ name }} = React.forwardRef<HTMLElement, React.AllHTMLAttributes<HTMLElement>>((props, ref) => {
   return (
     <>
       <{{ styledname }} {...props} ref={ref} />
