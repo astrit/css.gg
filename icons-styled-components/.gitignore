@@ -14,6 +14,7 @@ jest
 dist
 lib
 .lib
+src
 
 # log
 lerna-debug.log
