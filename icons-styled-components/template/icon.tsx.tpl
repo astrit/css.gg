@@ -8,7 +8,7 @@ const {{ styledname }} = styled.i`
 export const {{ name }} = React.forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>((props, ref) => {
   return (
     <>
-      <{{ styledname }} {...props} ref={ref} />
+      <{{ styledname }} {...props} ref={ref} icon-role="{{originalname}}" />
     </>
   )
 })

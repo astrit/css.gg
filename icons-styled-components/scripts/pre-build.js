@@ -13,6 +13,7 @@ Object.keys(icons).forEach(k => {
   const result = mustache.render(iconsTpl.toString(), {
     styledname: `Styled${name}`,
     name,
+    originalname: k,
     css,
   })
   fs.outputFileSync(path.resolve(__dirname, `../src/icons/${name}.tsx`), result)
