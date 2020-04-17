@@ -154,6 +154,11 @@ This project is sponsored by
 
 [![SponsoredBy.dev](https://api.sponsoredby.dev/img/40845c34-5b0b-4e83-86df-f9e45f4f8ebe.png)](https://api.sponsoredby.dev/link/40845c34-5b0b-4e83-86df-f9e45f4f8ebe)
 
+# Contributing
+If you update CSS, please perform the following before opening a merge request:
+- `npm install`
+- `npm run bundle`
+
 # Support
 1. FAQ - https://css.gg/faq
 2. Discord - https://discord.gg/e7NDKFM
