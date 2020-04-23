@@ -1,4 +1,4 @@
-### 2.0: 2020-04-23
+### 2.0.0: 2020-04-23
   * 🔥 200 New Icons
   * 🔥 SVG Icons by Lona
   * 🔥 SVG Sprite by Lona
