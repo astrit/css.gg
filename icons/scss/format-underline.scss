@@ -1,0 +1,25 @@
+.gg-format-underline {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 12px;
+    height: 12px;
+    border: 2px solid;
+    border-top: 0;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 3px;
+      width: 12px;
+      height: 2px;
+      background: currentColor;
+      left: -2px;
+      bottom: -6px;
+    }
+  }

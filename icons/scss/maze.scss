@@ -1,0 +1,38 @@
+.gg-maze {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 24px;
+    height: 14px;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+      height: 12px;
+      transform: rotate(45deg);
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+      height: 12px;
+      transform: rotate(45deg);
+      width: 12px;
+      right: 2px;
+      bottom: -2px;
+      border-left: 4px solid;
+      border-top: 4px solid;
+    }
+
+    &::after {
+      width: 4px;
+      background: currentColor;
+      left: 3px;
+      bottom: 1px;
+    }
+  }

@@ -1,0 +1,38 @@
+.gg-erase {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 18px
+}
+
+.gg-erase::after,
+.gg-erase::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-erase::before {
+    width: 6px;
+    height: 14px;
+    border-bottom:
+        4px solid transparent;
+    border-radius: 1px;
+    box-shadow:
+        0 0 0 2px,
+        inset 0 -2px 0 0;
+    left: 7px;
+    top: 2px;
+    transform: rotate(45deg)
+}
+
+.gg-erase::after {
+    background: currentColor;
+    width: 22px;
+    height: 2px;
+    bottom: 0;
+    border-radius: 20px
+}

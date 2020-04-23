@@ -1,0 +1,39 @@
+.gg-push-chevron-up {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid transparent;
+    border-radius: 100px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-top: 2px solid;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-top: 2px solid;
+      top: 0;
+      width: 14px;
+      height: 2px;
+      left: 2px;
+    }
+
+    &::after {
+      width: 10px;
+      height: 10px;
+      border-right: 2px solid;
+      transform: rotate(-45deg);
+      left: 4px;
+      bottom: 2px;
+    }
+  }

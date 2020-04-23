@@ -1,0 +1,29 @@
+.gg-insights {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 14px;
+    height: 16px;
+    transform: scale(var(--ggs,1));
+    border-left: 8px solid transparent;
+    border-top: 4px solid transparent;
+    box-shadow: inset 0 0 0 2px
+}
+
+.gg-insights::after,
+.gg-insights::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 16px;
+    border: 2px solid;
+    right: 4px;
+    bottom: 0
+}
+
+.gg-insights::before {
+    height: 8px;
+    right: 8px
+}

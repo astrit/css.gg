@@ -1,0 +1,33 @@
+.gg-bitbucket {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    width: 15px;
+    height: 15px;
+    transform: scale(var(--ggs,1));
+    border-top: 5px solid;
+    background:
+        linear-gradient(
+            to left,
+            currentColor 10px,transparent 0)
+            no-repeat center bottom/10px 5px
+}
+
+.gg-bitbucket::after,
+.gg-bitbucket::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    background: currentColor;
+    width: 5px;
+    height: 15px;
+    top: -5px;
+    transform: skew(10deg);
+    border-radius: 1px
+}
+
+.gg-bitbucket::after {
+    right: 0;
+    transform: skew(-10deg)
+}

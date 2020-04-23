@@ -1,0 +1,45 @@
+.gg-list-tree {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 22px;
+    transform: scale(var(--ggs,1));
+    background:
+        linear-gradient(
+            to left,
+            currentcolor 8px,
+            transparent 0
+        ) no-repeat left top/8px 8px,
+        linear-gradient(
+            to left,
+            currentcolor 8px,
+            transparent 0
+        ) no-repeat center 3px/8px 2px,
+        linear-gradient(
+            to left,
+            currentcolor 8px,
+            transparent 0
+        ) no-repeat 10px 17px/6px 2px,
+        linear-gradient(
+            to left,
+            currentcolor 8px,
+            transparent 0
+        ) no-repeat 10px 3px/2px 16px
+}
+
+.gg-list-tree::after,
+.gg-list-tree::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    right: 0
+}
+
+.gg-list-tree::after {
+    bottom: 0
+}

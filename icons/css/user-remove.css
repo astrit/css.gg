@@ -1,0 +1,39 @@
+.gg-user-remove {
+    display: block;
+    transform: scale(var(--ggs,1));
+    box-sizing: border-box;
+    width: 20px;
+    height: 18px;
+    background:
+        linear-gradient(
+            to left,
+            currentColor 8px,
+            transparent 0)
+            no-repeat 14px 6px/6px 2px
+}
+
+.gg-user-remove::after,
+.gg-user-remove::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid
+}
+
+.gg-user-remove::before {
+    width: 8px;
+    height: 8px;
+    border-radius: 30px;
+    top: 0;
+    left: 2px
+}
+
+.gg-user-remove::after {
+    width: 12px;
+    height: 9px;
+    border-bottom: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    top: 9px
+}

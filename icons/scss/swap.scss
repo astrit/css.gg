@@ -1,0 +1,40 @@
+.gg-swap {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    box-shadow: -2px 2px 0, 2px -2px 0;
+    width: 6px;
+    height: 2px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 3px solid transparent;
+      border-bottom: 3px solid transparent;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 3px solid transparent;
+      border-bottom: 3px solid transparent;
+      border-left: 3px solid;
+      top: -4px;
+      right: -4px;
+    }
+
+    &::after {
+      border-right: 3px solid;
+      bottom: -4px;
+      left: -4px;
+    }
+  }

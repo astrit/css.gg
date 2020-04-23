@@ -1,0 +1,44 @@
+.gg-paypal {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    width: 16px;
+    height: 18px;
+    transform:
+        skew(-10deg)
+        scale(var(--ggs,1));
+    background:
+        linear-gradient(
+            to left,
+            currentColor 20px,transparent 0)
+            no-repeat 3px bottom/4px 2px,
+        linear-gradient(
+            to left,
+            currentColor 20px,transparent 0)
+            no-repeat 5px bottom/3px 10px
+}
+
+.gg-paypal::after,
+.gg-paypal::before {
+    content: "";
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    border: 2px solid
+}
+
+.gg-paypal::before {
+    width: 8px;
+    height: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: 0;
+    left: 5px;
+    box-shadow: 2px 2px 0
+}
+
+.gg-paypal::after {
+    width: 6px;
+    height: 16px;
+    border-right: 0
+}

@@ -1,0 +1,29 @@
+.gg-extension-remove {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    background:
+        linear-gradient(
+            to left,currentColor 10px,transparent 0)
+            no-repeat 10px 4px/6px 2px;
+    width: 16px;
+    height: 16px
+}
+
+.gg-extension-remove::after,
+.gg-extension-remove::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 8px;
+    height: 14px;
+    border: 2px solid;
+    bottom: 0
+}
+
+.gg-extension-remove::after {
+    width: 14px;
+    height: 8px
+}

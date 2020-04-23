@@ -1,0 +1,42 @@
+.gg-font-spacing {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 16px;
+    transform: scale(var(--ggs, 1));
+    border-left: 2px solid;
+    border-right: 2px solid;
+    background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center 8px / 6px 2px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 3px;
+      width: 2px;
+      height: 10px;
+      background: currentColor;
+      top: 2px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 3px;
+      width: 2px;
+      height: 10px;
+      background: currentColor;
+      top: 2px;
+      transform: rotate(25deg);
+      left: 4px;
+    }
+
+    &::after {
+      transform: rotate(-25deg);
+      right: 4px;
+    }
+  }

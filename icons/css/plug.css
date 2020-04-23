@@ -1,0 +1,37 @@
+.gg-plug {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    transform: scale(var(--ggs,1));
+    width: 12px;
+    height: 20px
+}
+
+.gg-plug::after,
+.gg-plug::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-plug::before {
+    width: 12px;
+    height: 10px;
+    border: 2px solid;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    top: 5px
+}
+
+.gg-plug::after {
+    width: 2px;
+    height: 4px;
+    background: currentColor;
+    left: 2px;
+    border-radius: 22px;
+    box-shadow:
+        6px 0 0,
+        3px 14px 0,
+        3px 16px 0
+}

@@ -1,0 +1,21 @@
+.gg-menu-motion {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 14px;
+    transform: scale(var(--ggs, 1));
+
+    &::before {
+      content: "";
+      position: absolute;
+      box-sizing: border-box;
+      display: block;
+      width: 10px;
+      height: 2px;
+      bottom: 0;
+      box-shadow: 4px -6px 0,8px -12px 0;
+      border-radius: 4px;
+      background: currentColor;
+    }
+  }

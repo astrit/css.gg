@@ -1,0 +1,36 @@
+.gg-lastpass {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 12px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      background: currentColor;
+      border-radius: 22px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      background: currentColor;
+      border-radius: 22px;
+      width: 4px;
+      height: 4px;
+      box-shadow: 6px 0 0,12px 0 0;
+      top: 4px;
+    }
+
+    &::after {
+      width: 2px;
+      height: 12px;
+      right: 0;
+    }
+  }

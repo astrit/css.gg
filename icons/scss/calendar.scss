@@ -1,0 +1,25 @@
+.gg-calendar {
+    display: block;
+    box-sizing: border-box;
+
+    &::before {
+      display: block;
+      box-sizing: border-box;
+      content: "";
+      position: absolute;
+      width: 10px;
+      border-radius: 3px;
+      left: 2px;
+      background: currentColor;
+      height: 2px;
+      top: 2px;
+    }
+
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-top: 4px solid;
+    border-radius: 3px;
+  }

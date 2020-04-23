@@ -1,0 +1,25 @@
+.gg-filters {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 19px;
+    height: 19px;
+    background: radial-gradient(circle, currentColor 26%, transparent 26%);
+
+    &::after, &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border: 2px solid;
+      border-radius: 100%;
+      width: 14px;
+      height: 14px;
+    }
+
+    &::after {
+      bottom: 0;
+      right: 0;
+    }
+  }

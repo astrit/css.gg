@@ -1,0 +1,37 @@
+.gg-crown {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 19px;
+    height: 12px;
+    border: 2px solid;
+    border-top-color: transparent;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding-top: 4px
+}
+
+.gg-crown::after,
+.gg-crown::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(-45deg);
+    top: -4px
+}
+
+.gg-crown::before {
+    border-top-left-radius: 2px;
+    left: -1px
+}
+
+.gg-crown::after {
+    border-bottom-right-radius: 2px;
+    right: -1px
+}

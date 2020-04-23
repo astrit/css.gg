@@ -1,0 +1,24 @@
+.gg-more-vertical-r {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 24px;
+    border: 2px solid;
+    border-radius: 3px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      box-sizing: border-box;
+      display: block;
+      width: 4px;
+      height: 4px;
+      background-color: currentColor;
+      border-radius: 20px;
+      top: 8px;
+      left: 6px;
+      box-shadow: 0 -5px 0, 0 5px 0;
+    }
+  }

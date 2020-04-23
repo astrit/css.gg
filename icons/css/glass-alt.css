@@ -1,0 +1,33 @@
+.gg-glass-alt,
+.gg-glass-alt::before {
+    display: block;
+    box-sizing: border-box;
+    height: 20px
+}
+
+.gg-glass-alt {
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 14px
+}
+
+.gg-glass-alt::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    border: 2px solid;
+    border-bottom: 3px solid;
+    transform:
+        perspective(20px)
+        rotateX(-20deg);
+    top: 2px;
+    left: 2px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background:
+        linear-gradient(
+            to left,
+            currentColor 10px,
+            transparent 0
+        ) no-repeat center 2px/6px 2px
+}

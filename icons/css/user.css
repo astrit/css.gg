@@ -1,0 +1,33 @@
+.gg-user {
+    display: block;
+    transform: scale(var(--ggs,1));
+    box-sizing: border-box;
+    width: 12px;
+    height: 18px
+}
+
+.gg-user::after,
+.gg-user::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid
+}
+
+.gg-user::before {
+    width: 8px;
+    height: 8px;
+    border-radius: 30px;
+    top: 0;
+    left: 2px
+}
+
+.gg-user::after {
+    width: 12px;
+    height: 9px;
+    border-bottom: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    top: 9px
+}

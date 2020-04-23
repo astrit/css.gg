@@ -1,0 +1,39 @@
+.gg-tap-single {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 22px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border: 2px solid transparent;
+      border-radius: 22px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border: 2px solid transparent;
+      border-radius: 22px;
+      width: 16px;
+      height: 16px;
+      border-top: 2px solid;
+      top: 2px;
+    }
+
+    &::after {
+      width: 6px;
+      height: 10px;
+      border-bottom-width: 5px;
+      box-shadow: 0 0 0 2px,inset 0 0 0 2px;
+      left: 5px;
+      top: 8px;
+    }
+  }

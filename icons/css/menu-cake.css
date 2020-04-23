@@ -1,0 +1,32 @@
+.gg-menu-cake {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 18px
+}
+
+.gg-menu-cake::after,
+.gg-menu-cake::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 2px;
+    background: currentColor;
+    border-radius: 22px
+}
+
+.gg-menu-cake::before {
+    width: 18px;
+    box-shadow: 0 -4px 0,0 -8px 0;
+    left: 1px;
+    bottom: 2px
+}
+
+.gg-menu-cake::after {
+    width: 4px;
+    height: 4px;
+    left: 8px
+}

@@ -1,0 +1,39 @@
+.gg-box {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 22px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 3px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 3px;
+      height: 2px;
+      background: currentColor;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 3px;
+      height: 2px;
+      background: currentColor;
+      left: 6px;
+      width: 6px;
+      top: 8px;
+    }
+
+    &::after {
+      width: 22px;
+      left: -2px;
+      top: 4px;
+    }
+  }

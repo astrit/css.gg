@@ -1,0 +1,26 @@
+.gg-ericsson,
+.gg-ericsson::before {
+    display: block;
+    box-sizing: border-box
+}
+
+.gg-ericsson {
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 16px
+}
+
+.gg-ericsson::before {
+    content: "";
+    position: absolute;
+    background: currentColor;
+    transform: rotate(-25deg);
+    width: 16px;
+    height: 4px;
+    border-radius: 4px;
+    box-shadow:
+        3px -6px 0,-3px 6px 0;
+    top: 7px;
+    left: 2px
+}

@@ -1,0 +1,40 @@
+.gg-product-hunt {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 100px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      top: 3px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      top: 3px;
+      border: 2px solid;
+      border-left: 0;
+      border-top-right-radius: 40px;
+      border-bottom-right-radius: 40px;
+      width: 6px;
+      height: 6px;
+      left: 5px;
+    }
+
+    &::after {
+      width: 2px;
+      height: 8px;
+      background: currentColor;
+      left: 4px;
+    }
+  }

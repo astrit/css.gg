@@ -1,0 +1,40 @@
+.gg-stack {
+    display: block;
+    box-sizing: border-box;
+    width: 14px;
+    height: 14px;
+    border: 2px solid;
+
+    &::after, &::before {
+      display: block;
+      box-sizing: border-box;
+      width: 14px;
+      height: 14px;
+      border: 2px solid;
+    }
+
+    margin-right: 8px;
+    margin-top: 8px;
+    transform: scale(var(--ggs, 1));
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      border-left: 0;
+      border-bottom: 0;
+      right: -5px;
+      top: -5px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      border-left: 0;
+      border-bottom: 0;
+      right: -5px;
+      top: -5px;
+      right: -8px;
+      top: -8px;
+    }
+  }

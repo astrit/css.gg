@@ -1,0 +1,48 @@
+.gg-arrows-breake-v {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 10px;
+    height: 20px;
+    background:
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+            no-repeat center top/2px 8px,
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+            no-repeat center bottom/2px 8px,
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+            no-repeat center 7px/10px 2px,
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+            no-repeat center 11px/10px 2px
+}
+
+.gg-arrows-breake-v::after,
+.gg-arrows-breake-v::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    transform: rotate(45deg);
+    left: 2px
+}
+
+.gg-arrows-breake-v::after {
+    border-left: 2px solid;
+    border-top: 2px solid
+}
+
+.gg-arrows-breake-v::before {
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    bottom: 0
+}

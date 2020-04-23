@@ -1,0 +1,42 @@
+.gg-data {
+  transform: scale(var(--ggs, 1));
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+
+  &::after, &::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+  }
+
+  &::after, &::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 2px;
+    left: 2px;
+  }
+
+  &::after {
+    background: linear-gradient(to left, currentColor 8px, transparent 0) no-repeat bottom (center / 2px) 8px;
+    width: 22px;
+    height: 22px;
+    top: -6px;
+    left: -6px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}

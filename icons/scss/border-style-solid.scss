@@ -1,0 +1,21 @@
+.gg-border-style-solid {
+    transform: scale(var(--ggs, 1));
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 26px;
+    height: 17px;
+
+    &::before {
+      box-sizing: border-box;
+      position: relative;
+      display: block;
+      width: 26px;
+      height: 17px;
+      content: "";
+      position: absolute;
+      height: 2px;
+      top: 7px;
+      border-top: 2px solid;
+    }
+  }

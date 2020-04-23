@@ -1,0 +1,27 @@
+.gg-dice-6 {
+    display: block;
+    transform: scale(var(--ggs,1));
+    position: relative;
+    box-sizing: border-box;
+    width: 22px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 3px;
+}
+
+.gg-dice-6::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    background: currentColor;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    left:2px;
+    top:2px;
+    box-shadow:
+        0 5px 0, 0 10px 0,
+        10px 0 0, 10px 5px 0,
+        10px 10px 0;
+}

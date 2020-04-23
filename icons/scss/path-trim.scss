@@ -1,0 +1,28 @@
+.gg-path-trim {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs, 1));
+    width: 14px;
+    height: 14px;
+
+    &::after, &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      box-sizing: border-box;
+      width: 10px;
+      height: 10px;
+    }
+
+    &::after {
+      border-left: 3px solid;
+      border-top: 3px solid;
+    }
+
+    &::before {
+      background: currentColor;
+      bottom: 0;
+      right: 0;
+    }
+  }

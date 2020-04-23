@@ -1,0 +1,52 @@
+.gg-tikcode {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    background:
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+             no-repeat 10px 0/8px 2px,
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+             no-repeat 10px 6px/8px 2px,
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+             no-repeat 10px 10px/2px 8px,
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+             no-repeat 13px 10px/2px 8px,
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+             no-repeat 16px 10px/2px 8px,
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+             no-repeat 16px 0/2px 8px,
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+             no-repeat 10px 0/2px 8px
+}
+
+.gg-tikcode::after,
+.gg-tikcode::before {
+    content: "";
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    width: 8px;
+    height: 8px;
+    border: 2px solid
+}
+
+.gg-tikcode::after {
+    bottom: 0
+}

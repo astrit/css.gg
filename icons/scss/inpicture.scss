@@ -1,0 +1,22 @@
+.gg-inpicture {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 22px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 2px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 6px;
+      height: 5px;
+      background: currentColor;
+      right: 2px;
+      bottom: 2px;
+    }
+  }

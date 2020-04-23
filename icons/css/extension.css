@@ -1,0 +1,33 @@
+.gg-extension,
+.gg-extension::after,
+.gg-extension::before {
+    box-sizing: border-box;
+    display: block;
+    border: 2px solid
+}
+
+.gg-extension {
+    position: relative;
+    transform: translateX(-10px) scale(var(--ggs,1));
+    width: 8px;
+    height: 14px
+}
+
+.gg-extension::after,
+.gg-extension::before {
+    content: "";
+    position: absolute;
+    height: 8px
+}
+
+.gg-extension::before {
+    bottom: -2px;
+    left: -2px;
+    width: 14px
+}
+
+.gg-extension::after {
+    top: -6px;
+    right: -12px;
+    width: 8px
+}

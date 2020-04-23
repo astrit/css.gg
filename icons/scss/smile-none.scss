@@ -1,0 +1,40 @@
+.gg-smile-none {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 100px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      height: 2px;
+      background: currentColor;
+      left: 4px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      height: 2px;
+      background: currentColor;
+      left: 4px;
+      box-shadow: 5px 0 0;
+      width: 3px;
+      border-radius: 10px;
+      top: 5px;
+    }
+
+    &::after {
+      border-radius: 3px;
+      width: 8px;
+      top: 10px;
+    }
+  }

@@ -1,0 +1,23 @@
+.gg-components {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: rotate(45deg) scale(var(--ggs, 1));
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 0 0 / 2px 6px, linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 4px 0 / 2px 6px, linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 8px 0 / 2px 6px, linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 12px 0 / 2px 6px, linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 0 8px / 2px 6px, linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 4px 8px / 2px 6px, linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 8px 8px / 2px 6px, linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 12px 8px / 2px 6px;
+
+    &::after, &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 6px;
+      height: 2px;
+      border-top: 6px double;
+      border-bottom: 6px double;
+    }
+
+    &::after {
+      right: 0;
+    }
+  }

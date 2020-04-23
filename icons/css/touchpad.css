@@ -1,0 +1,34 @@
+.gg-touchpad {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border: 2px solid;
+    border-radius: 3px;
+    width: 22px;
+    height: 18px
+}
+
+.gg-touchpad::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 2px;
+    height: 6px;
+    bottom: -2px;
+    left: 8px;
+    background: currentColor;
+}
+
+.gg-touchpad::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    left: -2px;
+    bottom: 3px;
+    background: currentColor;
+}

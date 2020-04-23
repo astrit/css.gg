@@ -1,0 +1,43 @@
+.gg-smile-upside {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 100px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      left: 4px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      left: 4px;
+      background: currentColor;
+      box-shadow: 6px 0 0;
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+      bottom: 5px;
+    }
+
+    &::after {
+      width: 8px;
+      height: 4px;
+      border-radius: 150px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      border: 2px solid;
+      border-bottom-color: transparent;
+      bottom: 9px;
+    }
+  }

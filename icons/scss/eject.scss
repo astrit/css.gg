@@ -1,0 +1,39 @@
+.gg-eject {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid transparent;
+    border-radius: 100px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-bottom: 2px solid;
+      width: 12px;
+      height: 2px;
+      bottom: 0;
+      left: 3px;
+    }
+
+    &::after {
+      width: 8px;
+      height: 8px;
+      border-top: 2px solid;
+      border-left: 2px solid;
+      transform: rotate(45deg);
+      left: 5px;
+      bottom: 1px;
+    }
+  }

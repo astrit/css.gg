@@ -1,0 +1,51 @@
+.gg-media-live {
+    transform: scale(var(--ggs, 1));
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+
+    &::after {
+      border-top-color: transparent;
+      border-bottom-color: transparent;
+      box-sizing: border-box;
+      position: relative;
+      display: block;
+      border: 2px solid;
+      border-radius: 50%;
+      width: 14px;
+      height: 14px;
+    }
+
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    border: 2px solid;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+
+    &::before {
+      box-sizing: border-box;
+      position: relative;
+      display: block;
+      border: 2px solid;
+      border-radius: 50%;
+      width: 14px;
+      height: 14px;
+    }
+
+    &::after, &::before {
+      content: "";
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      top: 2px;
+      left: 2px;
+    }
+
+    &::after {
+      width: 22px;
+      height: 22px;
+      top: -6px;
+      left: -6px;
+    }
+  }

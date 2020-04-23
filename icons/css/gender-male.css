@@ -1,0 +1,37 @@
+.gg-gender-male {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-left: -4px;
+    margin-top: 4px
+}
+
+.gg-gender-male::after,
+.gg-gender-male::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 8px;
+    top: -6px
+}
+
+.gg-gender-male::after {
+    border-right: 2px solid;
+    border-top: 2px solid;
+    width: 7px;
+    height: 7px;
+    left: 5px
+}
+
+.gg-gender-male::before {
+    width: 2px;
+    background: currentColor;
+    left: 7px;
+    transform: rotate(45deg)
+}

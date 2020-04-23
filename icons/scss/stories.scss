@@ -1,0 +1,40 @@
+.gg-stories {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    &::after, &::before {
+      display: block;
+      box-sizing: border-box;
+      border-radius: 3px;
+    }
+
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 12px;
+    height: 16px;
+    border: 2px solid;
+
+    &::after {
+      content: "";
+      position: absolute;
+      background: currentColor;
+      width: 2px;
+      height: 14px;
+      top: -1px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      background: currentColor;
+      width: 2px;
+      height: 14px;
+      top: -1px;
+      left: -6px;
+    }
+
+    &::after {
+      right: -6px;
+    }
+  }

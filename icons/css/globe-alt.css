@@ -1,0 +1,34 @@
+.gg-globe-alt,
+.gg-globe-alt::after,
+.gg-globe-alt::before {
+    display: block;
+    box-sizing: border-box;
+    height: 18px;
+    border: 2px solid
+}
+
+.gg-globe-alt {
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    border-radius: 22px
+}
+
+.gg-globe-alt::after,
+.gg-globe-alt::before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    border-radius: 100%;
+    top: -2px;
+    left: 3px
+}
+
+.gg-globe-alt::after {
+    width: 24px;
+    height: 20px;
+    border: 2px solid transparent;
+    border-bottom: 2px solid;
+    top: -11px;
+    left: -5px
+}

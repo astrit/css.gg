@@ -1,0 +1,24 @@
+.gg-more-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 24px;
+    height: 24px;
+    border: 2px solid;
+    border-radius: 24px
+}
+
+.gg-more-o::before {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: currentColor;
+    border-radius: 20px;
+    top: 8px;
+    left: 8px;
+    box-shadow: -5px 0 0, 5px 0 0
+}

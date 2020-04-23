@@ -1,0 +1,23 @@
+.gg-extension-alt {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 14px;
+    height: 14px;
+
+    &::after, &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+      width: 8px;
+      height: 14px;
+      border: 2px solid;
+    }
+
+    &::after {
+      width: 14px;
+      height: 8px;
+    }
+  }

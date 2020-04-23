@@ -1,0 +1,35 @@
+.gg-ethernet {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 20px;
+    border: 2px solid;
+    box-shadow: 0 10px 0 -7px
+}
+
+.gg-ethernet::after,
+.gg-ethernet::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 6px
+}
+
+.gg-ethernet::before {
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    border-top: 0;
+    left: 2px
+}
+
+.gg-ethernet::after {
+    width: 16px;
+    height: 2px;
+    border-left: 6px solid;
+    border-right: 6px solid;
+    left: -2px
+}

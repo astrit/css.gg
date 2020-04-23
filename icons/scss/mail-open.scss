@@ -1,0 +1,26 @@
+.gg-mail-open {
+    display: block;
+    box-sizing: border-box;
+    height: 14px;
+    border: 2px solid;
+
+    &::after {
+      display: block;
+      box-sizing: border-box;
+      height: 14px;
+      border: 2px solid;
+      content: "";
+      position: absolute;
+      border-radius: 3px;
+      width: 14px;
+      transform: rotate(-45deg);
+      bottom: 3px;
+      left: 0;
+    }
+
+    border-top: 0;
+    transform: scale(var(--ggs, 1));
+    position: relative;
+    width: 18px;
+    border-radius: 2px;
+  }

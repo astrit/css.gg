@@ -1,0 +1,32 @@
+.gg-extension-add {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    background:
+        linear-gradient(
+            to left,currentColor 10px,transparent 0)
+            no-repeat 10px 2px/6px 2px,
+        linear-gradient(
+            to left,currentColor 10px,transparent 0)
+            no-repeat 12px 0/2px 6px;
+    width: 16px;
+    height: 16px
+}
+
+.gg-extension-add::after,
+.gg-extension-add::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    width: 8px;
+    height: 14px;
+    border: 2px solid;
+    bottom: 0
+}
+
+.gg-extension-add::after {
+    width: 14px;
+    height: 8px
+}

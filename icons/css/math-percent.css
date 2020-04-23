@@ -1,0 +1,28 @@
+.gg-math-percent {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: rotate(-45deg) scale(var(--ggs,1));
+    width: 16px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 20px
+}
+
+.gg-math-percent::after,
+.gg-math-percent::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 20px;
+    top: -7px;
+    left: 6px
+}
+
+.gg-math-percent::after {
+    top: 5px
+}

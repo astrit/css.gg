@@ -1,0 +1,28 @@
+.gg-align-left {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    height: 12px;
+    width: 12px;
+    border-left: 2px solid;
+    transform: scale(var(--ggs, 1));
+    margin-left: -4px;
+
+    &::after, &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      height: 4px;
+      width: 12px;
+      background: currentColor;
+      left: 2px;
+      top: 1px;
+    }
+
+    &::after {
+      width: 6px;
+      top: 7px;
+      opacity: 0.5;
+    }
+  }

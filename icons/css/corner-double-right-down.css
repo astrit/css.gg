@@ -1,0 +1,35 @@
+.gg-corner-double-right-down {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 12px;
+    height: 12px;
+    border-top-right-radius: 4px;
+    border-top: 2px solid;
+    border-right: 2px solid
+}
+
+.gg-corner-double-right-down::after,
+.gg-corner-double-right-down::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-bottom: 2px solid;
+    transform: rotate(45deg)
+}
+
+.gg-corner-double-right-down::after {
+    border-left: 2px solid;
+    top: -4px;
+    left: 0
+}
+
+.gg-corner-double-right-down::before {
+    border-right: 2px solid;
+    right: -4px;
+    bottom: 0
+}

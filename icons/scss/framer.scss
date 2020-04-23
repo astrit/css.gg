@@ -1,0 +1,40 @@
+.gg-framer {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 12px;
+    height: 20px;
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      background: currentColor;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      background: currentColor;
+      width: 20px;
+      height: 6px;
+      transform: skewX(45deg);
+      top: 6px;
+      left: -11px;
+      box-shadow: 20px -6px 0;
+    }
+
+    &::after {
+      width: 6px;
+      height: 8px;
+      transform: skewY(45deg);
+      bottom: 4px;
+      border-top-left-radius: 4px;
+      opacity: 0.5;
+    }
+  }

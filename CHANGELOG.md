@@ -1,3 +1,12 @@
+### 2.0: 2020-04-23
+  * 🔥 200 New Icons
+  * 🔥 SVG Icons by Lona
+  * 🔥 SVG Sprite by Lona
+  * 🔥 Styled Components - ⚛️ React JS
+  * 🔥 Local Styled Components
+  * 🔥 Figma Components - https://css.gg/fig
+  * 🔥 Adobe XD Components - https://css.gg/xd
+
 ### 1.0.6: 2020-01-15
   * Icon: Dribbble - Fix: Gradient outdated direction syntax
 
@@ -10,3 +19,4 @@
   * Change Battery to 50% filled
 
 ### 1.0.0: 2019-01-11
+  * Init

@@ -1,0 +1,10 @@
+.gg-math-minus {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 10px;
+  }

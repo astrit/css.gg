@@ -1,0 +1,24 @@
+.gg-toggle-on {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    &::before {
+      display: block;
+      box-sizing: border-box;
+      border-radius: 20px;
+      content: "";
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background: currentColor;
+      top: 2px;
+      left: 2px;
+    }
+
+    border: 2px solid;
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 24px;
+    height: 14px;
+  }

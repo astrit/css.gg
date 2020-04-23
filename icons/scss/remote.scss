@@ -1,0 +1,40 @@
+.gg-remote {
+    transform: scale(var(--ggs, 1));
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 8px;
+    height: 8px;
+
+    &::after, &::before {
+      box-sizing: border-box;
+      position: relative;
+      display: block;
+      width: 8px;
+      height: 8px;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      border-left: 2px solid;
+      border-bottom: 2px solid;
+      transform: rotate(45deg) scaleY(1);
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      border-left: 2px solid;
+      border-bottom: 2px solid;
+      transform: rotate(45deg) scaleY(1);
+      left: 5px;
+      top: -2px;
+    }
+
+    &::after {
+      transform: rotate(-45deg) scaleX(-1);
+      left: -5px;
+      top: 2px;
+    }
+  }

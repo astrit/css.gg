@@ -1,0 +1,33 @@
+.gg-corner-double-up-right {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 10px;
+    height: 8px;
+    border-top-left-radius: 4px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+
+    &::after, &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      border-right: 2px solid;
+      top: -4px;
+      transform: rotate(45deg);
+    }
+
+    &::after {
+      border-top: 2px solid;
+      right: 0;
+    }
+
+    &::before {
+      border-top: 2px solid;
+      right: -4px;
+    }
+  }

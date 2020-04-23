@@ -1,0 +1,35 @@
+.gg-smart-home-refrigerator {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 3px
+}
+
+.gg-smart-home-refrigerator::after,
+.gg-smart-home-refrigerator::before {
+    content: "";
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    background: currentColor
+}
+
+.gg-smart-home-refrigerator::before {
+    width: 2px;
+    height: 4px;
+    border-radius: 2px;
+    top: 2px;
+    left: 2px;
+    box-shadow: 0 8px 0
+}
+
+.gg-smart-home-refrigerator::after {
+    width: 14px;
+    height: 2px;
+    top: 7px;
+    left: -2px
+}

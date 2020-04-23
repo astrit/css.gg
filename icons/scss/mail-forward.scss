@@ -1,0 +1,27 @@
+
+.gg-mail-forward {
+    display: block;
+    box-sizing: border-box;
+    height: 6px;
+    border-top: 2px solid;
+
+    &::before {
+      display: block;
+      box-sizing: border-box;
+      height: 6px;
+      border-top: 2px solid;
+      content: "";
+      position: absolute;
+      width: 6px;
+      border-right: 2px solid;
+      top: -4px;
+      right: -1px;
+      transform: rotate(45deg);
+    }
+
+    border-left: 2px solid;
+    transform: scale(var(--ggs, 1));
+    border-top-left-radius: 4px;
+    position: relative;
+    width: 14px;
+  }

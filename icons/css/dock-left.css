@@ -1,0 +1,10 @@
+.gg-dock-left {
+    display: block;
+    transform: scale(var(--ggs,1));
+    position: relative;
+    box-sizing: border-box;
+    width: 20px;
+    height: 16px;
+    border: 2px solid;
+    border-left-width: 6px
+}

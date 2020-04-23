@@ -1,0 +1,30 @@
+.gg-arrange-back {
+    box-sizing: border-box;
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    display: block;
+    width: 18px;
+    height: 18px;
+
+    &::after, &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+    }
+
+    &::after {
+      width: 10px;
+      height: 10px;
+      border: 2px solid;
+      left: 4px;
+      top: 4px;
+    }
+
+    &::before {
+      width: 8px;
+      height: 8px;
+      background: currentColor;
+      box-shadow: 10px 10px 0;
+    }
+  }

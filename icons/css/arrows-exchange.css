@@ -1,0 +1,33 @@
+.gg-arrows-exchange {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 14px
+}
+
+.gg-arrows-exchange::after,
+.gg-arrows-exchange::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 2px;
+    background: currentColor;
+    border-radius: 4px
+}
+
+.gg-arrows-exchange::before {
+    width: 6px;
+    transform: rotate(45deg);
+    box-shadow: 2px -13px 0;
+    top: 10px
+}
+
+.gg-arrows-exchange::after {
+    width: 12px;
+    box-shadow: -4px 4px 0;
+    left: 4px;
+    top: 4px
+}

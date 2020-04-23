@@ -1,0 +1,27 @@
+.gg-patreon {
+    transform: scale(var(--ggs, 1));
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 4px;
+    height: 16px;
+    background: currentColor;
+    left: -6px;
+
+    &::after {
+      box-sizing: border-box;
+      position: relative;
+      display: block;
+      width: 4px;
+      height: 16px;
+      background: currentColor;
+      left: -6px;
+      content: "";
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      opacity: .5;
+      border-radius: 100px;
+      left: 6px;
+    }
+  }

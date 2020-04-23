@@ -1,0 +1,9 @@
+.gg-play-stop {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 10px;
+    height: 10px;
+    background: currentColor;
+  }

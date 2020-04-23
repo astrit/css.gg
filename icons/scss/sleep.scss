@@ -1,0 +1,22 @@
+.gg-sleep {
+    display: block;
+    box-sizing: border-box;
+
+    &::after {
+      display: block;
+      box-sizing: border-box;
+      content: "";
+      position: absolute;
+      width: 14px;
+      height: 2px;
+      background: currentColor;
+      bottom: 2px;
+    }
+
+    transform: scale(var(--ggs, 1));
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 22px;
+  }

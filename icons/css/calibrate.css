@@ -1,0 +1,35 @@
+.gg-calibrate {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    overflow: hidden
+}
+
+.gg-calibrate::after,
+.gg-calibrate::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 22px
+}
+
+.gg-calibrate::before {
+    width: 6px;
+    height: 6px;
+    background: currentColor;
+    top: 10px;
+    left: 6px
+}
+
+.gg-calibrate::after {
+    width: 22px;
+    height: 22px;
+    border: 6px solid transparent;
+    border-top: 6px solid;
+    left: -2px;
+    top: 1px
+}

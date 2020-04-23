@@ -1,0 +1,34 @@
+.gg-smart-home-light {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs,1));
+    width: 10px;
+    height: 14px;
+    border: 2px solid;
+    border-radius: 14px;
+    box-shadow: 0 11px 0 -4px
+}
+
+.gg-smart-home-light::after,
+.gg-smart-home-light::before {
+    content: "";
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    background: currentColor;
+    width: 2px;
+    height: 6px;
+    border-radius: 6px;
+    bottom: -8px
+}
+
+.gg-smart-home-light::before {
+    transform: rotate(20deg);
+    left: -2px
+}
+
+.gg-smart-home-light::after {
+    transform: rotate(-20deg);
+    right: -2px
+}

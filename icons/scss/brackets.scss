@@ -1,0 +1,39 @@
+.gg-brackets {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 3px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border: 2px solid;
+      width: 4px;
+      height: 10px;
+      top: 2px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border: 2px solid;
+      width: 4px;
+      height: 10px;
+      top: 2px;
+      border-right: 0;
+      left: 2px;
+    }
+
+    &::after {
+      border-left: 0;
+      right: 2px;
+    }
+  }

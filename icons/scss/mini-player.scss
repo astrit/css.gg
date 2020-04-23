@@ -1,0 +1,24 @@
+.gg-mini-player {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 3px;
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background: currentColor;
+      border-top-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      bottom: -1px;
+      right: -1px;
+    }
+  }

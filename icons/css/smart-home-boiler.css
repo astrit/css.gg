@@ -1,0 +1,33 @@
+.gg-smart-home-boiler {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 2px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background:
+        linear-gradient(
+            to left,
+            currentColor 14px,
+            transparent 0
+        )
+        no-repeat center 4px/14px 2px
+}
+
+.gg-smart-home-boiler::before {
+    content: "";
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    width: 6px;
+    height: 3px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    transform: skewX(20deg);
+    bottom: -4px;
+    left: 2px
+}

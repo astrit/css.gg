@@ -1,0 +1,43 @@
+.gg-digitalocean {
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px;
+    background:
+    linear-gradient(
+        to left,
+        currentColor 4px,
+        transparent 0
+    ) no-repeat 1px 14px/2px 2px,
+    linear-gradient(
+        to left,
+        currentColor 4px,
+        transparent 0
+    ) no-repeat 3px 16px/3px 3px
+}
+
+.gg-digitalocean::after,
+.gg-digitalocean::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box
+}
+
+.gg-digitalocean::after {
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    bottom: 4px;
+    left: 6px
+}
+
+.gg-digitalocean::before {
+    width: 20px;
+    height: 20px;
+    border: 4px solid;
+    transform: rotate(-45deg);
+    border-radius: 100px;
+    border-left-color: transparent
+}

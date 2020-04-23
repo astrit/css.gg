@@ -1,0 +1,40 @@
+.gg-keyboard {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 3px
+}
+
+.gg-keyboard::after,
+.gg-keyboard::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 2px;
+    border-radius: 4px;
+    background: currentColor
+}
+
+.gg-keyboard::before {
+    top: 2px;
+    box-shadow:
+        4px 0 0,
+        8px 0 0,
+        0 4px 0,
+        4px 4px 0,
+        8px 4px 0
+    ;
+    width: 2px;
+    left: 2px
+}
+
+.gg-keyboard::after {
+    width: 8px;
+    bottom: 2px;
+    left: 3px
+}

@@ -1,0 +1,37 @@
+.gg-drive {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 26px;
+    height: 10px;
+    border: 2px solid;
+    border-radius: 2px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      border-radius: 10px;
+      background: currentColor;
+      top: 2px;
+      right: 2px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      border-radius: 10px;
+      background: currentColor;
+      top: 2px;
+      right: 2px;
+      right: 6px;
+    }
+  }

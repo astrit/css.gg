@@ -1,0 +1,42 @@
+.gg-format-color {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 9px;
+    height: 2px;
+    background: currentColor;
+    transform: scale(var(--ggs, 1));
+    border-radius: 3px;
+    box-shadow: -2px 8px 0 0, 2px 8px 0 0;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 3px;
+      width: 2px;
+      height: 14px;
+      background: currentColor;
+      top: -8px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 3px;
+      width: 2px;
+      height: 14px;
+      background: currentColor;
+      top: -8px;
+      transform: rotate(25deg);
+      left: 1px;
+    }
+
+    &::after {
+      transform: rotate(-25deg);
+      right: 1px;
+    }
+  }

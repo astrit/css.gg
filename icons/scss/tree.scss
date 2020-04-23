@@ -1,0 +1,35 @@
+.gg-tree {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 10px;
+    height: 20px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 8px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 8px;
+      width: 10px;
+      height: 16px;
+      border: 2px solid;
+    }
+
+    &::after {
+      width: 2px;
+      height: 12px;
+      background: currentColor;
+      left: 4px;
+      bottom: 0;
+    }
+  }

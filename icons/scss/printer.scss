@@ -1,0 +1,39 @@
+.gg-printer {
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 0 10px / 6px 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 14px 10px / 6px 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 4px 4px / 2px 2px;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 24px;
+  height: 14px;
+  border: 2px solid transparent;
+  border-bottom: 0;
+  box-shadow: inset 0 2px 0, inset 2px 2px 0, inset -2px 2px 0, inset -2px 2px 0;
+
+  &::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 12px;
+    border: 2px solid;
+    left: 4px;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 12px;
+    border: 2px solid;
+    left: 4px;
+    height: 6px;
+    top: -4px;
+  }
+
+  &::after {
+    height: 8px;
+    top: 8px;
+  }
+}

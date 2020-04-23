@@ -1,0 +1,40 @@
+.gg-repeat {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    box-shadow: -2px -2px 0 0, 2px 2px 0 0;
+    width: 14px;
+    height: 6px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 3px solid transparent;
+      border-bottom: 3px solid transparent;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 3px solid transparent;
+      border-bottom: 3px solid transparent;
+      border-left: 5px solid;
+      top: -4px;
+      right: 0;
+    }
+
+    &::after {
+      border-right: 5px solid;
+      bottom: -4px;
+      left: 0;
+    }
+  }

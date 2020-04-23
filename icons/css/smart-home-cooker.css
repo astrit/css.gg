@@ -1,0 +1,41 @@
+.gg-smart-home-cooker {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 4px;
+    background:
+        linear-gradient(
+            to left,
+            currentColor 18px,
+            transparent 0
+        ) no-repeat center 2px/18px 2px
+}
+
+.gg-smart-home-cooker::after,
+.gg-smart-home-cooker::before {
+    content: "";
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    width: 6px;
+    left: 4px
+}
+
+.gg-smart-home-cooker::before {
+    height: 6px;
+    border: 2px solid;
+    border-radius: 4px;
+    bottom: 2px
+}
+
+.gg-smart-home-cooker::after {
+    height: 3px;
+    box-shadow: 0 -2px 0,inset 0 0 0 2px;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    top: -4px
+}

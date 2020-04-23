@@ -1,0 +1,37 @@
+.gg-gitter {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 14px;
+    height: 18px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-shadow: inset 2px 0 0, inset -2px 0 0;
+
+    &::after {
+      content: "";
+      position: absolute;
+      box-sizing: border-box;
+      display: block;
+      width: 2px;
+      background: currentColor;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      box-sizing: border-box;
+      display: block;
+      width: 2px;
+      background: currentColor;
+      height: 13px;
+      top: -3px;
+      left: -4px;
+    }
+
+    &::after {
+      height: 10px;
+      left: 8px;
+    }
+  }

@@ -1,0 +1,49 @@
+.gg-bee,
+.gg-bee::after,
+.gg-bee::before {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid
+}
+
+.gg-bee {
+    position: relative;
+    width: 12px;
+    height: 20px;
+    transform: scale(var(--ggs,1));
+    border-radius: 22px;
+    background:
+        linear-gradient(
+            to left,
+            currentColor 12px,
+            transparent 0
+        ) no-repeat center 6px/12px 2px,
+        linear-gradient(
+            to left,
+            currentColor 12px,
+            transparent 0
+        ) no-repeat center 10px/12px 2px;
+    box-shadow: 0 4px 0 -2px,0 7px 0 -4px
+}
+
+.gg-bee::after,
+.gg-bee::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 10px;
+    border-top: 0;
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    top: 4px
+}
+
+.gg-bee::before {
+    left: -6px;
+    transform: rotate(40deg)
+}
+
+.gg-bee::after {
+    right: -6px;
+    transform: rotate(-40deg)
+}

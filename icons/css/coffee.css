@@ -1,0 +1,45 @@
+.gg-coffee {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 14px;
+    border: 2px solid;
+    border-radius: 6px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-left: -4px;
+    margin-top: 3px
+}
+
+.gg-coffee::after,
+.gg-coffee::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-coffee::before {
+    left: 2px;
+    background: currentColor;
+    box-shadow:
+        4px 0 0,
+        8px 0 0;
+    border-radius: 3px;
+    width: 2px;
+    height: 4px;
+    top: -7px
+}
+
+.gg-coffee::after {
+    width: 6px;
+    height: 8px;
+    border: 2px solid;
+    border-radius: 100px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    right: -6px;
+    top: -1px
+}

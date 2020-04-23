@@ -1,0 +1,38 @@
+.gg-arrows-expand-left-alt {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 14px;
+    margin: 2px;
+    box-shadow:
+        6px 6px 0 -4px,
+        -6px -6px 0 -4px
+}
+
+.gg-arrows-expand-left-alt::after,
+.gg-arrows-expand-left-alt::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    transform: rotate(-45deg)
+}
+
+.gg-arrows-expand-left-alt::before {
+    width: 2px;
+    height: 22px;
+    top: -4px;
+    left: 6px;
+    border-top: 9px solid;
+    border-bottom: 9px solid
+}
+
+.gg-arrows-expand-left-alt::after {
+    width: 8px;
+    height: 2px;
+    background: currentColor;
+    top: 6px;
+    left: 3px
+}

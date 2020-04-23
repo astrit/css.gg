@@ -1,0 +1,40 @@
+.gg-inbox {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    box-shadow: inset 0 -2px 0 0;
+    border-radius: 3px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      background: currentColor;
+      height: 7px;
+      width: 7px;
+      border-radius: 2px;
+      bottom: -2px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      background: currentColor;
+      height: 7px;
+      width: 7px;
+      border-radius: 2px;
+      bottom: -2px;
+      left: -2px;
+    }
+
+    &::after {
+      right: -2px;
+    }
+  }

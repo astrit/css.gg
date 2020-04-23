@@ -1,0 +1,43 @@
+.gg-atlasian {
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    width: 22px;
+    height: 18px;
+    transform: scale(var(--ggs, 1));
+    overflow: hidden;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 6px;
+      background: currentColor;
+      border-radius: 4px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 6px;
+      background: currentColor;
+      border-radius: 4px;
+      height: 12px;
+      border-top-right-radius: 10px;
+      bottom: -4px;
+      left: 3px;
+      transform: rotate(30deg) skewY(35deg);
+      opacity: 0.8;
+    }
+
+    &::after {
+      height: 24px;
+      border-top-left-radius: 10px;
+      bottom: -8px;
+      right: 3px;
+      transform: rotate(-30deg) skewY(-35deg);
+    }
+  }

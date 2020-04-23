@@ -1,0 +1,34 @@
+.gg-layout-grid-small {
+    transform: scale(var(--ggs, 1));
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 10px;
+    height: 2px;
+    border-left: 6px double;
+    border-right: 2px solid;
+
+    &::after, &::before {
+      box-sizing: border-box;
+      position: relative;
+      display: block;
+      width: 10px;
+      height: 2px;
+      border-left: 6px double;
+      border-right: 2px solid;
+    }
+
+    &::after, &::before {
+      content: "";
+      position: absolute;
+      left: -6px;
+    }
+
+    &::after {
+      bottom: 4px;
+    }
+
+    &::before {
+      top: 4px;
+    }
+  }

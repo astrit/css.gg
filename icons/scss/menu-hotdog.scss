@@ -1,0 +1,24 @@
+.gg-menu-hotdog {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 12px;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-radius: 3px;
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 20px;
+      height: 2px;
+      background: currentColor;
+      border-radius: 4px;
+      top: 2px;
+      left: -2px;
+    }
+  }

@@ -1,0 +1,23 @@
+.gg-pin-alt {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 2px;
+    height: 8px;
+    border-radius: 3px;
+    transform: scale(var(--ggs, 1));
+    background: currentColor;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      border: 6px double;
+      border-radius: 100px;
+      top: -10px;
+      left: -5px;
+    }
+  }

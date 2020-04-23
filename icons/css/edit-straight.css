@@ -1,0 +1,37 @@
+.gg-edit-straight {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 22px;
+    height: 16px;
+    transform: scale(var(--ggs,1));
+    background:
+       linear-gradient(
+          to left,currentColor 22px,
+          transparent 0)
+          no-repeat left center/4px 2px,
+       linear-gradient(
+          to left,currentColor 22px,
+          transparent 0)
+          no-repeat right center/4px 2px
+ }
+ .gg-edit-straight::after,
+ .gg-edit-straight::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 14px;
+    height: 7px;
+    background: currentColor;
+    left: 4px
+ }
+ .gg-edit-straight::before {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+ }
+ .gg-edit-straight::after {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: 0
+ }

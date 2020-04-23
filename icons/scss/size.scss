@@ -1,0 +1,40 @@
+.gg-size {
+   box-sizing: border-box;
+   position: relative;
+   display: block;
+   width: 16px;
+   height: 16px;
+   transform: scale(var(--ggs, 1));
+   border-left: 8px solid transparent;
+   box-shadow: inset 0 0 0 2px;
+
+   &::after {
+     content: "";
+     display: block;
+     box-sizing: border-box;
+     position: absolute;
+     width: 6px;
+     height: 12px;
+     border: 2px solid;
+     border-right: 0;
+     right: 6px;
+     top: 2px;
+   }
+
+   &::before {
+     content: "";
+     display: block;
+     box-sizing: border-box;
+     position: absolute;
+     width: 6px;
+     height: 12px;
+     border: 2px solid;
+     border-right: 0;
+     right: 6px;
+     top: 2px;
+     width: 4px;
+     height: 8px;
+     right: 12px;
+     top: 4px;
+   }
+ }

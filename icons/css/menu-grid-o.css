@@ -1,0 +1,29 @@
+.gg-menu-grid-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 16px;
+}
+
+.gg-menu-grid-o::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    box-shadow:
+        0 6px 0,
+        6px 6px 0,
+        12px 6px 0,
+        6px 12px 0,
+        12px 12px 0,
+        6px 0 0,
+        12px 0 0,
+        0 12px 0
+    ;
+    border-radius: 22px;
+}

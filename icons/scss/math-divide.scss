@@ -1,0 +1,33 @@
+.gg-math-divide {
+    transform: scale(var(--ggs, 1));
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 20px;
+
+    &::after, &::before {
+      box-sizing: border-box;
+      position: relative;
+      display: block;
+      width: 16px;
+      height: 2px;
+      background: currentColor;
+      border-radius: 20px;
+    }
+
+    &::after, &::before {
+      content: "";
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      top: -6px;
+      left: 6px;
+    }
+
+    &::after {
+      top: 4px;
+    }
+  }

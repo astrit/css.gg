@@ -1,0 +1,22 @@
+.gg-format-italic {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: skewX(-20deg) scale(var(--ggs, 1));
+    width: 6px;
+    height: 12px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      height: 10px;
+      width: 2px;
+      background: currentColor;
+      left: 2px;
+      top: -2px;
+    }
+  }

@@ -1,0 +1,37 @@
+.gg-shape-hexagon {
+    display: block;
+    box-sizing: border-box;
+    width: 18px;
+    height: 10px;
+    border-left: 3px solid currentColor;
+    border-right: 3px solid currentColor;
+
+    &::after, &::before {
+      display: block;
+      box-sizing: border-box;
+      width: 18px;
+      height: 10px;
+      border-left: 3px solid currentColor;
+      border-right: 3px solid currentColor;
+    }
+
+    position: relative;
+    transform: scale(var(--ggs, 1));
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: -3px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -3px;
+      transform: rotate(60deg);
+    }
+
+    &::after {
+      transform: rotate(-60deg);
+    }
+  }

@@ -1,0 +1,36 @@
+.gg-details-less {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 14px;
+    border: 2px solid transparent;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      height: 2px;
+      border-radius: 3px;
+      background: currentColor;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      height: 2px;
+      border-radius: 3px;
+      background: currentColor;
+      top: 2px;
+      width: 16px;
+    }
+
+    &::after {
+      width: 10px;
+      bottom: 2px;
+    }
+  }

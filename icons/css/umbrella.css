@@ -1,0 +1,38 @@
+.gg-umbrella {
+    display: block;
+    box-sizing: border-box;
+    transform: scale(var(--ggs,1));
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background:
+        linear-gradient(
+            to bottom,currentColor 20px,transparent 0)
+            no-repeat center 10px/2px 8px
+}
+
+.gg-umbrella::after,.gg-umbrella::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid
+}
+
+.gg-umbrella::before {
+    width: 16px;
+    height: 10px;
+    left: 3px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px
+}
+
+.gg-umbrella::after {
+    width: 6px;
+    height: 5px;
+    border-top: 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    bottom: 0;
+    left: 6px
+}

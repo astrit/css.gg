@@ -1,0 +1,23 @@
+.gg-npm {
+    box-sizing: border-box;
+    display: block;
+
+    &::before {
+      box-sizing: border-box;
+      display: block;
+      content: "";
+      position: absolute;
+      width: 3px;
+      height: 12px;
+      background: currentColor;
+      bottom: -3px;
+      right: 3px;
+    }
+
+    position: relative;
+    width: 18px;
+    height: 18px;
+    transform: scale(var(--ggs, 1));
+    border: 3px solid;
+    border-radius: 2px;
+  }

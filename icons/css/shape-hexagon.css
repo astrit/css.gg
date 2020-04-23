@@ -1,0 +1,30 @@
+.gg-shape-hexagon,
+.gg-shape-hexagon::after,
+.gg-shape-hexagon::before {
+    display: block;
+    box-sizing: border-box;
+    width: 18px;
+    height: 10px;
+    border-left: 3px solid currentColor;
+    border-right: 3px solid currentColor
+}
+
+.gg-shape-hexagon {
+    position: relative;
+    transform: scale(var(--ggs,1))
+}
+
+.gg-shape-hexagon::after,
+.gg-shape-hexagon::before {
+    content: "";
+    position: absolute;
+    left: -3px
+}
+
+.gg-shape-hexagon::before {
+    transform: rotate(60deg)
+}
+
+.gg-shape-hexagon::after {
+    transform: rotate(-60deg)
+}

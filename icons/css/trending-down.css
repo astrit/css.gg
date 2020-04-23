@@ -1,0 +1,36 @@
+.gg-trending-down {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: rotate(45deg) scale(var(--ggs,1));
+    width: 10px;
+    height: 8px;
+    border-bottom: 2px solid;
+    border-right: 2px solid
+}
+
+.gg-trending-down::after,
+.gg-trending-down::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-trending-down::before {
+    background: currentColor;
+    left: 8px;
+    width: 10px;
+    height: 2px;
+    top: 0
+}
+
+.gg-trending-down::after {
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 6px solid;
+    top: -3px;
+    right: -14px
+}

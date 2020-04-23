@@ -1,0 +1,31 @@
+.gg-style,
+.gg-style::after,
+.gg-style::before {
+    display: block;
+    box-sizing: border-box;
+    width: 8px;
+    height: 8px
+}
+
+.gg-style {
+    position: relative;
+    transform: scale(var(--ggs,1));
+    box-shadow: -3px 3px 0 -1px,3px -3px 0 -1px
+}
+
+.gg-style::after,
+.gg-style::before {
+    content: "";
+    position: absolute;
+    border: 2px solid
+}
+
+.gg-style::before {
+    top: -5px;
+    left: -5px
+}
+
+.gg-style::after {
+    bottom: -5px;
+    right: -5px
+}

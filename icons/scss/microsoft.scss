@@ -1,0 +1,28 @@
+.gg-microsoft {
+    transform: scale(var(--ggs, 1));
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 18px;
+
+    &::after, &::before {
+      box-sizing: border-box;
+      position: relative;
+      display: block;
+      width: 18px;
+      height: 18px;
+    }
+
+    &::after, &::before {
+      content: "";
+      position: absolute;
+      width: 8px;
+      border-top: 8px solid;
+      border-bottom: 8px solid;
+    }
+
+    &::after {
+      right: 0;
+    }
+  }

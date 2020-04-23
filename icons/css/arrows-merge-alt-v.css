@@ -1,0 +1,46 @@
+.gg-arrows-merge-alt-v {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 12px;
+    height: 22px;
+    background:
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+            no-repeat center top/2px 8px,
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+            no-repeat center bottom/2px 8px,
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+            no-repeat center 20px/10px 2px,
+        linear-gradient(
+            to left,currentColor 10px,
+            transparent 0)
+            no-repeat center 0/10px 2px
+}
+.gg-arrows-merge-alt-v::after,
+.gg-arrows-merge-alt-v::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    transform: rotate(45deg);
+    left: 3px
+}
+.gg-arrows-merge-alt-v::after {
+    border-left: 2px solid;
+    border-top: 2px solid;
+    bottom: 3px;
+}
+.gg-arrows-merge-alt-v::before {
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    top: 3px
+}

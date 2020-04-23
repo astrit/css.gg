@@ -1,0 +1,37 @@
+.gg-thermometer {
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 22px;
+    height: 22px;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 2px;
+      border-radius: 22px;
+      transform: rotate(45deg);
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 2px;
+      border-radius: 22px;
+      transform: rotate(45deg);
+      height: 12px;
+      border: 2px solid transparent;
+      box-shadow: 0 0 0 2px, inset 0 0 0 6px;
+      right: 6px;
+      top: 1px;
+    }
+
+    &::after {
+      height: 8px;
+      background: currentColor;
+      bottom: 0;
+      left: 3px;
+    }
+  }

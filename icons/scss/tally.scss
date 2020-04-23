@@ -1,0 +1,36 @@
+.gg-tally {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: skew(-10deg) scale(var(--ggs, 1));
+    width: 18px;
+    height: 20px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      box-sizing: border-box;
+      display: block;
+      width: 3px;
+      background: currentColor;
+      border-radius: 0.5px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      box-sizing: border-box;
+      display: block;
+      width: 3px;
+      background: currentColor;
+      border-radius: 0.5px;
+      height: 20px;
+      box-shadow: 5px 0 0;
+      left: 5px;
+    }
+
+    &::after {
+      height: 8px;
+      box-shadow: 15px 0 0;
+    }
+  }

@@ -1,0 +1,34 @@
+.gg-transcript {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    border: 2px solid;
+    border-radius: 3px;
+    width: 22px;
+    height: 18px
+}
+
+.gg-transcript::after,
+.gg-transcript::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor;
+    bottom: 2px
+}
+
+.gg-transcript::before {
+    width: 10px;
+    left: 2px;
+    box-shadow: 4px -4px 0
+}
+
+.gg-transcript::after {
+    width: 3px;
+    right: 2px;
+    box-shadow: -11px -4px 0
+}

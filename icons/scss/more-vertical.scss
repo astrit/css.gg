@@ -1,0 +1,35 @@
+.gg-more-vertical {
+    transform: scale(var(--ggs, 1));
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 6px;
+    height: 6px;
+    border: 2px solid;
+    border-radius: 100%;
+
+    &::after, &::before {
+      box-sizing: border-box;
+      position: relative;
+      display: block;
+      width: 6px;
+      height: 6px;
+      border: 2px solid;
+      border-radius: 100%;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 6px;
+      left: -2px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 6px;
+      left: -2px;
+      top: -10px;
+    }
+  }

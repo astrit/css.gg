@@ -1,0 +1,41 @@
+.gg-browse {
+    display: block;
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    box-sizing: border-box;
+    width: 16px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 3px;
+    background: linear-gradient(to left, currentcolor 10px, transparent 0) no-repeat center 2px / 8px 2px, linear-gradient(to left, currentcolor 10px, transparent 0) no-repeat center 6px / 8px 2px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 22px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 22px;
+      width: 6px;
+      height: 6px;
+      border: 2px solid;
+      left: 3px;
+      top: 9px;
+    }
+
+    &::after {
+      width: 2px;
+      height: 4px;
+      background: currentColor;
+      bottom: 1px;
+      right: 2px;
+      transform: rotate(-45deg);
+    }
+  }

@@ -1,0 +1,23 @@
+.gg-community {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 21px;
+    height: 14px
+}
+
+.gg-community::after,
+.gg-community::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border: 2px solid;
+    width: 10px;
+    height: 10px;
+    border-radius: 22px
+}
+
+.gg-community::after {
+    right: 0
+}

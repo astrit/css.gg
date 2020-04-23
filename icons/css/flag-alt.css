@@ -1,0 +1,36 @@
+.gg-flag-alt {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 14px;
+    height: 20px;
+    border-left: 2px solid
+}
+
+.gg-flag-alt::after,
+.gg-flag-alt::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-bottom: 2px solid
+}
+
+.gg-flag-alt::before {
+    width: 12px;
+    height: 10px;
+    border-top: 2px solid;
+    border-right: 2px solid transparent
+}
+
+.gg-flag-alt::after {
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid;
+    border-top-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    transform: rotate(45deg);
+    top: 1px;
+    left: 6px
+}

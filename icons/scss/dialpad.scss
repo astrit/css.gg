@@ -1,0 +1,42 @@
+.gg-dialpad {
+  transform: scale(var(--ggs, 1));
+  box-shadow: -5px 0 0, 5px 0 0;
+
+  &::before {
+    box-shadow: -5px 0 0, 5px 0 0;
+  }
+
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  width: 3px;
+  height: 3px;
+  background: currentColor;
+
+  &::after, &::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 3px;
+    height: 3px;
+    background: currentColor;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+  }
+
+  &::after {
+    box-shadow: -5px 0 0, 5px 0 0, 0 5px 0;
+    top: 5px;
+  }
+}

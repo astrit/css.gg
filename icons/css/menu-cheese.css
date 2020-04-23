@@ -1,0 +1,34 @@
+.gg-menu-cheese {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 10px
+}
+
+.gg-menu-cheese::after,
+.gg-menu-cheese::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    height: 2px
+}
+
+.gg-menu-cheese::before {
+    width: 18px;
+    background: currentColor;
+    border-radius: 22px;
+    box-shadow: 0 -6px 0,0 -12px 0;
+    bottom: 0
+}
+
+.gg-menu-cheese::after {
+    width: 2px;
+    left: 2px;
+    bottom: 3px;
+    border-top: 3px solid;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent
+}

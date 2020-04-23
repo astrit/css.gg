@@ -1,0 +1,25 @@
+.gg-math-plus {
+    display: block;
+    box-sizing: border-box;
+    background: currentColor;
+    border-radius: 10px;
+
+    &::after {
+      display: block;
+      box-sizing: border-box;
+      background: currentColor;
+      border-radius: 10px;
+      content: "";
+      position: absolute;
+      width: 2px;
+      height: 16px;
+      top: -7px;
+      left: 7px;
+    }
+
+    margin-top: -2px;
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 2px;
+  }

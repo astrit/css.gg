@@ -1,0 +1,40 @@
+.gg-dolby {
+    display: block;
+    box-sizing: border-box;
+    height: 16px;
+    border: 4px solid;
+
+    &::after, &::before {
+      display: block;
+      box-sizing: border-box;
+      height: 16px;
+      border: 4px solid;
+    }
+
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 24px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 14px;
+      top: -4px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 14px;
+      top: -4px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      left: -4px;
+    }
+
+    &::after {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      right: -4px;
+    }
+  }

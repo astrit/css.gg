@@ -1,3 +1,0 @@
-{{#exports}}
-{{{ export }}}
-{{/exports}}

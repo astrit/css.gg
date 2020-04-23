@@ -1,0 +1,34 @@
+.gg-facebook {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px
+}
+
+.gg-facebook::after,
+.gg-facebook::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box
+}
+
+.gg-facebook::before {
+    width: 8px;
+    height: 20px;
+    border-left: 4px solid;
+    border-top: 4px solid;
+    border-top-left-radius: 5px;
+    left: 6px
+}
+
+.gg-facebook::after {
+    width: 10px;
+    height: 4px;
+    background: currentColor;
+    top: 7px;
+    left: 4px;
+    transform: skew(-5deg)
+}

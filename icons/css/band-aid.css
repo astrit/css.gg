@@ -1,0 +1,42 @@
+.gg-band-aid {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform:
+        rotate(-25deg)
+        scale(var(--ggs,1));
+    width: 24px;
+    height: 12px;
+    border: 2px solid;
+    border-radius: 22px
+}
+
+.gg-band-aid::after,
+.gg-band-aid::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-band-aid::before {
+    width: 12px;
+    height: 10px;
+    top: -2px;
+    left: 4px;
+    border-left: 2px solid;
+    border-right: 2px solid
+}
+
+.gg-band-aid::after {
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    box-shadow:
+         0 4px 0,
+         4px 0 0,
+         4px 4px 0;
+    border-radius: 22px;
+    left: 7px;
+    top: 1px
+}

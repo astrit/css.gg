@@ -1,0 +1,39 @@
+.gg-space-between {
+    display: block;
+    box-sizing: border-box;
+    transform: scale(var(--ggs, 1));
+    width: 14px;
+    height: 8px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    box-shadow: inset 0 0 0 2px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      height: 12px;
+      width: 4px;
+      border: 2px solid;
+      top: -2px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      height: 12px;
+      width: 4px;
+      border: 2px solid;
+      top: -2px;
+      left: -6px;
+      border-left: 0;
+    }
+
+    &::after {
+      right: -6px;
+      border-right: 0;
+    }
+  }

@@ -1,0 +1,26 @@
+@keyframes spinner-two-alt {
+    0% {transform: rotate(0deg)}
+    to {transform: rotate(359deg)}
+}
+
+.gg-spinner-two-alt,.gg-spinner-two-alt::before {
+    box-sizing: border-box;
+    display: block;
+    width: 20px;
+    height: 20px
+}
+
+.gg-spinner-two-alt {
+    transform: scale(var(--ggs,1));
+    position: relative
+}
+
+.gg-spinner-two-alt::before {
+    content: "";
+    position: absolute;
+    border-radius: 100px;
+    animation: spinner-two-alt 1s cubic-bezier(.6,0,.4,1) infinite;
+    border: 3px solid transparent;
+    border-bottom-color: currentColor;
+    border-top-color: currentColor
+}

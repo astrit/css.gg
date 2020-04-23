@@ -1,0 +1,26 @@
+.gg-figma {
+   box-sizing: border-box;
+   position: relative;
+   display: block;
+   width: 14px;
+   height: 20px;
+   transform: scale(var(--ggs, 1));
+   background: linear-gradient(to left, currentColor 3px, transparent 0) no-repeat 3px 7px / 3px 6px, linear-gradient(to left, currentColor 3px, transparent 0) no-repeat 3px 14px / 3px 3px;
+
+   &::after, &::before {
+     content: "";
+     display: block;
+     box-sizing: border-box;
+     position: absolute;
+     width: 13px;
+     height: 6px;
+     background: currentColor;
+     border-radius: 22px;
+   }
+
+   &::after {
+     width: 6px;
+     top: 7px;
+     box-shadow: 7px 0 0, 0 7px 0;
+   }
+ }

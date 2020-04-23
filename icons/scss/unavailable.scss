@@ -1,0 +1,23 @@
+.gg-unavailable {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: rotate(-45deg) scale(var(--ggs, 1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 100px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 3px;
+      width: 2px;
+      height: 18px;
+      background: currentColor;
+      top: -2px;
+      left: 6px;
+    }
+  }

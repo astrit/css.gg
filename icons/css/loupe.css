@@ -1,0 +1,36 @@
+.gg-loupe,
+.gg-loupe::after {
+    display: block;
+    box-sizing: border-box
+}
+
+.gg-loupe {
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 22px;
+    border-bottom-right-radius: 6px;
+    overflow: hidden;
+    background:
+        linear-gradient(
+            to left,
+            currentColor 8px,
+            transparent 0
+        ) no-repeat center/8px 2px,
+        linear-gradient(
+            to left,
+            currentColor 8px,
+            transparent 0
+        ) no-repeat center/2px 8px
+}
+
+.gg-loupe::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    box-shadow: 0 0 0 6px
+}

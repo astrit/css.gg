@@ -1,0 +1,34 @@
+.gg-userlane {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 16px;
+    height: 8px;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 4px solid;
+    border-top-color: transparent
+}
+
+.gg-userlane::after,
+.gg-userlane::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: currentColor;
+    top: -12px
+}
+
+.gg-userlane::before {
+    border-radius: 20px;
+    left: -4px
+}
+
+.gg-userlane::after {
+    right: -4px
+}

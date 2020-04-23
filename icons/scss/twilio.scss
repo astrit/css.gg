@@ -1,0 +1,41 @@
+.gg-twilio {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs, 1));
+    width: 24px;
+    height: 24px;
+    border-radius: 22px;
+    box-shadow: inset 0 0 0 3px;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+      background: currentColor;
+      border-radius: 6px;
+      width: 4px;
+      height: 4px;
+      top: 7px;
+      box-shadow: 0 6px 0;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+      background: currentColor;
+      border-radius: 6px;
+      width: 4px;
+      height: 4px;
+      top: 7px;
+      box-shadow: 0 6px 0;
+      left: 7px;
+    }
+
+    &::after {
+      right: 7px;
+    }
+  }

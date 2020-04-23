@@ -1,0 +1,21 @@
+.gg-studio {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 18px;
+    height: 18px;
+    border: 2px solid;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: currentColor;
+      right: 2px;
+      bottom: 2px;
+    }
+  }

@@ -1,0 +1,31 @@
+.gg-push-chevron-left {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 22px;
+    height: 22px;
+    border: 2px solid transparent;
+    border-radius: 100px;
+
+    &::after, &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 2px;
+      height: 14px;
+      border-left: 2px solid;
+      top: 2px;
+      left: 0;
+    }
+
+    &::after {
+      width: 10px;
+      height: 10px;
+      border-bottom: 2px solid;
+      transform: rotate(45deg);
+      left: 6px;
+      top: 4px;
+    }
+  }

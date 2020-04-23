@@ -1,0 +1,35 @@
+.gg-menu-left-alt {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 14px;
+    transform: scale(var(--ggs, 1));
+
+    &::after {
+      content: "";
+      position: absolute;
+      box-sizing: border-box;
+      display: block;
+      height: 2px;
+      border-radius: 4px;
+      background: currentColor;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      box-sizing: border-box;
+      display: block;
+      height: 2px;
+      border-radius: 4px;
+      background: currentColor;
+      width: 16px;
+      box-shadow: 0 12px 0;
+    }
+
+    &::after {
+      width: 10px;
+      top: 6px;
+    }
+  }

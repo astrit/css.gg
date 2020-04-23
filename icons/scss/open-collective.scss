@@ -1,0 +1,27 @@
+.gg-open-collective {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 22px;
+
+    &::before {
+      display: block;
+      box-sizing: border-box;
+      border-radius: 22px;
+      content: "";
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      border: 3px solid transparent;
+      border-right: 3px solid;
+      top: -1px;
+      right: -3px;
+      opacity: 0.5;
+    }
+
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 18px;
+    height: 18px;
+    border: 3px solid;
+    border-right-color: transparent;
+  }

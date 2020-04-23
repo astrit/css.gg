@@ -1,0 +1,44 @@
+.gg-smart-home-heat {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs, 1));
+    width: 24px;
+    height: 14px;
+    border: 2px solid;
+    border-radius: 22px;
+    background: linear-gradient(to left, currentColor 24px, transparent 0) no-repeat center 2px / 10px 2px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      box-sizing: border-box;
+      width: 6px;
+      height: 6px;
+      border: 2px solid;
+      top: 2px;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      box-sizing: border-box;
+      width: 6px;
+      height: 6px;
+      border: 2px solid;
+      top: 2px;
+      border-right: 0;
+      border-top-left-radius: 22px;
+      border-bottom-left-radius: 22px;
+      left: 2px;
+    }
+
+    &::after {
+      border-left: 0;
+      border-top-right-radius: 22px;
+      border-bottom-right-radius: 22px;
+      right: 2px;
+    }
+  }

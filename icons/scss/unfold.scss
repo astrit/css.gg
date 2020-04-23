@@ -1,0 +1,10 @@
+.gg-unfold {
+   box-sizing: border-box;
+   position: relative;
+   display: block;
+   transform: scale(var(--ggs, 1));
+   width: 20px;
+   height: 20px;
+   border-radius: 100%;
+   border-bottom: 10px solid;
+ }

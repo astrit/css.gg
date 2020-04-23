@@ -1,0 +1,25 @@
+.gg-work-alt {
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 2px;
+
+    &::after {
+      display: block;
+      box-sizing: border-box;
+      box-shadow: 0 0 0 2px;
+      content: "";
+      position: absolute;
+      width: 6px;
+      height: 1px;
+      border-top-left-radius: 1px;
+      border-top-right-radius: 1px;
+      left: 4px;
+      top: -3px;
+    }
+
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 14px;
+    height: 10px;
+    border-radius: 1px;
+  }

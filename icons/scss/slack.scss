@@ -1,0 +1,38 @@
+.gg-slack {
+    position: relative;
+    box-sizing: border-box;
+    transform: scale(var(--ggs, 1));
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 7px 2px / 2px 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 15px 7px / 2px 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 2px 10px / 2px 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 10px 15px / 2px 2px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 10px 2px / 4px 5px, linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 5px 12px / 4px 5px;
+
+    &::after {
+      background: currentColor;
+      content: "";
+      position: absolute;
+      box-sizing: border-box;
+      display: block;
+      height: 4px;
+      border-radius: 22px;
+    }
+
+    &::before {
+      background: currentColor;
+      content: "";
+      position: absolute;
+      box-sizing: border-box;
+      display: block;
+      height: 4px;
+      border-radius: 22px;
+      width: 9px;
+      top: 5px;
+      box-shadow: 10px 5px 0;
+    }
+
+    &::after {
+      width: 4px;
+      left: 5px;
+      box-shadow: -5px 10px 0, 0 10px 0, 0 15px 0, 5px 15px 0, 5px 5px 0, 5px 0 0, 10px 5px 0;
+    }
+  }

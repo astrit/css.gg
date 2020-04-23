@@ -1,0 +1,37 @@
+.gg-sweden {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 21px;
+    height: 16px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      height: 6px;
+      background: currentColor;
+      box-shadow: 0 8px 0;
+      top: 0;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      height: 6px;
+      background: currentColor;
+      box-shadow: 0 8px 0;
+      top: 0;
+      left: 0;
+      width: 7px;
+    }
+
+    &::after {
+      width: 12px;
+      right: 0;
+    }
+  }

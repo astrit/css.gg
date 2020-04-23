@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var react_1 = tslib_1.__importDefault(require("react"));
+var styled_components_1 = tslib_1.__importDefault(require("styled-components"));
+var StyledBrush = styled_components_1.default.i(templateObject_1 || (templateObject_1 = tslib_1.__makeTemplateObject(["\n  &{display:block;position:relative;transform:scale(var(--ggs,1));box-sizing:border-box;width:14px;height:18px;background:linear-gradient(to left,currentColor 10px,transparent 0) no-repeat 4px bottom/2px 5px,linear-gradient(to left,currentColor 10px,transparent 0) no-repeat 8px bottom/2px 5px}&::after,&::before{content:\"\";display:block;box-sizing:border-box;position:absolute;border:2px solid}&::before{width:6px;height:8px;border-top-left-radius:6px;border-top-right-radius:6px;border-bottom:0;left:4px;top:0}&::after{width:14px;height:10px;border-top:0;border-radius:3px;border-top-left-radius:1px;border-top-right-radius:1px;background:linear-gradient(to left,currentColor 10px,transparent 0) no-repeat left top/4px 2px,linear-gradient(to left,currentColor 10px,transparent 0) no-repeat right top/4px 2px;bottom:0}\n"], ["\n  &{display:block;position:relative;transform:scale(var(--ggs,1));box-sizing:border-box;width:14px;height:18px;background:linear-gradient(to left,currentColor 10px,transparent 0) no-repeat 4px bottom/2px 5px,linear-gradient(to left,currentColor 10px,transparent 0) no-repeat 8px bottom/2px 5px}&::after,&::before{content:\"\";display:block;box-sizing:border-box;position:absolute;border:2px solid}&::before{width:6px;height:8px;border-top-left-radius:6px;border-top-right-radius:6px;border-bottom:0;left:4px;top:0}&::after{width:14px;height:10px;border-top:0;border-radius:3px;border-top-left-radius:1px;border-top-right-radius:1px;background:linear-gradient(to left,currentColor 10px,transparent 0) no-repeat left top/4px 2px,linear-gradient(to left,currentColor 10px,transparent 0) no-repeat right top/4px 2px;bottom:0}\n"])));
+exports.Brush = react_1.default.forwardRef(function (props, ref) {
+    return (react_1.default.createElement(react_1.default.Fragment, null,
+        react_1.default.createElement(StyledBrush, tslib_1.__assign({}, props, { ref: ref, "icon-role": "brush" }))));
+});
+var templateObject_1;
+//# sourceMappingURL=Brush.js.map

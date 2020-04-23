@@ -1,0 +1,38 @@
+.gg-smile-mouth-open {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 100px
+}
+
+.gg-smile-mouth-open::after,
+.gg-smile-mouth-open::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 4px
+}
+
+.gg-smile-mouth-open::before {
+    background: currentColor;
+    box-shadow: 6px 0 0;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    top: 5px
+}
+
+.gg-smile-mouth-open::after {
+    width: 8px;
+    height: 4px;
+    border-radius: 150px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 2px solid;
+    top: 9px
+}

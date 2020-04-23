@@ -1,0 +1,35 @@
+.gg-voicemail-o {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px;
+    background:
+        linear-gradient(
+            to left,currentColor 10px,transparent 0)
+            no-repeat 5px 10px/8px 2px;
+    border-radius: 30px;
+    border: 2px solid
+}
+
+.gg-voicemail-o::after,
+.gg-voicemail-o::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border: 2px solid;
+    border-radius: 10px;
+    top: 6px
+}
+
+.gg-voicemail-o::before {
+    left: 2px
+}
+
+.gg-voicemail-o::after {
+    right: 2px
+}

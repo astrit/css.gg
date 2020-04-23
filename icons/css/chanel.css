@@ -1,0 +1,30 @@
+.gg-chanel {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 21px;
+    height: 18px
+}
+
+.gg-chanel::after,
+.gg-chanel::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    border: 3px solid;
+    width: 18px;
+    height: 18px;
+    border-radius: 22px
+}
+
+.gg-chanel::before {
+    border-left-color: transparent;
+    left: -3px
+}
+
+.gg-chanel::after {
+    border-right-color: transparent;
+    right: -3px
+}

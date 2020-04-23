@@ -1,0 +1,34 @@
+.gg-arrows-v-alt {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 10px;
+    height: 20px;
+    background:
+     linear-gradient(
+         to left,
+         currentColor 16px,transparent 0)
+         no-repeat 4px 2px/2px 16px
+ }
+ .gg-arrows-v-alt::after,
+ .gg-arrows-v-alt::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    transform: rotate(-45deg);
+    left: 2px
+ }
+ .gg-arrows-v-alt::after {
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    bottom: 1px
+ }
+ .gg-arrows-v-alt::before {
+    border-top: 2px solid;
+    border-right: 2px solid;
+    top: 1px
+ }

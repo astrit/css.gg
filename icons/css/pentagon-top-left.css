@@ -1,0 +1,37 @@
+.gg-pentagon-top-left {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: rotate(45deg) scale(var(--ggs,1));
+    width: 10px;
+    height: 8px
+}
+
+.gg-pentagon-top-left:before {
+    height: 51%
+}
+
+.gg-pentagon-top-left:after,
+.gg-pentagon-top-left:before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    width: 100%
+}
+
+.gg-pentagon-top-left:before {
+    top: -2px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+    transform: skewX(-30deg)
+}
+
+.gg-pentagon-top-left:after {
+    bottom: -2px;
+    height: 50%;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: skewX(30deg)
+}

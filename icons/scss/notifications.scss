@@ -1,0 +1,36 @@
+.gg-notifications {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat right (bottom / 2px) 8px, linear-gradient(to left, currentColor 10px, transparent 0) no-repeat left (top / 8px) 2px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      box-sizing: border-box;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      display: block;
+      box-sizing: border-box;
+      width: 14px;
+      height: 14px;
+      border-left: 2px solid;
+      border-bottom: 2px solid;
+    }
+
+    &::after {
+      width: 6px;
+      height: 6px;
+      border-radius: 4px;
+      background: currentColor;
+      top: -2px;
+      right: -2px;
+    }
+  }

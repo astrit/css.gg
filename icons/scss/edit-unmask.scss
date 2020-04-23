@@ -1,0 +1,25 @@
+.gg-edit-unmask {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 22px;
+
+    &::after {
+      display: block;
+      box-sizing: border-box;
+      border-radius: 22px;
+      content: "";
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      background: currentColor;
+      top: 6px;
+      left: 6px;
+      box-shadow: 0 7px 0 1px, 0 -7px 0 1px, -7px 0 0 1px, 7px 0 0 1px;
+    }
+
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 20px;
+    border: 2px solid transparent;
+  }

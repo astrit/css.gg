@@ -1,0 +1,23 @@
+.gg-toggle-square {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 24px;
+    height: 14px;
+    border: 2px solid;
+    border-radius: 2px;
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background: currentColor;
+      top: 2px;
+      left: 2px;
+      border-radius: 1px;
+    }
+  }

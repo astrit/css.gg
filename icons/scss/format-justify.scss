@@ -1,0 +1,27 @@
+.gg-format-justify {
+    display: block;
+    box-sizing: border-box;
+    width: 16px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor;
+    box-shadow: 0 8px 0;
+
+    &::before {
+      display: block;
+      box-sizing: border-box;
+      width: 16px;
+      height: 2px;
+      border-radius: 3px;
+      background: currentColor;
+      box-shadow: 0 8px 0;
+      content: "";
+      position: absolute;
+      top: 4px;
+      left: 0;
+    }
+
+    margin-top: -11px;
+    transform: scale(var(--ggs, 1));
+    position: relative;
+  }

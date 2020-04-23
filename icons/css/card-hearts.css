@@ -1,0 +1,31 @@
+.gg-card-hearts {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 18px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 3px
+}
+
+.gg-card-hearts::after,
+.gg-card-hearts::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 4px;
+    height: 6px;
+    background: currentColor;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    transform: rotate(45deg);
+    left: 6px;
+    top: 6px
+}
+
+.gg-card-hearts::after {
+    transform: rotate(-45deg);
+    left: 4px
+}

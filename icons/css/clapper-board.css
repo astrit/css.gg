@@ -1,0 +1,36 @@
+.gg-clapper-board {
+    display: block;
+    position: relative;
+    transform: scale(var(--ggs,1));
+    box-sizing: border-box;
+    width: 22px;
+    height: 18px;
+    border: 2px solid;
+    border-radius: 3px
+}
+
+.gg-clapper-board::after,
+.gg-clapper-board::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-clapper-board::before {
+    width: 10px;
+    height: 8px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    left: 4px;
+    top: -2px;
+    transform: skewX(-40deg)
+}
+
+.gg-clapper-board::after {
+    width: 22px;
+    height: 2px;
+    background: currentColor;
+    top: 4px;
+    left: -2px
+}

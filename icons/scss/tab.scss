@@ -1,0 +1,25 @@
+.gg-tab {
+    display: block;
+    box-sizing: border-box;
+
+    &::before {
+      display: block;
+      box-sizing: border-box;
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 6px;
+      background: currentColor;
+      border-radius: 1px;
+      transform: skewX(20deg);
+      top: -2px;
+      right: -1px;
+    }
+
+    position: relative;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 16px;
+    border: 2px solid;
+    border-radius: 3px;
+  }

@@ -1,0 +1,41 @@
+.gg-screen-wide {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 24px;
+    height: 11px;
+    border: 2px solid;
+    border-radius: 3px;
+    margin-top: -4px;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 3px;
+      width: 8px;
+      height: 2px;
+      background: currentColor;
+      top: 10px;
+      left: 6px;
+    }
+
+    &::before {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      border-radius: 3px;
+      width: 8px;
+      height: 2px;
+      background: currentColor;
+      top: 10px;
+      left: 6px;
+      width: 2px;
+      height: 4px;
+      top: 8px;
+      left: 9px;
+    }
+  }

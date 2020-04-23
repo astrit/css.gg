@@ -1,0 +1,11 @@
+.gg-square {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 12px;
+    height: 12px;
+    border-radius: 1px;
+    border: 3px solid transparent;
+    box-shadow: 0 0 0 3px, inset 0 0 0 3px;
+  }

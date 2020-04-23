@@ -1,0 +1,35 @@
+.gg-scroll-h,
+.gg-scroll-h::after,
+.gg-scroll-h::before {
+    display: block;
+    box-sizing: border-box;
+    width: 6px;
+    height: 6px
+}
+
+.gg-scroll-h {
+    position: relative;
+    transform: scale(var(--ggs,1));
+    border: 2px solid;
+    border-radius: 10px
+}
+
+.gg-scroll-h::after,
+.gg-scroll-h::before {
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    top: -2px
+}
+
+.gg-scroll-h::after {
+    border-top: 2px solid;
+    border-right: 2px solid;
+    right: -8px
+}
+
+.gg-scroll-h::before {
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    left: -8px
+}

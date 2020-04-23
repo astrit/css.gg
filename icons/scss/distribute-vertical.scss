@@ -1,0 +1,23 @@
+.gg-distribute-vertical {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    height: 14px;
+    width: 14px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+
+    &::after {
+      content: "";
+      display: block;
+      box-sizing: border-box;
+      position: absolute;
+      height: 4px;
+      width: 8px;
+      background: currentColor;
+      right: 3px;
+      top: 3px;
+      opacity: 0.5;
+    }
+  }
