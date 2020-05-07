@@ -7,16 +7,6 @@
     transform: scale(var(--ggs, 1));
     background: linear-gradient(to left, currentColor 22px, transparent 0) no-repeat (center / 16px) 2px, radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat right (center / 2px) 2px;
 
-    &::after {
-      content: "";
-      display: block;
-      position: absolute;
-      box-sizing: border-box;
-      width: 10px;
-      height: 8px;
-      border-right: 4px solid;
-    }
-
     &::before {
       content: "";
       display: block;
@@ -32,6 +22,13 @@
     }
 
     &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      box-sizing: border-box;
+      width: 10px;
+      height: 8px;
+      border-right: 4px solid;
       border-bottom-right-radius: 2px;
       bottom: 0;
       transform: perspective(10px) rotateX(-10deg) skewX(-30deg);
