@@ -728,7 +728,7 @@ https://cdn.jsdelivr.net/npm/css.gg@1.0.6/
 
 # TODO:
 1. CSS Modules
-2. Angluar
+2. Angular
 3. Vue.js
 
 If you would like to contribute feel free to do a [new pull request](https://github.com/astrit/css.gg/pulls).
