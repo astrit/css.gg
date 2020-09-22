@@ -706,18 +706,19 @@ Follow instructions for [@nuxtjs/svg-module](https://github.com/nuxt-community/s
 #### 2. Import icons
 Simply import icon with the 
 
-´´´
+```html
 <template>
-    <icon/>
+   <search-icon/>
 </template>
+
 <script>
-  import ICON from "css.gg/icons/svg/ICON.svg?inline";
+  import SearchIcon from "css.gg/icons/svg/search.svg?inline";
 
   export default {
-    components: { ICON },
+    components: { SearchIcon },
   };
 </script>
-´´´´
+```
 
 # Design Tools
 ##### 1. Figma - https://css.gg/fig
