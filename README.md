@@ -704,7 +704,7 @@ Follow instructions for [vue-svg-loader](https://github.com/visualfanatic/vue-sv
 Follow instructions for [@nuxtjs/svg-module](https://github.com/nuxt-community/svg-module).
 
 #### 2. Import icons
-Simply import icon with the 
+Simply import icon
 
 ```html
 <template>
