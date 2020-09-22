@@ -61,6 +61,9 @@ Available in SVG Sprite, styled-components, NPM & API
   * [5. All SCSS icons](#5-all-scss-icons)
     * [5.1. Single SCSS icon](#51-single-scss-icon)
   * [6. Combined import SVG, CSS, SCSS etc.](#6-combined-import-svg-css-scss-etc)
+* [Vue.js / Nuxt.js](#vuejs--nuxtjs)
+  * [1. Setup dependencies](#1-setup-dependencies)
+  * [2. Import icons](#2-import-icons)
 * [Design Tools](#design-tools)
   * [1. Figma](#1-figma---httpscssggfig)
   * [2. Adobe XD](#2-adobe-xd---httpscssggxd)
@@ -689,8 +692,35 @@ import { SVG, CSS, SCSS, ICONNAME, ICONNAME } from 'css.gg'
 
 ```
 
+# Vue.js / Nuxt.js
+To use Icons in Vue.js / Nuxt.js you can import SVG-Icons with the [vue-svg-loader](https://github.com/visualfanatic/vue-svg-loader) plugin.
+
+#### 1. Setup dependencies
+
+#### 1.1. Vue.js (simple)
+Follow instructions for [vue-svg-loader](https://github.com/visualfanatic/vue-svg-loader).
+
+#### 1.2. Nuxt.js
+Follow instructions for [@nuxtjs/svg-module](https://github.com/nuxt-community/svg-module).
+
+#### 2. Import icons
+Simply import icon with the 
+
+´´´
+<template>
+    <icon/>
+</template>
+<script>
+  import ICON from "css.gg/icons/svg/ICON.svg?inline";
+
+  export default {
+    components: { ICON },
+  };
+</script>
+´´´´
+
 # Design Tools
-#### 1. Figma - https://css.gg/fig
+##### 1. Figma - https://css.gg/fig
 All icons are available as components on assets from where you can search for a sigle icon or browse categories.
 ![css.gg figma](https://css.gg/img/pfig.png)
 
