@@ -524,7 +524,7 @@ export default function() {
 }
 ```
 #### 2. Local Single Icon as `styled-component`
-If you need to download a single `typescript` or `styled-componment` format icon without downloading the entire package just visit the link like this:
+If you need to download a single `typescript` or `styled-component` format icon without downloading the entire package just visit the link like this:
 ```html
 https://css.gg/{ICONNAME}.tsx
 ```
@@ -691,7 +691,7 @@ import { SVG, CSS, SCSS, ICONNAME, ICONNAME } from 'css.gg'
 
 # Design Tools
 #### 1. Figma - https://css.gg/fig
-All icons are available as components on assets from where you can search for a sigle icon or browse categories.
+All icons are available as components on assets from where you can search for a single icon or browse categories.
 ![css.gg figma](https://css.gg/img/pfig.png)
 
 
