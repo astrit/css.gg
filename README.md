@@ -24,7 +24,7 @@ Available in SVG Sprite, styled-components, NPM & API
   * [3. Collection](#3-collection)
   * [4. Markup](#4-markup)
   * [5. Example](#5-example)
-* [CSS @import](#css--import)
+* [CSS @import](#css-import)
   * [1. All icons](#1-all-icons-1)
   * [2. Single icon](#2-single-icon-1)
   * [3. Collection](#3-collection-1)
