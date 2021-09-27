@@ -5,9 +5,10 @@
   "main": "index.js",
   "module": "index.js",
   "browser": "index.js",
-  "typings": "index.js",
+  "typings": "index.d.ts",
   "files": [
-    "icons"
+    "icons",
+    "index.d.ts"
   ],
   "scripts": {
     "test": " "
