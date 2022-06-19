@@ -208,14 +208,14 @@ This package contains the following directories and files:
     --ggs: 10;
 }
 ```
-> The variable can be added to the parent, custom class,body or root level if you want all icons same size.
+> The variable can be added to the parent, custom class, body, or root level if you want all icons the same size.
 ```css
 :root {
     --ggs: 6;
 }
 ```
 #### 5. Coloring
-By default all the CSS, SCSS icons inherit the color from the parent by using `currentColor` attribute how ever you can apply any color you like.
+By default all the CSS, SCSS icons inherit the color from the parent by using `currentColor` attribute however you can apply any color you like.
 ```css
 .gg-{ICONNAME} {
   color: teal;
@@ -224,7 +224,7 @@ By default all the CSS, SCSS icons inherit the color from the parent by using `c
 
 # SVG
 #### 1. SVG Sprite - Download Path
-You can't use these paths, you must download since SVG doesn't allow external sources.
+You can't use these paths, you must download these files since SVG doesn't allow external sources.
 ```html
 <!-- css.gg -->
 https://css.gg/svg
@@ -327,8 +327,8 @@ You can also download a single icon by just visiting `https://css.gg/{ICONNAME}.
 ```
 
 #### 3. Encode SVG for CSS
-You need to define width and height in order for this to work.
-Afterwards you can just create a div
+You need to define width and height for this to work.
+Afterward, you can just create a div
 
 ```css
 .gg-{ICONNAME} {
@@ -364,7 +364,7 @@ https://yoksel.github.io/url-encoder/
 </body>
 </html>
 ```
-#### 4. Coloring a SVG icon
+#### 4. Coloring an SVG icon
 By default all colors use `currentColor` as value in order to inherit the color from the parent. \
 If you wish to change that color you can do the following.
 #### 4.1. Directly on the icon
@@ -500,7 +500,7 @@ https://css.gg/xml?= {ICONNAME} | {ICONNAME} &op=css+markup
 <!-- No CDN Alternatives -->
 ```
 # React
-On a React project you can include a single icon as CSS, Styled Component, SCSS, SVG or call the contents using .json or .xml files.
+On a React project, you can include a single icon as CSS, Styled Component, SCSS, SVG or call the contents using .json or .xml files.
 \
 Note that only `styled-components` icons can be called directly such as:
 ```js
@@ -524,12 +524,12 @@ export default function() {
 }
 ```
 #### 2. Local Single Icon as `styled-component`
-If you need to download a single `typescript` or `styled-componment` format icon without downloading the entire package just visit the link like this:
+If you need to download a single `typescript` or `styled-component` format icon without downloading the entire package just visit the link like this:
 ```html
 https://css.gg/{ICONNAME}.tsx
 ```
 #### 2.1. Copy directly from the page
-If you don't want to download at all but just copy paste visit the icon page and you have a special tab for it.
+If you don't want to download at all but just copy-paste visit the icon page and you have a special tab for it.
 ```html
 https://css.gg/{ICONNAME}
 ```
@@ -691,7 +691,7 @@ import { SVG, CSS, SCSS, ICONNAME, ICONNAME } from 'css.gg'
 
 # Design Tools
 #### 1. Figma - https://css.gg/fig
-All icons are available as components on assets from where you can search for a sigle icon or browse categories.
+All icons are available as components on assets from where you can search for a single icon or browse categories.
 ![css.gg figma](https://css.gg/img/pfig.png)
 
 
@@ -717,7 +717,7 @@ To become a contributor do a [new pull request](https://github.com/astrit/css.gg
 Discord - https://discord.gg/e7NDKFM
 
 # v.1.0.6 or older
-In order to access older versions you can use one of the provided CDN Alternatives
+To access older versions you can use one of the provided CDN Alternatives
 ```html
 <!-- UNPKG -  v.1.0.6 -->
 https://unpkg.com/browse/css.gg@1.0.6/
