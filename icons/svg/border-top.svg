@@ -10,5 +10,5 @@
     fill="currentColor"
     fill-opacity="0.3"
   />
-  <path d="M5 7L19 7V4L5 4L5 7Z" fill="#110000" />
+  <path d="M5 7L19 7V4L5 4L5 7Z" fill="currentColor" />
 </svg>
