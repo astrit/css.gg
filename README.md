@@ -31,7 +31,10 @@ Now also a collection of well organised 6000+ glyphs, easy copy paste and availa
 
 #### 🥳 1400 New Icons, in white and black PNG
 
-#### 🚀 6000+ glyphs available also on [glyphs.css.gg](https://glyphs.css.gg)
+#### 🚀 6000+ glyphs available also available on [glyphs.css.gg](https://glyphs.css.gg)
+
+<br>
+<br>
 
 # Table of Contents
 
