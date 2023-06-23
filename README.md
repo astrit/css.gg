@@ -2,14 +2,15 @@
 
 <br>
 
-## [704 — Pure CSS Icons](https://css.gg)
+## [CSS & SVG Icons — 700+](https://css.gg)
 
 Open-source CSS, SVG and Figma UI Icons \
 Available in SVG Sprite, styled-components, NPM & API
+!!! Now available as PNG in white and black colors
 
 <br>
 
-## [6031 — Glyphs](https://glyphs.css.gg)
+## [Glyphs - 6000+](https://glyphs.css.gg)
 
 Now also a collection of well organised 6000+ glyphs, easy copy paste and available on the raycast extension.
 
