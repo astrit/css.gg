@@ -832,6 +832,6 @@ https://unpkg.com/browse/css.gg@1.0.6/
 https://cdn.jsdelivr.net/npm/css.gg@1.0.6/
 ```
 
-# TODO:
+# Contribute
 
 If you would like to contribute feel free to do a [new pull request](https://github.com/astrit/css.gg/pulls).
