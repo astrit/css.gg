@@ -23,7 +23,8 @@ Now also a collection of well organised 6000+ glyphs, easy copy paste and availa
 
 ![npm](https://img.shields.io/npm/v/css.gg) ![GitHub last commit](https://img.shields.io/github/last-commit/astrit/css.gg) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fcss.gg) ![npm](https://img.shields.io/npm/dt/css.gg) ![GitHub issues](https://img.shields.io/github/issues/astrit/css.gg) ![GitHub stars](https://img.shields.io/github/stars/astrit/css.gg) ![Twitter Follow](https://img.shields.io/twitter/follow/astritmalsija?label=follow&style=social)
 
-![css.gg](https://css.gg/fav/ogit.png)
+![css.gg](https://cdn.css.gg/metadata/icons.png)
+![glyphs.css.gg](https://cdn.css.gg/metadata/glyphs.png)
 
 <br>
 <br>
