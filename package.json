@@ -1,6 +1,6 @@
 {
   "name": "css.gg",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "700+ Pure CSS, SVG & Figma UI Icons Available in SVG Sprite, styled-components, Black & White PNG, NPM & API + 6031 glyphs",
   "main": "index.js",
   "module": "index.js",
