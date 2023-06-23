@@ -699,6 +699,6 @@ export { Windows } from './tsx/Windows';
 export { WorkAlt } from './tsx/WorkAlt';
 export { Yinyang } from './tsx/Yinyang';
 export { Youtube } from './tsx/Youtube';
-export { Zeit } from './tsx/Zeit';
+export { Vercel } from './tsx/Vercel';
 export { ZoomIn } from './tsx/ZoomIn';
 export { ZoomOut } from './tsx/ZoomOut';

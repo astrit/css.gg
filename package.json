@@ -1,7 +1,7 @@
 {
   "name": "css.gg",
   "version": "2.0.0",
-  "description": "Minimalistic Icon library Designed by code. ",
+  "description": "Minimalistic Icon library Designed by code.",
   "main": "index.js",
   "module": "index.js",
   "browser": "index.js",
