@@ -1,8 +1,8 @@
-# [YouTube](https://youtube.com/@astrit) &nbsp; &nbsp; • &nbsp; &nbsp; [App](https://css.gg) &nbsp; &nbsp; • &nbsp; &nbsp; [Figma](https://css.gg/fig)
+# [YouTube](https://youtube.com/@astrit) &nbsp; · &nbsp; [App](https://css.gg) &nbsp; · &nbsp; [Figma](https://css.gg/fig)
 
 <br>
 
-## [CSS & SVG Icons — 700+](https://css.gg)
+## [700 Pure CSS, SVG, PNG Icons](https://css.gg)
 
 Open-source CSS, SVG and Figma UI Icons \
 Available in SVG Sprite, styled-components, NPM & API
@@ -10,13 +10,14 @@ Available in SVG Sprite, styled-components, NPM & API
 
 <br>
 
-## [Glyphs - 6000+](https://glyphs.css.gg)
+## [6000 Unique Glyphs](https://glyphs.css.gg)
 
 Now also a collection of well organised 6000+ glyphs, easy copy paste and available on the raycast extension.
 
 <br>
+<br>
 
-## [CSS.GG — Icons & Glyphs on Raycast](https://www.raycast.com/astrit/css-gg)
+<a title="Install css-gg Raycast Extension" href="https://www.raycast.com/astrit/css-gg"><img src="https://www.raycast.com/astrit/css-gg/install_button@2x.png" height="64" alt="" style="height: 64px;"></a>
 
 <br>
 <br>
