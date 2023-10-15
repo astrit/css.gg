@@ -836,3 +836,7 @@ https://cdn.jsdelivr.net/npm/css.gg@1.0.6/
 # Contribute
 
 If you would like to contribute feel free to do a [new pull request](https://github.com/astrit/css.gg/pulls).
+
+# Activity 
+
+<img src="https://repobeats.axiom.co/api/embed/ad02742f5d2c375b5f15f6f3bb07489f774c1b52.svg" style="width:100%" />  
