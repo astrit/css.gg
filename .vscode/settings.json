@@ -3,9 +3,12 @@
       "./apps",
       "./packages/eslint-config",
       "./packages/typescript-config",
+      "./packages/icon",
       "./packages/glyf",
       "./packages/cursor",
       "./packages/fav",
       "./packages/grid",
+      "./packages/pattern",
+      "./packages/color",
     ]
   }
