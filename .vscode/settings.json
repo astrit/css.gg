@@ -10,5 +10,6 @@
       "./packages/grid",
       "./packages/pattern",
       "./packages/color",
+      "./packages/og",
     ]
   }
