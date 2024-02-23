@@ -1,0 +1,11 @@
+{
+    "eslint.workingDirectories": [
+      "./apps",
+      "./packages/eslint-config",
+      "./packages/typescript-config",
+      "./packages/glyf",
+      "./packages/cursor",
+      "./packages/fav",
+      "./packages/grid",
+    ]
+  }

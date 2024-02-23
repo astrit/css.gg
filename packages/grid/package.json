@@ -1,7 +1,12 @@
 {
-  "name": "@repo/ui",
+  "name": "@css.gg/grid",
   "version": "0.0.0",
   "private": true,
+  "author": {
+    "name": "astrit",
+    "email": "am@astrit.co",
+    "url": "http://astrit.co"
+  },
   "exports": {
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
