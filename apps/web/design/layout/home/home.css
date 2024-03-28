@@ -1,0 +1,8 @@
+.layout {
+  &.home {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--css-size-52) * 2);
+    padding: calc(var(--css-size-52) * 2);
+  }
+}

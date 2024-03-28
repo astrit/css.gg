@@ -12,7 +12,29 @@
     "@css.gg/glyf": "*",
     "next": "^14.0.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@types/file-saver": "^2.0.7",
+    "@vercel/analytics": "^1.1.2",
+    "cmdk": "^0.2.1",
+    "contentlayer": "^0.3.4",
+    "date-fns": "^3.0.2-rc.1",
+    "file-saver": "^2.0.5",
+    "fuse.js": "^7.0.0",
+    "inspx": "^0.0.1-alpha.6",
+    "next-contentlayer": "^0.3.4",
+    "next-themes": "^0.2.1",
+    "postcss-color-mod-function": "^3.0.3",
+    "postgres": "^3.4.3",
+    "qss": "^3.0.0",
+    "react-calendly": "^4.3.0",
+    "rehype-autolink-headings": "^7.1.0",
+    "rehype-highlight": "^7.0.0",
+    "rehype-pretty-code": "^0.13.0",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^3.0.1",
+    "shiki": "^1.1.7",
+    "shuffle-letters": "^1.1.0",
+    "sonner": "^1.4.3"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.0.4",
@@ -23,6 +45,16 @@
     "@types/react": "^18.2.46",
     "@types/react-dom": "^18.2.18",
     "eslint": "^8.56.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "@types/css-font-loading-module": "^0.0.13",
+    "@typescript-eslint/parser": "^7.1.0",
+    "autoprefixer": "^10.4.16",
+    "eslint-config-next": "14.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.32.2",
+    "postcss": "^8.4.31",
+    "postcss-nesting": "^12.0.1",
+    "prettier": "^3.2.5"
   }
 }

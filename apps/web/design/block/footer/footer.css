@@ -1,0 +1,30 @@
+footer.main-footer {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  inset: auto 0 0 0;
+  padding-inline: var(--css-size-40);
+  padding-block-end: var(--css-size-28);
+  width: 100%;
+  pointer-events: none;
+  color: var(--color-text-2);
+
+  .sides {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2ch;
+    translate: 0 0.4lh;
+    opacity: 0;
+    animation: fade 468ms ease forwards;
+    animation-delay: 448ms;
+    pointer-events: initial;
+
+    .split {
+      opacity: 0.4;
+    }
+  }
+}

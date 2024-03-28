@@ -1,0 +1,30 @@
+@import "reset.css";
+@import "tokens.css";
+@import "motion.css";
+@import "text.css";
+
+html {
+  scrollbar-width: none;
+  color-scheme: dark light;
+  font-size: 10px;
+}
+
+body {
+  background: var(--css-color-neutral-800);
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+  scroll-padding-top: 160px;
+  color: var(--css-color-neutral-200);
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1;
+  font-family: var(--css-font-default);
+  font-variant-numeric: slashed-zero tabular-nums;
+  font-feature-settings: "zero" 1;
+  letter-spacing: normal;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}

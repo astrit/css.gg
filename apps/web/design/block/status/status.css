@@ -1,0 +1,23 @@
+.status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1ch;
+  padding-inline: var(--css-size-12);
+  padding-block: var(--css-size-08);
+  font-size: var(--css-font-size-body-s);
+  font-family: var(--css-font-t26);
+  text-transform: uppercase;
+
+  .signal {
+    display: flex;
+    display: grid;
+    place-content: center;
+    backface-visibility: hidden;
+    border-radius: 200px;
+    background-color: currentColor;
+    width: 4px;
+    height: 4px;
+    color: var(--css-color-accent-600);
+  }
+}

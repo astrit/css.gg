@@ -1,0 +1,4 @@
+nav.bar {
+  display: flex;
+  gap: 4ch;
+}

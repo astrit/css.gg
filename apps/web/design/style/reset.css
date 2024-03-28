@@ -1,0 +1,108 @@
+* {
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+/* ::selection {
+  color: var(--color-teal);
+} */
+
+ol,
+ul,
+li,
+menu {
+  list-style: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  color: currentColor;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+[clamp] {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: "ellipsis";
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+[hidden] {
+  display: none;
+}
+
+[marker] ::marker {
+  display: none;
+  content: "—";
+}
+
+svg {
+  width: auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transform-origin: center;
+
+  &:not(&[height]) {
+    height: 1lh;
+  }
+
+  &:not(&[stroke-width]) {
+    stroke-width: var(--css-border-width-02);
+  }
+}
+
+button {
+  appearance: none;
+  border: none;
+  background: none;
+  color: currentColor;
+}
+
+@media (hover: none) {
+  *:hover {
+    background-color: initial;
+  }
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

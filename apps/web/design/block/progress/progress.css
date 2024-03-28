@@ -1,0 +1,22 @@
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: var(--css-size-28);
+  block-size: var(--css-size-28);
+
+  svg {
+    height: var(--css-size-20);
+
+    circle {
+      stroke-width: 2;
+      stroke-linecap: round;
+    }
+
+    polyline {
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  }
+}

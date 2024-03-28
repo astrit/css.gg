@@ -1,0 +1,38 @@
+.preloader {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  place-items: center;
+  z-index: 2;
+  inset: 0;
+  background-color: var(--css-color-neutral-800-90);
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  color: var(--css-color-neutral-100);
+  font-size: var(--css-font-size-body-xl);
+
+  .spinner {
+    translate: 0 0.4lh;
+    opacity: 0;
+    animation: fade 468ms ease forwards;
+  }
+}
+
+.loading {
+  animation: spin 2s linear infinite;
+  transition: stroke-dashoffset 2s ease-out;
+}
+
+@keyframes spin {
+  0% {
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.preloader {
+  transition: opacity 1s ease-out;
+}

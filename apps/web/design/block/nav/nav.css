@@ -1,0 +1,27 @@
+header nav {
+  display: flex;
+  flex-direction: row;
+  gap: 4ch;
+
+  a {
+    transition: var(--css-motion-transition);
+    padding-inline: var(--css-size-12);
+    padding-block: var(--css-size-08);
+
+    svg.lona {
+      stroke: currentColor;
+      stroke-width: 4px;
+      transition: var(--css-motion-transition);
+      :not(:hover) & {
+        color: var(--css-color-neutral-600);
+      }
+    }
+
+    @media (hover: hover) {
+      &:hover,
+      &.active {
+        color: var(--css-color-neutral-100);
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.link {
+  &.decorated {
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
+    text-decoration-color: currentColor;
+    text-decoration-line: underline;
+    text-underline-offset: 0.2ex;
+  }
+}

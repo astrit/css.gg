@@ -1,0 +1,57 @@
+---
+title: "Fifth Scroll driven animation and animation-range"
+description: "Description of the project"
+publishedAt: "2024-03-01"
+status: "published"
+---
+
+<Aside styled>
+  Notes
+</Aside>
+
+## h2 title
+
+Some another example
+
+{/* This is an array `[1, 2, 3]{:js}` of numbers 1 through 3. */}
+```html showLineNumbers{10} {1-4} /hello/ title="pages/blog/[slug].tsx" caption="caption"
+<main>test</main>
+<main>test</main>
+<main>hello</main>
+<main>test</main>
+<main>test</main>
+<main>test</main>
+<main>test</main>
+<main>test</main>
+```
+
+```html
+<main>test</main>
+<main>test</main>
+<main>hello</main>
+<main>test</main>
+<main>test</main>
+<main>test</main>
+<main>test</main>
+<main>test</main>
+```
+
+## Inline Code Highlighting
+
+The result of `[1, 2, 3].join('-'){:js}` is `'1-2-3'{:js}`.
+
+### Context Aware Inline Code
+
+For instance, if you had the following code block:
+
+```js
+function getStringLength(str) {
+  return str.length;
+}
+```
+
+When we refer to `getStringLength{:.entity.name.function}` as a plain variable,
+we can color it as a function. Same with `function{:.keyword}`, or
+`str{:.variable.parameter}` vs. `str{:.variable.other.object}`, etc. This allows
+you to semantically tie inline code with the nearest code block it's referring
+to.

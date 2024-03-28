@@ -1,0 +1,15 @@
+.icon-blur {
+  position: relative;
+
+  svg:nth-child(1) {
+    position: absolute;
+    scale: 1.8;
+    opacity: 0.3;
+    filter: blur(4px);
+    inset: 0;
+  }
+}
+
+.icon.flip {
+  transform: scaleX(-1);
+}

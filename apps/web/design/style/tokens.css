@@ -1,0 +1,134 @@
+/* prettier-ignore */
+:root {
+  /* Sizes */
+  --css-size-00: 0.0rem;
+  --css-size-01: 0.1rem;
+  --css-size-02: 0.2rem;
+  --css-size-04: 0.4rem;
+  --css-size-06: 0.6rem;
+  --css-size-08: 0.8rem;
+  --css-size-10: 1.0rem;
+  --css-size-12: 1.2rem;
+  --css-size-14: 1.4rem;
+  --css-size-16: 1.6rem;
+  --css-size-18: 1.8rem;
+  --css-size-20: 2.0rem;
+  --css-size-24: 2.4rem;
+  --css-size-28: 2.8rem;
+  --css-size-32: 3.2rem;
+  --css-size-36: 3.6rem;
+  --css-size-40: 4.0rem;
+  --css-size-44: 4.4rem;
+  --css-size-48: 4.8rem;
+  --css-size-52: 5.2rem;
+  --css-size-56: 5.6rem;
+  --css-size-60: 6.0rem;
+  --css-size-64: 6.4rem;
+  --css-size-90: 9.0rem;
+  --css-size-99: calc(infinity * 1px);
+
+  /* Color - Neutral */
+  --css-color-neutral-100: #ffffff;
+  --css-color-neutral-200: #F5F5F4;
+  --css-color-neutral-300: #E7E7E4;
+  --css-color-neutral-400: #DFDED8;
+  --css-color-neutral-500: #9F9D93;
+  --css-color-neutral-600: #878578;
+  --css-color-neutral-700: #515048;
+  --css-color-neutral-700-10: rgba(81, 80, 72, 0.1);
+  --css-color-neutral-700-20: rgba(81, 80, 72, 0.2);
+  --css-color-neutral-700-40: rgba(81, 80, 72, 0.4);
+  --css-color-neutral-800: #1a1a1a;
+  /* --css-color-neutral-800: #1b1b18; */
+  --css-color-neutral-800-40: rgba(26, 26, 26, 0.4);
+  --css-color-neutral-800-80: rgba(26, 26, 26, 0.8);
+  --css-color-neutral-800-90: rgba(26, 26, 26, 0.9);
+
+  /* Color - Accent */
+  --css-color-accent-100: #fcf9e9;
+  --css-color-accent-200: #fdf7d6;
+  --css-color-accent-300: #fdf1b0;
+  --css-color-accent-400: #fde562;
+  --css-color-accent-500: #fee34f;
+  --css-color-accent-600: #fddf3b;
+  --css-color-accent-600-20: rgba(253, 224, 59, 0.2);
+  --css-color-accent-600-30: rgba(253, 224, 59, 0.3);
+  --css-color-accent-600-40: rgba(253, 224, 59, 0.4);
+  --css-color-accent-600-50: rgba(253, 224, 59, 0.5);
+  --css-color-accent-600-80: rgba(253, 224, 59, 0.8);
+
+  /* Color - Secondary */
+  --css-color-brand-lona: #FFDE5D;
+  --css-color-brand-css: #5115BC;
+  --css-color-brand-gona: #DDB62D;
+  --css-color-brand-adra: #EF761C;
+  --css-color-brand-pivofy: #3D1887;
+  --css-color-brand-cards: #D5FCD5;
+
+  /* Border - Radius */
+  --css-border-radius-00: var(--css-size-00);
+  --css-border-radius-02: var(--css-size-02);
+  --css-border-radius-04: var(--css-size-04);
+  --css-border-radius-06: var(--css-size-06);
+  --css-border-radius-08: var(--css-size-08);
+  --css-border-radius-10: var(--css-size-10);
+  --css-border-radius-12: var(--css-size-12);
+  --css-border-radius-14: var(--css-size-14);
+  --css-border-radius-16: var(--css-size-16);
+  --css-border-radius-18: var(--css-size-18);
+  --css-border-radius-20: var(--css-size-20);
+  --css-border-radius-24: var(--css-size-24);
+  --css-border-radius-90: var(--css-size-90);
+  --css-border-radius-99: var(--css-size-99);
+
+  /* Border - Width */
+  --css-border-width-00: var(--css-size-00);
+  --css-border-width-01: var(--css-size-01);
+  --css-border-width-02: var(--css-size-02);
+
+  /* Border - Style */
+  --css-border-style: solid;
+
+  /* Font - Family */
+  --css-font-default: 
+    var(--css-font-inter), 
+    -apple-system, 
+    BlinkMacSystemFont, 
+    Segoe UI, 
+    Helvetica Neue,
+    Arial, 
+    sans-serif;
+
+  /* Font - Size: Headings */
+  --css-font-size-h1: var(--css-size-64);
+  --css-font-size-h2: var(--css-size-44);
+  --css-font-size-h3: var(--css-size-40);
+  --css-font-size-h4: var(--css-size-32);
+
+  /* Font - Size: Body */
+  --css-font-size-body-xl: var(--css-size-20);
+  --css-font-size-body-l: var(--css-size-18);
+  --css-font-size-body-m: var(--css-size-16);
+  --css-font-size-body-s: var(--css-size-12);
+  --css-font-size-body-xs: var(--css-size-10);
+
+  /* Motion - Transition */
+  --css-motion-transition: all 420ms cubic-bezier(0.19, 1, 0.22, 1);
+
+  /* Z-index */
+  --css-layer-00: 0;
+  --css-layer-01: 1;
+  --css-layer-02: 2;
+  --css-layer-03: 3;
+  --css-layer-04: 4;
+  --css-layer-99: var(--css-size-99);
+
+  /* Blur */
+  --css-blur-00: var(--css-size-00);
+  --css-blur-20: var(--css-size-20);
+  --css-blur-40: var(--css-size-40);
+}
+
+[theme="light"] {
+  --color-bg: #ffffff;
+}
