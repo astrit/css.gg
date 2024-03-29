@@ -28,38 +28,38 @@
                 {
                     "title": "Video 1",
                     "cover": "frame.png",
-                    "src": "/video/1-memorisely.mp4",
+                    "src": "https://cdn.lona.is/memorisely.mp4",
                     "path": "/video1"
                 },
                 {
                     "title": "Video 4",
                     "cover": "frame.png",
-                    "src": "/video/1-memorisely.mp4",
+                    "src": "https://cdn.lona.is/memorisely.mp4",
                     "path": "/video2"
                 },
                 {
                     "title": "Video 6",
                     "cover": "frame.png",
-                    "src": "/video/1-memorisely.mp4",
+                    "src": "https://cdn.lona.is/memorisely.mp4",
                     "path": "/video3"
                 },
                 {
                     "title": "Video 7",
                     "cover": "frame.png",
-                    "src": "/video/1-memorisely.mp4",
+                    "src": "https://cdn.lona.is/memorisely.mp4",
                     "path": "/video4",
                     "award": "Weekly Design Challange"
                 },
                 {
                     "title": "Video 1",
                     "cover": "frame.png",
-                    "src": "/video/1-memorisely.mp4",
+                    "src": "https://cdn.lona.is/memorisely.mp4",
                     "path": "/video5"
                 },
                 {
                     "title": "Video 1",
                     "cover": "frame.png",
-                    "src": "/video/1-memorisely.mp4",
+                    "src": "https://cdn.lona.is/memorisely.mp4",
                     "path": "/video6"
                 }
             ]
