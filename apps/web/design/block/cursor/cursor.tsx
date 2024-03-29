@@ -40,7 +40,7 @@ export default function Cursor() {
       }
 
       const anchor = (event.target as HTMLElement).closest(
-        "header a,footer a, header button, footer button, .hero-fka button, .trail a, .trail button, .hero a, .code-copy, .email button"
+        "header a, footer a, footer button"
       )
 
       anchor?.classList.add("anchored")
