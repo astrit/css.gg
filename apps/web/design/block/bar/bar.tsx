@@ -18,7 +18,7 @@ export default function Bar() {
   return (
     <nav className="bar">
       <Link href="/" className={className}>
-        <Icon name="slant" />
+        <Icon name="slant-3" />
       </Link>
       <Link href="/" className={className}>
         <Icon name="next" />
