@@ -28,8 +28,8 @@
   --css-size-99: calc(infinity * 1px);
 
   /* Color - Neutral */
-  --css-color-neutral-100: #ffffff;
-  --css-color-neutral-200: #F5F5F4;
+  --css-color-neutral-100: light-dark(#000000, #ffffff);
+  --css-color-neutral-200: light-dark(#000000, #F5F5F4);
   --css-color-neutral-300: #E7E7E4;
   --css-color-neutral-400: #DFDED8;
   --css-color-neutral-500: #9F9D93;
