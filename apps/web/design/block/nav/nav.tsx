@@ -7,7 +7,7 @@ import "@/nav/nav.css"
 
 import Icon from "@/icon/icon"
 
-const Links = [{ href: "/", label: "CSS UI", title: "CSS UI" }]
+const Links = [{ href: "/", label: "CSS＊GG", title: "CSS＊GG" }]
 
 export default function Nav() {
   const current = usePathname()

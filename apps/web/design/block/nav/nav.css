@@ -2,11 +2,14 @@ header nav {
   display: flex;
   flex-direction: row;
   gap: 4ch;
+  font-family: var(--css-font-jet);
+  letter-spacing: normal;
 
   a {
     transition: var(--css-motion-transition);
     padding-inline: var(--css-size-12);
     padding-block: var(--css-size-08);
+    vertical-align: middle;
 
     svg.lona {
       stroke: currentColor;

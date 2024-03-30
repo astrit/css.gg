@@ -1,7 +1,7 @@
 "use client"
 
+import { Button } from "@css.gg/glyf/button"
 import Home from "&/home/home"
-import { Button } from "@css.gg/glyf/button";
 
 export default function HomePage() {
   return (
