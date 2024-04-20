@@ -2,28 +2,25 @@ header nav {
   display: flex;
   flex-direction: row;
   gap: 4ch;
-  font-family: var(--css-font-jet);
-  letter-spacing: normal;
 
   a {
-    transition: var(--css-motion-transition);
-    padding-inline: var(--css-size-12);
-    padding-block: var(--css-size-08);
-    vertical-align: middle;
+    transition: var(--slant-motion-transition);
+    padding-inline: var(--slant-size-12);
+    padding-block: var(--slant-size-08);
 
     svg.lona {
       stroke: currentColor;
       stroke-width: 4px;
-      transition: var(--css-motion-transition);
+      transition: var(--slant-motion-transition);
       :not(:hover) & {
-        color: var(--css-color-neutral-600);
+        color: var(--slant-color-neutral-600);
       }
     }
 
     @media (hover: hover) {
       &:hover,
       &.active {
-        color: var(--css-color-neutral-100);
+        color: var(--slant-color-neutral-100);
       }
     }
   }

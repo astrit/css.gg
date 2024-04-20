@@ -4,16 +4,12 @@ header.main-header {
   justify-content: space-between;
   z-index: 2;
   inset: 0 0 auto 0;
-  padding-inline: var(--css-size-28);
-  padding-block: var(--css-size-28);
+  padding-inline: var(--slant-size-28);
+  padding-block: var(--slant-size-28);
   width: 100%;
   pointer-events: none;
 
   .sides {
-    translate: 0 -0.4lh;
-    opacity: 0;
-    animation: fade 468ms ease forwards;
-    animation-delay: 448ms;
     pointer-events: initial;
   }
 
@@ -27,14 +23,5 @@ header.main-header {
     display: flex;
     align-items: center;
     gap: 5ch;
-
-    svg {
-      width: auto;
-      height: initial;
-    }
-
-    .separator {
-      margin-inline: 2ch;
-    }
   }
 }

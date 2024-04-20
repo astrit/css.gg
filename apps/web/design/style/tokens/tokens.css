@@ -1,0 +1,134 @@
+/* prettier-ignore */
+:root {
+
+  /* Sizes */
+  --slant-size-00: 0.0rem;
+  --slant-size-01: 0.1rem;
+  --slant-size-02: 0.2rem;
+  --slant-size-04: 0.4rem;
+  --slant-size-06: 0.6rem;
+  --slant-size-08: 0.8rem;
+  --slant-size-10: 1.0rem;
+  --slant-size-12: 1.2rem;
+  --slant-size-14: 1.4rem;
+  --slant-size-16: 1.6rem;
+  --slant-size-18: 1.8rem;
+  --slant-size-20: 2.0rem;
+  --slant-size-24: 2.4rem;
+  --slant-size-28: 2.8rem;
+  --slant-size-32: 3.2rem;
+  --slant-size-36: 3.6rem;
+  --slant-size-40: 4.0rem;
+  --slant-size-44: 4.4rem;
+  --slant-size-48: 4.8rem;
+  --slant-size-52: 5.2rem;
+  --slant-size-56: 5.6rem;
+  --slant-size-60: 6.0rem;
+  --slant-size-64: 6.4rem;
+  --slant-size-90: 9.0rem;
+  --slant-size-99: calc(infinity * 1px);
+
+  /* Color - Scheme */
+  color-scheme: dark;
+  &[theme="light"] { color-scheme: light; }
+
+  /* Color - Neutral */
+  --slant-color-neutral-100: light-dark(#000000,#ffffff);
+  --slant-color-neutral-200: light-dark(#111111,#F5F5F4);
+  --slant-color-neutral-300: light-dark(#E7E7E4,#E7E7E4);
+  --slant-color-neutral-400: light-dark(#DFDED8,#DFDED8);
+  --slant-color-neutral-500: light-dark(#9F9D93,#9F9D93);
+  --slant-color-neutral-600: light-dark(#878578,#878578);
+  --slant-color-neutral-700: light-dark(#515048,#515048);
+  --slant-color-neutral-700-10: rgba(81, 80, 72, 0.1);
+  --slant-color-neutral-700-20: rgba(81, 80, 72, 0.2);
+  --slant-color-neutral-700-40: rgba(81, 80, 72, 0.4);
+  --slant-color-neutral-800: light-dark(#fefefe,#1a1a1a);
+  --slant-color-neutral-800-40: rgba(26, 26, 26, 0.4);
+  --slant-color-neutral-800-80: rgba(26, 26, 26, 0.8);
+  --slant-color-neutral-800-90: rgba(26, 26, 26, 0.9);
+
+  /* Color - Accent */
+  --slant-color-accent-100: #fcf9e9;
+  --slant-color-accent-200: #fdf7d6;
+  --slant-color-accent-300: #fdf1b0;
+  --slant-color-accent-400: #fde562;
+  --slant-color-accent-500: #fee34f;
+  --slant-color-accent-600: #fddf3b;
+  --slant-color-accent-600-20: rgba(253, 224, 59, 0.2);
+  --slant-color-accent-600-30: rgba(253, 224, 59, 0.3);
+  --slant-color-accent-600-40: rgba(253, 224, 59, 0.4);
+  --slant-color-accent-600-50: rgba(253, 224, 59, 0.5);
+  --slant-color-accent-600-80: rgba(253, 224, 59, 0.8);
+
+  /* Border - Radius */
+  --slant-border-radius-00: var(--slant-size-00);
+  --slant-border-radius-02: var(--slant-size-02);
+  --slant-border-radius-04: var(--slant-size-04);
+  --slant-border-radius-06: var(--slant-size-06);
+  --slant-border-radius-08: var(--slant-size-08);
+  --slant-border-radius-10: var(--slant-size-10);
+  --slant-border-radius-12: var(--slant-size-12);
+  --slant-border-radius-14: var(--slant-size-14);
+  --slant-border-radius-16: var(--slant-size-16);
+  --slant-border-radius-18: var(--slant-size-18);
+  --slant-border-radius-20: var(--slant-size-20);
+  --slant-border-radius-24: var(--slant-size-24);
+  --slant-border-radius-90: var(--slant-size-90);
+  --slant-border-radius-99: var(--slant-size-99);
+
+  /* Border - Width */
+  --slant-border-width-00: var(--slant-size-00);
+  --slant-border-width-01: var(--slant-size-01);
+  --slant-border-width-02: var(--slant-size-02);
+
+  /* Border - Style */
+  --slant-border-style: solid;
+
+  /* Font - Family */
+  --slant-font-default: 
+    var(--slant-font-inter), 
+    -apple-system, 
+    BlinkMacSystemFont, 
+    Segoe UI, 
+    Helvetica Neue,
+    Arial, 
+    sans-serif;
+
+  /* Font - Size: Headings */
+  --slant-font-size-h1: var(--slant-size-64);
+  --slant-font-size-h2: var(--slant-size-44);
+  --slant-font-size-h3: var(--slant-size-40);
+  --slant-font-size-h4: var(--slant-size-32);
+
+  /* Font - Size: Body */
+  --slant-font-size-body-xl: var(--slant-size-20);
+  --slant-font-size-body-l: var(--slant-size-18);
+  --slant-font-size-body-m: var(--slant-size-16);
+  --slant-font-size-body-s: var(--slant-size-12);
+  --slant-font-size-body-xs: var(--slant-size-10);
+
+  /* Motion - Transition */
+  --slant-motion-transition: all 420ms cubic-bezier(0.19, 1, 0.22, 1);
+
+  /* Z-index */
+  --slant-layer-00: 0;
+  --slant-layer-01: 1;
+  --slant-layer-02: 2;
+  --slant-layer-03: 3;
+  --slant-layer-04: 4;
+  --slant-layer-99: var(--slant-size-99);
+
+  /* Blur */
+  --slant-blur-00: var(--slant-size-00);
+  --slant-blur-20: var(--slant-size-20);
+  --slant-blur-40: var(--slant-size-40);
+
+  /* Breakpoints */
+  --slant-device-desktop-lg: 2560px;
+  --slant-device-desktop-md: 1440px;
+  --slant-device-desktop-sm: 1024px;
+  --slant-device-tablet: 768px;
+  --slant-device-mobile: 425px;
+
+}

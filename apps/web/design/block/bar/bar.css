@@ -1,6 +1,0 @@
-nav.bar {
-  display: flex;
-  gap: 4ch;
-  font-size: var(--css-font-size-body-l);
-  pointer-events: initial;
-}

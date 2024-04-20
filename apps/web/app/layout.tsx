@@ -1,34 +1,34 @@
-import React, { Suspense } from "react"
-import type { Metadata } from "next"
-import Favicon from "@/fav/fav"
-import Footer from "@/footer/footer"
-import Header from "@/header/header"
-import Preloader from "@/preloader/preloader"
-import { Analytics } from "@vercel/analytics/react"
-import Article from "&/article/article"
-import Main from "&/main/main"
-import Fonts from "$/fonts/fonts"
-import { Provider } from "$/provider"
+import React, { Suspense } from "react";
+import type { Metadata } from "next";
+import Favicon from "@/fav/fav";
+import Footer from "@/footer/footer";
+import Header from "@/header/header";
+import Preloader from "@/preloader/preloader";
+import { Analytics } from "@vercel/analytics/react";
+import Article from "&/article/article";
+import Main from "&/main/main";
+import Fonts from "$/fonts/fonts";
+import { Provider } from "$/provider/provider";
 
-import "#/global.css"
+import "#/global/global.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://css.gg"),
+  metadataBase: new URL("https://slant.so"),
   title: {
-    default: "CSS UI",
-    template: "%s · CSS UI",
+    default: "CSS＊GG",
+    template: "%s · CSS＊GG",
   },
   description: "",
   openGraph: {
-    title: "CSS UI · Icons, Patterns, and Tools for frontend developers",
+    title: "CSS＊GG",
     description: "",
     url: "https://css.gg",
-    siteName: "CSS UI",
+    siteName: "Slant",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: `https://css.gg/og?title=CSS UI`,
+        url: `https://slant.so/og?title=Slant`,
       },
     ],
   },
@@ -43,12 +43,12 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -73,5 +73,5 @@ export default function RootLayout({
         <Analytics />
       </body>
     </html>
-  )
+  );
 }

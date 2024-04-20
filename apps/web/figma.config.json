@@ -1,0 +1,22 @@
+{
+    "codeConnect": {
+        "include": [
+            "design/block/**"
+        ],
+        "exclude": [
+            "test/**",
+            "docs/**",
+            "build/**"
+        ],
+        "react": {
+            "importPaths": {
+                "/design/block/*": "@/*"
+            },
+            "paths": {
+                "@/*": [
+                    "./design/block/*"
+                ]
+            }
+        }
+    }
+}

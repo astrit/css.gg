@@ -1,19 +1,18 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import { useEffect, useState } from "react"
-import { useTheme } from "next-themes"
+import * as React from "react";
+import { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
+import Icon from "@/icon/icon";
 
-import "@/toggle/toggle.css"
-
-import Icon from "@/icon/icon"
+import "@/toggle/toggle.css";
 
 export function Toggle() {
-  const [mounted, setMounted] = useState(false)
-  const { theme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme();
 
-  const Light = () => <Icon name="light" height="10" />
-  const Dark = () => <Icon name="dark" height="10" />
+  const Light = () => <Icon name="light" height="10" />;
+  const Dark = () => <Icon name="dark" height="10" />;
 
   React.useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -23,30 +22,30 @@ export function Toggle() {
         (event.target as HTMLElement).tagName !== "INPUT" &&
         (event.target as HTMLElement).tagName !== "TEXTAREA"
       ) {
-        setTheme(theme === "light" ? "dark" : "light")
+        setTheme(theme === "light" ? "dark" : "light");
       }
-    }
+    };
 
-    document.addEventListener("keydown", handleKeyDown)
+    document.addEventListener("keydown", handleKeyDown);
 
     return () => {
-      document.removeEventListener("keydown", handleKeyDown)
-    }
-  }, [setTheme, theme])
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [setTheme, theme]);
 
   function isHTMLElement(target: EventTarget | null): target is HTMLElement {
-    return target instanceof HTMLElement
+    return target instanceof HTMLElement;
   }
   useEffect(() => {
-    setMounted(true)
-  }, [])
+    setMounted(true);
+  }, []);
 
   if (!mounted) {
     return (
       <button className="toggle">
         <Light />
       </button>
-    )
+    );
   }
   return (
     <button
@@ -55,5 +54,5 @@ export function Toggle() {
     >
       {theme === "dark" ? <Light /> : <Dark />}
     </button>
-  )
+  );
 }

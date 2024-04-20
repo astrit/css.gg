@@ -1,4 +1,4 @@
-import localFont from "next/font/local"
+import localFont from "next/font/local";
 
 const Inter = localFont({
   src: [
@@ -9,7 +9,7 @@ const Inter = localFont({
     },
   ],
   display: "block",
-  variable: "--css-font-inter",
-})
-export const fontVariable = Inter.variable
-export default Inter
+  variable: "--slant-font-inter",
+});
+export const fontVariable = Inter.variable;
+export default Inter;

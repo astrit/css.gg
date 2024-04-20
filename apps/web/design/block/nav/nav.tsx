@@ -1,16 +1,16 @@
-"use client"
+"use client";
 
-import { usePathname } from "next/navigation"
-import Link from "@/link/link"
+import { usePathname } from "next/navigation";
+import Link from "@/link/link";
 
-import "@/nav/nav.css"
+import "@/nav/nav.css";
 
-import Icon from "@/icon/icon"
+import Icon from "@/icon/icon";
 
-const Links = [{ href: "/", label: "CSS＊GG", title: "CSS＊GG" }]
+const Links = [{ href: "/", label: "Slant", title: "Slant" }];
 
 export default function Nav() {
-  const current = usePathname()
+  const current = usePathname();
   return (
     <nav>
       {Links.map(({ href, label, title }) => (
@@ -20,9 +20,9 @@ export default function Nav() {
           data-title={title}
           className={current === href ? "active" : ""}
         >
-          {label}
+          {href === "/" ? "CSS＊GG" : label}
         </Link>
       ))}
     </nav>
-  )
+  );
 }

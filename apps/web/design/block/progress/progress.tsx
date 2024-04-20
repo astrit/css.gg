@@ -35,12 +35,12 @@ const Progress = () => {
       setHasScrolled(true)
     }
 
-    if (typeof document !== "undefined") {
+    if (typeof document !== "undefined" && window.innerWidth > 1024) {
       window.addEventListener("scroll", handleScroll)
     }
 
     return () => {
-      if (typeof document !== "undefined") {
+      if (typeof document !== "undefined" && window.innerWidth > 1024) {
         window.removeEventListener("scroll", handleScroll)
       }
     }

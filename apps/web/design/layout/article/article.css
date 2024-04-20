@@ -3,5 +3,8 @@
     display: flex;
     flex-direction: column;
     gap: 100px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
   }
 }

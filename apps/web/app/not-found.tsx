@@ -1,10 +1,11 @@
-import Link from "next/link"
+import Home from "&/home/home"
 
-export default function NotFound() {
+export default function Page(): JSX.Element {
   return (
-    <div className="layout core 404">
-      <h1 className="heading-medium">404 - Page Not Found</h1>
-      <Link href="/">Go back</Link>
-    </div>
+    <Home>
+      <h1>
+        <span>404</span>
+      </h1>
+    </Home>
   )
 }

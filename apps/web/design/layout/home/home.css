@@ -2,7 +2,38 @@
   &.home {
     display: flex;
     flex-direction: column;
-    gap: calc(var(--css-size-52) * 2);
-    padding: calc(var(--css-size-52) * 2);
+    align-items: center;
+    justify-content: center;
+    gap: 4lh;
+    padding: calc(var(--slant-size-52) * 2);
+    font-family: var(--font-manrope);
+    font-size: 1vw;
+    min-height: 100vh;
+
+    h1 {
+      font-size: 5vw;
+      display: flex;
+      align-items: center;
+      gap: 0.6ch;
+      font-weight: 600;
+    }
+
+    footer {
+      display: flex;
+      align-items: center;
+      gap: 4ch;
+      font-size: calc(1vw * 0.8);
+      div {
+        opacity: 0.4;
+      }
+    }
+
+    code {
+      border-radius: var(--slant-border-radius-08);
+      border: 1px solid var(--slant-color-neutral-700);
+      padding-block: var(--slant-size-14);
+      padding-inline: var(--slant-size-24);
+      font-size: var(--slant-font-size-body-s);
+    }
   }
 }

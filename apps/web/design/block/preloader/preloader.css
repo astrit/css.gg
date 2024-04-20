@@ -5,12 +5,12 @@
   place-items: center;
   z-index: 2;
   inset: 0;
-  background-color: var(--css-color-neutral-800-90);
+  background-color: var(--slant-color-neutral-800-90);
   width: 100%;
   height: 100%;
   pointer-events: none;
-  color: var(--css-color-neutral-100);
-  font-size: var(--css-font-size-body-xl);
+  color: var(--slant-color-neutral-100);
+  font-size: var(--slant-font-size-body-xl);
 
   .spinner {
     translate: 0 0.4lh;

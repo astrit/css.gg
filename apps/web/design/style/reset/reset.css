@@ -84,7 +84,7 @@ svg {
   }
 
   &:not(&[stroke-width]) {
-    stroke-width: var(--css-border-width-02);
+    stroke-width: var(--slant-border-width-02);
   }
 }
 
@@ -95,14 +95,12 @@ button {
   color: currentColor;
 }
 
-@media (hover: none) {
-  *:hover {
-    background-color: initial;
-  }
-}
-
 .ellipsis {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+em {
+  text-emphasis: dot;
 }
