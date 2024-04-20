@@ -15,7 +15,7 @@ function Right({ children }: { children: ReactNode }) {
   return <div className="sides right">{children}</div>;
 }
 
-export default function Header() {
+export default function Header(): JSX.Element {
   const path = usePathname();
 
   return (

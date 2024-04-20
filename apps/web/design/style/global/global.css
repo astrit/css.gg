@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background: var(--slant-color-neutral-800);
+  background: var(--slant-color-brand-css-600);
   overscroll-behavior: contain;
   scroll-behavior: smooth;
   scroll-padding-top: 160px;

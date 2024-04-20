@@ -1,0 +1,182 @@
+/* prettier-ignore */
+.pattern {
+    content: "";
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    translate: 0 10px;
+    animation: 668ms pattern-loaded 420ms ease-in-out forwards;
+    pointer-events: none;
+
+    &::after, 
+    &::before {
+        content: '';
+        display: flex;
+        position: fixed;
+        width: 1px;
+        top: 0;
+        left: 0;
+        opacity: 0.8;
+        background: linear-gradient(to top, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+        z-index: -1;
+        animation: pattern-shimmer 6180ms linear infinite;
+        animation-delay: 4090ms;
+    }
+
+    &::before {
+        height: 80px;
+        transform: translateX(399px) translateY(-460px);
+        animation-delay: 4090ms;
+    }
+
+    &::after {
+        height: 140px;
+        transform: translateX(1599px) translateY(-280px);
+    }
+
+    --_color-box: rgba(255, 255, 255, 0.04);
+    --_color-dot: rgba(255, 255, 255, 0.3);
+    --_color-line: rgba(255, 255, 255, 0.1);
+
+    --_main-gradient: linear-gradient( to bottom, transparent, var(--slant-color-brand-css-600));
+    --_main-gradient-size: cover;
+    --_main-gradient-position: center;
+    --_main-gradient-repeat: no-repeat;
+
+    --_dot-one: radial-gradient(var(--_color-dot) 1px, transparent 0);
+    --_dot-one-size: 40px 40px;
+    --_dot-one-position: 0 0;
+    --_dot-one-repeat: repeat;
+
+    --_dot-two: radial-gradient(var(--_color-dot) 1px, transparent 0);
+    --_dot-two-size: 40px 40px;
+    --_dot-two-position: 20px 20px;
+    --_dot-two-repeat: repeat;
+
+    --_box-inline: linear-gradient( to left, var(--_color-box) 1px, transparent 0px, transparent);
+    --_box-inline-size: 6px 100%;
+    --_box-inline-position: 18px 100%;
+    --_box-inline-repeat: repeat-x;
+
+    --_box-block: linear-gradient( to bottom, var(--_color-box) 1px, transparent 0px, transparent);
+    --_box-block-size: 100% 6px;
+    --_box-block-position: 100% 18px;
+    --_box-block-repeat: repeat-y;
+
+    --_line-inline: linear-gradient(to right, transparent 399px, var(--_color-line) 1px);
+    --_line-inline-size: 400px 100%;
+    --_line-inline-position: left;
+    --_line-inline-repeat: repeat-x;
+
+    --_line-block: linear-gradient(to top, transparent 399px, var(--_color-line) 1px);
+    --_line-block-size: 100% 400px;
+    --_line-block-position: top;
+    --_line-block-repeat: repeat-y;
+
+
+    --bg:
+        var(--_main-gradient),
+        var(--_dot-one),
+        var(--_dot-two),
+        var(--_box-inline),
+        var(--_box-block),
+        var(--_line-inline),
+        var(--_line-block) 
+    ;
+
+    --size:
+        var(--_main-gradient-size),
+        var(--_dot-one-size),
+        var(--_dot-two-size),
+        var(--_box-inline-size),
+        var(--_box-block-size),
+        var(--_line-inline-size),
+        var(--_line-block-size)
+    ;
+
+    --position:
+        var(--_main-gradient-position),
+        var(--_dot-one-position),
+        var(--_dot-two-position),
+        var(--_box-inline-position),
+        var(--_box-block-position),
+        var(--_line-inline-position),
+        var(--_line-block-position)
+    ;
+
+    --repeat:
+        var(--_main-gradient-repeat),
+        var(--_dot-one-repeat),
+        var(--_dot-two-repeat),
+        var(--_box-inline-repeat),
+        var(--_box-block-repeat),
+        var(--_line-inline-repeat),
+        var(--_line-block-repeat)
+    ;
+
+    background-color: var(--slant-color-brand-css-600);
+    background-image: var(--bg);
+    background-size: var(--size);
+    background-position: var(--position);
+    background-repeat: var(--repeat);
+
+    .gradient {
+        display: flex;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 40vw;
+        height: 100vh;
+        filter: blur(100px);
+        opacity: 0.2;
+
+        span {
+            display: flex;
+            filter: blur(48px);
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            --tw-gradient-from: #ff80ca;
+            --tw-gradient-to: #e546c0;
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+            background: linear-gradient(to right, var(--tw-gradient-stops));
+            clip-path: polygon(73.6% 51.7%, 91.7% 11.8%, 100% 46.4%, 97.4% 82.2%, 92.5% 84.9%, 75.7% 64%, 55.3% 47.5%, 46.5% 49.4%, 45% 62.9%, 50.3% 87.2%, 21.3% 64.1%, 0.1% 100%, 5.4% 51.1%, 21.4% 63.9%, 58.9% 0.2%, 73.6% 51.7%);
+        }
+    }
+    .text {
+        display: flex;
+        font-size: 800px;
+        position: fixed;
+        z-index: -1;
+        pointer-events: none;
+        top: -1.5ex;
+        line-height: 1;
+        scale: 4;
+        rotate: 42deg;
+        user-select: none;
+        font-family: sans-serif;
+        font-weight: 900;
+        font-feature-settings: "kern", "ss02";
+        color: rgba(255, 255, 255, 0.1);
+        mask-image: linear-gradient(rgba(243, 22, 243, 0.5) 0%, rgba(243, 22, 243, 0) 99%);
+    }
+  }
+
+@keyframes pattern-loaded {
+  100% {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+
+@keyframes pattern-shimmer {
+  100% {
+    top: 100vh;
+    opacity: 0;
+  }
+}

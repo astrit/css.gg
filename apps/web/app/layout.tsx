@@ -11,6 +11,7 @@ import Fonts from "$/fonts/fonts";
 import { Provider } from "$/provider/provider";
 
 import "#/global/global.css";
+import Pattern from "@/pattern/pattern";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://slant.so"),
@@ -23,12 +24,12 @@ export const metadata: Metadata = {
     title: "CSS＊GG",
     description: "",
     url: "https://css.gg",
-    siteName: "Slant",
+    siteName: "CSS.GG",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: `https://slant.so/og?title=Slant`,
+        url: `https://css.gg/og?title=CSS.GG`,
       },
     ],
   },
@@ -68,6 +69,7 @@ export default function RootLayout({
                 <Footer />
               </Main>
             </Fonts>
+            <Pattern />
           </Provider>
         </Suspense>
         <Analytics />

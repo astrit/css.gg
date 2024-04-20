@@ -60,6 +60,8 @@
   --slant-color-accent-600-40: rgba(253, 224, 59, 0.4);
   --slant-color-accent-600-50: rgba(253, 224, 59, 0.5);
   --slant-color-accent-600-80: rgba(253, 224, 59, 0.8);
+  --slant-color-brand-css-600:  #5d18dc ;
+  --slant-color-brand-css-dark-600: #1e2332;
 
   /* Border - Radius */
   --slant-border-radius-00: var(--slant-size-00);
