@@ -84,7 +84,7 @@ svg {
   }
 
   &:not(&[stroke-width]) {
-    stroke-width: var(--slant-border-width-02);
+    stroke-width: var(--css-border-width-02);
   }
 }
 

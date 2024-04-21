@@ -1,26 +1,21 @@
 header nav {
   display: flex;
   flex-direction: row;
+  font-family: var(--css-font-jet);
+  letter-spacing: normal;
   gap: 4ch;
+  font-size: var(--css-size-24);
+  font-weight: 800;
 
   a {
-    transition: var(--slant-motion-transition);
-    padding-inline: var(--slant-size-12);
-    padding-block: var(--slant-size-08);
-
-    svg.lona {
-      stroke: currentColor;
-      stroke-width: 4px;
-      transition: var(--slant-motion-transition);
-      :not(:hover) & {
-        color: var(--slant-color-neutral-600);
-      }
-    }
+    transition: var(--css-motion-transition);
+    padding-inline: var(--css-size-12);
+    padding-block: var(--css-size-08);
 
     @media (hover: hover) {
       &:hover,
       &.active {
-        color: var(--slant-color-neutral-100);
+        color: var(--css-color-neutral-100);
       }
     }
   }

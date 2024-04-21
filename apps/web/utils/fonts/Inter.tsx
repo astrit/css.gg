@@ -9,7 +9,7 @@ const Inter = localFont({
     },
   ],
   display: "block",
-  variable: "--slant-font-inter",
+  variable: "--css-font-inter",
 });
 export const fontVariable = Inter.variable;
 export default Inter;

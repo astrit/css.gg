@@ -7,15 +7,15 @@ html {
 }
 
 body {
-  background: var(--slant-color-brand-css-600);
+  background: var(--css-color-brand-css-600);
   overscroll-behavior: contain;
   scroll-behavior: smooth;
   scroll-padding-top: 160px;
-  color: var(--slant-color-neutral-200);
+  color: var(--css-color-neutral-200);
   font-weight: normal;
   font-size: 1rem;
   line-height: 1;
-  font-family: var(--slant-font-default);
+  font-family: var(--css-font-default);
   font-variant-numeric: slashed-zero tabular-nums;
   font-feature-settings: "zero" 1;
   letter-spacing: normal;

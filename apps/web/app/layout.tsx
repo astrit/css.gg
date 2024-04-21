@@ -12,6 +12,8 @@ import { Provider } from "$/provider/provider";
 
 import "#/global/global.css";
 import Pattern from "@/pattern/pattern";
+import Link from "@/link/link";
+import Bar from "@/bar/bar";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://slant.so"),
@@ -65,6 +67,7 @@ export default function RootLayout({
             <Fonts>
               <Main>
                 <Header />
+                <Bar />
                 <Article>{children}</Article>
                 <Footer />
               </Main>

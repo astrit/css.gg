@@ -13,21 +13,21 @@ const silk = Silkscreen({
   subsets: ["latin"],
   display: "block",
   weight: "400",
-  variable: "--slant-font-silk",
+  variable: "--css-font-silk",
 });
 
 const jetBrains = JetBrains_Mono({
   subsets: ["latin"],
   display: "block",
   weight: "400",
-  variable: "--slant-font-jet",
+  variable: "--css-font-jet",
 });
 
 const IBM = IBM_Plex_Mono({
   subsets: ["latin"],
   display: "block",
   weight: "400",
-  variable: "--slant-font-ibm-plex",
+  variable: "--css-font-ibm-plex",
 });
 
 const man = Manrope({
@@ -44,10 +44,10 @@ export default function Fonts({ children }: { children: React.ReactNode }) {
       const sheet = new CSSStyleSheet();
       sheet.replaceSync(`
         :root { 
-            --slant-font-inter: ${Inter.style.fontFamily}; 
-            --slant-font-silk: ${silk.style.fontFamily};
-            --slant-font-jet: ${jetBrains.style.fontFamily};
-            --slant-font-ibm: ${IBM.style.fontFamily};
+            --css-font-inter: ${Inter.style.fontFamily}; 
+            --css-font-silk: ${silk.style.fontFamily};
+            --css-font-jet: ${jetBrains.style.fontFamily};
+            --css-font-ibm: ${IBM.style.fontFamily};
             --font-manrope: ${man.style.fontFamily};
         }`);
       document.adoptedStyleSheets = [...document.adoptedStyleSheets, sheet];

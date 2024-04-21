@@ -4,8 +4,8 @@ header.main-header {
   justify-content: space-between;
   z-index: 2;
   inset: 0 0 auto 0;
-  padding-inline: var(--slant-size-28);
-  padding-block: var(--slant-size-28);
+  padding-inline: var(--css-size-28);
+  padding-block: var(--css-size-28);
   width: 100%;
   pointer-events: none;
 
