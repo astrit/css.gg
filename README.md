@@ -809,6 +809,10 @@ All icons are available as components on assets from where you can search for a 
 All icons are available as components \
 ![css.gg figma](https://css.gg/img/pxd.png)
 
+#### 3. Penpot - https://github.com/penpot/penpot-files/raw/main/cssgg-icons.penpot
+
+All icons are available as components. You can search for a single icon or browse categories.
+
 # Contributors
 
 1. [Astrit](https://github.com/astrit) - Author
