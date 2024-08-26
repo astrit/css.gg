@@ -19,7 +19,7 @@ Other resources: [YouTube](https://youtube.com/@astrit), [Figma](https://www.fig
 
 ![npm](https://img.shields.io/npm/v/css.gg) ![GitHub last commit](https://img.shields.io/github/last-commit/astrit/css.gg) ![Website](https://img.shields.io/website?url=https%3A%2F%2Fcss.gg) ![npm](https://img.shields.io/npm/dt/css.gg) ![GitHub issues](https://img.shields.io/github/issues/astrit/css.gg) ![GitHub stars](https://img.shields.io/github/stars/astrit/css.gg) ![Twitter Follow](https://img.shields.io/twitter/follow/astritmalsija?label=follow&style=social)
 
-![css.gg](https://github.com/user-attachments/assets/b7b72681-de31-4568-ace1-939ce6ef1272)
+[![css.gg](https://github.com/user-attachments/assets/b7b72681-de31-4568-ace1-939ce6ef1272)](https://css.gg)
 
 <br>
 
