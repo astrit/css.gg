@@ -6,7 +6,7 @@
 
 ---
 
-**Note**: The previous versions of the CSS.GG icon library (stylized as CSS＊GG) and glyf.app (stylized as GLYF＊APP) are licensed under the MIT License. This license applies to the current version and all future versions of the Library.
+**Note**: The previous versions prior to `2.1.2` of the CSS.GG icon library (stylized as CSS＊GG) and glyf.app (stylized as GLYF＊APP) are licensed under the MIT License. This license applies from version `2.1.2` and all future versions of the Library.
 
 ## License Terms
 
