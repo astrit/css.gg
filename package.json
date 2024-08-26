@@ -1,7 +1,7 @@
 {
   "name": "css.gg",
   "version": "2.1.2",
-  "description": "700+ Pure CSS, SVG & Figma UI Icons Available in SVG Sprite, styled-components, Black & White PNG, NPM & API + 6031 glyphs",
+  "description": "700+ Pure CSS, SVG & Figma UI Icons, 6000+ glyphs, patterns, colors and layouts.",
   "main": "index.js",
   "module": "index.js",
   "browser": "index.js",
@@ -21,7 +21,8 @@
     "icons"
   ],
   "author": "Astrit",
-  "license": "MIT",
+  "license": "SEE LICENSE",
+  "licenseUrl": "https://css.gg/licence.txt",
   "bugs": {
     "url": "https://github.com/astrit/css.gg/issues"
   },
