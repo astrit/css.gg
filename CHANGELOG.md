@@ -1,3 +1,7 @@
+### 2.1.1: 2024-08-26
+
+- Remove unused files and prepare strucutre for new version
+
 ### 2.1.1: 2020-06-23
 
 - PNG version added black and white 1400 assets
