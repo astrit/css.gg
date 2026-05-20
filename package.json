@@ -11,7 +11,11 @@
     "glyphs"
   ],
   "scripts": {
-    "test": " "
+    "lint": "eslint . --ext .js,.json",
+    "lint:fix": "eslint . --ext .js,.json --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "echo \"No tests specified\""
   },
   "repository": {
     "type": "git",

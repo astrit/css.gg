@@ -1,0 +1,57 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  lint:
+    name: Lint Code Quality
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install ESLint and Prettier
+        run: |
+          npm install --save-dev eslint prettier
+
+      - name: Run ESLint
+        run: npx eslint . --ext .js,.json --ignore-path .prettierignore
+
+      - name: Check Prettier formatting
+        run: |
+          npx prettier --check . --ignore-path .prettierignore || {
+            echo "Some files are not formatted. Run 'npx prettier --write .' to format them."
+            exit 1
+          }
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
