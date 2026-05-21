@@ -1,0 +1,7 @@
+node_modules/
+icons/tsx/
+*.map
+*.json
+*.min.css
+dist/
+coverage/
